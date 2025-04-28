@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "RUS",
+        "year": 2016,
+        "unemployment_rate": 5.591
+      },
+      "geometry": null
+    }
+  ]
+}

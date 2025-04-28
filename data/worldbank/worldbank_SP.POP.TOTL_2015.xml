@@ -1,0 +1,2663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wb:data page="1" pages="1" per_page="1000" total="266" sourceid="2" lastupdated="2025-04-15" xmlns:wb="http://www.worldbank.org">
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZH">Africa Eastern and Southern</wb:country>
+    <wb:countryiso3code>AFE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>607123269</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZI">Africa Western and Central</wb:country>
+    <wb:countryiso3code>AFW</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>418127845</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="1A">Arab World</wb:country>
+    <wb:countryiso3code>ARB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>410190679</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="S3">Caribbean small states</wb:country>
+    <wb:countryiso3code>CSS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2964524</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="B8">Central Europe and the Baltics</wb:country>
+    <wb:countryiso3code>CEB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>103206007</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="V2">Early-demographic dividend</wb:country>
+    <wb:countryiso3code>EAR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3190318707</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="Z4">East Asia &amp; Pacific</wb:country>
+    <wb:countryiso3code>EAS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2300844269</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="4E">East Asia &amp; Pacific (excluding high income)</wb:country>
+    <wb:countryiso3code>EAP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2056050896</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T4">East Asia &amp; Pacific (IDA &amp; IBRD countries)</wb:country>
+    <wb:countryiso3code>TEA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2030504270</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XC">Euro area</wb:country>
+    <wb:countryiso3code>EMU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>343698622</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="Z7">Europe &amp; Central Asia</wb:country>
+    <wb:countryiso3code>ECS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>908458970.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="7E">Europe &amp; Central Asia (excluding high income)</wb:country>
+    <wb:countryiso3code>ECA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>240230296.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T7">Europe &amp; Central Asia (IDA &amp; IBRD countries)</wb:country>
+    <wb:countryiso3code>TEC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>454002756.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="EU">European Union</wb:country>
+    <wb:countryiso3code>EUU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>444550397</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="F1">Fragile and conflict affected situations</wb:country>
+    <wb:countryiso3code>FCS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>892657785</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XE">Heavily indebted poor countries (HIPC)</wb:country>
+    <wb:countryiso3code>HPC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>735429414</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XD">High income</wb:country>
+    <wb:countryiso3code />
+    <wb:date>2015</wb:date>
+    <wb:value>1360842914</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XF">IBRD only</wb:country>
+    <wb:countryiso3code>IBD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4677114235</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZT">IDA &amp; IBRD total</wb:country>
+    <wb:countryiso3code>IBT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6281302513.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XH">IDA blend</wb:country>
+    <wb:countryiso3code>IDB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>541987714</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XI">IDA only</wb:country>
+    <wb:countryiso3code>IDX</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1062200564.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XG">IDA total</wb:country>
+    <wb:countryiso3code>IDA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1604188278.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="V3">Late-demographic dividend</wb:country>
+    <wb:countryiso3code>LTE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2256211694.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZJ">Latin America &amp; Caribbean</wb:country>
+    <wb:countryiso3code>LCN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>618806527</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XJ">Latin America &amp; Caribbean (excluding high income)</wb:country>
+    <wb:countryiso3code>LAC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>555893183</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T2">Latin America &amp; the Caribbean (IDA &amp; IBRD countries)</wb:country>
+    <wb:countryiso3code>TLA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>603091701</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XL">Least developed countries: UN classification</wb:country>
+    <wb:countryiso3code>LDC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>962508256</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XO">Low &amp; middle income</wb:country>
+    <wb:countryiso3code>LMY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6050054834.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XM">Low income</wb:country>
+    <wb:countryiso3code />
+    <wb:date>2015</wb:date>
+    <wb:value>592175402</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XN">Lower middle income</wb:country>
+    <wb:countryiso3code />
+    <wb:date>2015</wb:date>
+    <wb:value>2763351401.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZQ">Middle East &amp; North Africa</wb:country>
+    <wb:countryiso3code>MEA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>443111159</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XQ">Middle East &amp; North Africa (excluding high income)</wb:country>
+    <wb:countryiso3code>MNA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>384230039</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T3">Middle East &amp; North Africa (IDA &amp; IBRD countries)</wb:country>
+    <wb:countryiso3code>TMN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>379959947</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XP">Middle income</wb:country>
+    <wb:countryiso3code>MIC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5457879432.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XU">North America</wb:country>
+    <wb:countryiso3code>NAC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>356506956</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XY">Not classified</wb:country>
+    <wb:countryiso3code />
+    <wb:date>2015</wb:date>
+    <wb:value />
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="OE">OECD members</wb:country>
+    <wb:countryiso3code>OED</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1331189869</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="S4">Other small states</wb:country>
+    <wb:countryiso3code>OSS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>13091061</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="S2">Pacific island small states</wb:country>
+    <wb:countryiso3code>PSS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2445989</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="V4">Post-demographic dividend</wb:country>
+    <wb:countryiso3code>PST</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1097599410</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="V1">Pre-demographic dividend</wb:country>
+    <wb:countryiso3code>PRE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>870587800</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="S1">Small states</wb:country>
+    <wb:countryiso3code>SST</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18501574</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="8S">South Asia</wb:country>
+    <wb:countryiso3code>SAS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1788492725</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T5">South Asia (IDA &amp; IBRD)</wb:country>
+    <wb:countryiso3code>TSA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1788492725</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZG">Sub-Saharan Africa</wb:country>
+    <wb:countryiso3code>SSF</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1025251114</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZF">Sub-Saharan Africa (excluding high income)</wb:country>
+    <wb:countryiso3code>SSA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1025157695</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="T6">Sub-Saharan Africa (IDA &amp; IBRD countries)</wb:country>
+    <wb:countryiso3code>TSS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1025251114</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XT">Upper middle income</wb:country>
+    <wb:countryiso3code />
+    <wb:date>2015</wb:date>
+    <wb:value>2694528031</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="1W">World</wb:country>
+    <wb:countryiso3code>WLD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7441471720.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AF">Afghanistan</wb:country>
+    <wb:countryiso3code>AFG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>33831764</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AL">Albania</wb:country>
+    <wb:countryiso3code>ALB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2880703</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DZ">Algeria</wb:country>
+    <wb:countryiso3code>DZA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>40019529</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AS">American Samoa</wb:country>
+    <wb:countryiso3code>ASM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>52878</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AD">Andorra</wb:country>
+    <wb:countryiso3code>AND</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>72174</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AO">Angola</wb:country>
+    <wb:countryiso3code>AGO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>28157798</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AG">Antigua and Barbuda</wb:country>
+    <wb:countryiso3code>ATG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>89409</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AR">Argentina</wb:country>
+    <wb:countryiso3code>ARG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>43477012</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AM">Armenia</wb:country>
+    <wb:countryiso3code>ARM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3004600</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AW">Aruba</wb:country>
+    <wb:countryiso3code>ABW</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>107906</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AU">Australia</wb:country>
+    <wb:countryiso3code>AUS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>23815995</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AT">Austria</wb:country>
+    <wb:countryiso3code>AUT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8642699</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AZ">Azerbaijan</wb:country>
+    <wb:countryiso3code>AZE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9649341</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BS">Bahamas, The</wb:country>
+    <wb:countryiso3code>BHS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>385346</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BH">Bahrain</wb:country>
+    <wb:countryiso3code>BHR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1370322</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BD">Bangladesh</wb:country>
+    <wb:countryiso3code>BGD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>159383179</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BB">Barbados</wb:country>
+    <wb:countryiso3code>BRB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>278990</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BY">Belarus</wb:country>
+    <wb:countryiso3code>BLR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9461076</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BE">Belgium</wb:country>
+    <wb:countryiso3code>BEL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11274196</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BZ">Belize</wb:country>
+    <wb:countryiso3code>BLZ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>356333</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BJ">Benin</wb:country>
+    <wb:countryiso3code>BEN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11360681</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BM">Bermuda</wb:country>
+    <wb:countryiso3code>BMU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>63464</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BT">Bhutan</wb:country>
+    <wb:countryiso3code>BTN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>740618</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BO">Bolivia</wb:country>
+    <wb:countryiso3code>BOL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11014705</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BA">Bosnia and Herzegovina</wb:country>
+    <wb:countryiso3code>BIH</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3518541</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BW">Botswana</wb:country>
+    <wb:countryiso3code>BWA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2203273</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>201675532</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VG">British Virgin Islands</wb:country>
+    <wb:countryiso3code>VGB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>34498</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BN">Brunei Darussalam</wb:country>
+    <wb:countryiso3code>BRN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>422212</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BG">Bulgaria</wb:country>
+    <wb:countryiso3code>BGR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7177991</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BF">Burkina Faso</wb:country>
+    <wb:countryiso3code>BFA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18777487</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="BI">Burundi</wb:country>
+    <wb:countryiso3code>BDI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11047580</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CV">Cabo Verde</wb:country>
+    <wb:countryiso3code>CPV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>512394</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KH">Cambodia</wb:country>
+    <wb:countryiso3code>KHM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>15623251</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CM">Cameroon</wb:country>
+    <wb:countryiso3code>CMR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>22763414</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CA">Canada</wb:country>
+    <wb:countryiso3code>CAN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>35704498</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KY">Cayman Islands</wb:country>
+    <wb:countryiso3code>CYM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>61642</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CF">Central African Republic</wb:country>
+    <wb:countryiso3code>CAF</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4629320</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TD">Chad</wb:country>
+    <wb:countryiso3code>TCD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>14647621</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="JG">Channel Islands</wb:country>
+    <wb:countryiso3code>CHI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>163454</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CL">Chile</wb:country>
+    <wb:countryiso3code>CHL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18047625</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CN">China</wb:country>
+    <wb:countryiso3code>CHN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1379860000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CO">Colombia</wb:country>
+    <wb:countryiso3code>COL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>46969940</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KM">Comoros</wb:country>
+    <wb:countryiso3code>COM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>726682</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CD">Congo, Dem. Rep.</wb:country>
+    <wb:countryiso3code>COD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>81035531</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CG">Congo, Rep.</wb:country>
+    <wb:countryiso3code>COG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5097581</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CR">Costa Rica</wb:country>
+    <wb:countryiso3code>CRI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4818038</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CI">Cote d'Ivoire</wb:country>
+    <wb:countryiso3code>CIV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>25246342</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="HR">Croatia</wb:country>
+    <wb:countryiso3code>HRV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4151725</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CU">Cuba</wb:country>
+    <wb:countryiso3code>CUB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11275065</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CW">Curacao</wb:country>
+    <wb:countryiso3code>CUW</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>157980</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CY">Cyprus</wb:country>
+    <wb:countryiso3code>CYP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1219502</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CZ">Czechia</wb:country>
+    <wb:countryiso3code>CZE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10546059</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DK">Denmark</wb:country>
+    <wb:countryiso3code>DNK</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5683483</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DJ">Djibouti</wb:country>
+    <wb:countryiso3code>DJI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1020313</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DM">Dominica</wb:country>
+    <wb:countryiso3code>DMA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>70410</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DO">Dominican Republic</wb:country>
+    <wb:countryiso3code>DOM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10434829</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="EC">Ecuador</wb:country>
+    <wb:countryiso3code>ECU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>16266225</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="EG">Egypt, Arab Rep.</wb:country>
+    <wb:countryiso3code>EGY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>99597342</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SV">El Salvador</wb:country>
+    <wb:countryiso3code>SLV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6183676</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GQ">Equatorial Guinea</wb:country>
+    <wb:countryiso3code>GNQ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1453923</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ER">Eritrea</wb:country>
+    <wb:countryiso3code>ERI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3105546</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="EE">Estonia</wb:country>
+    <wb:countryiso3code>EST</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1315407</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SZ">Eswatini</wb:country>
+    <wb:countryiso3code>SWZ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1142813</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ET">Ethiopia</wb:country>
+    <wb:countryiso3code>ETH</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>103867135</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="FO">Faroe Islands</wb:country>
+    <wb:countryiso3code>FRO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>48901</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="FJ">Fiji</wb:country>
+    <wb:countryiso3code>FJI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>918578</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="FI">Finland</wb:country>
+    <wb:countryiso3code>FIN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5479531</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="FR">France</wb:country>
+    <wb:countryiso3code>FRA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>66548272</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PF">French Polynesia</wb:country>
+    <wb:countryiso3code>PYF</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>277866</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GA">Gabon</wb:country>
+    <wb:countryiso3code>GAB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2040989</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GM">Gambia, The</wb:country>
+    <wb:countryiso3code>GMB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2224529</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GE">Georgia</wb:country>
+    <wb:countryiso3code>GEO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3725276</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="DE">Germany</wb:country>
+    <wb:countryiso3code>DEU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>81686611</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GH">Ghana</wb:country>
+    <wb:countryiso3code>GHA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>28696068</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GI">Gibraltar</wb:country>
+    <wb:countryiso3code>GIB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>33193</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10820883</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GL">Greenland</wb:country>
+    <wb:countryiso3code>GRL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>56114</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GD">Grenada</wb:country>
+    <wb:countryiso3code>GRD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>114676</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GU">Guam</wb:country>
+    <wb:countryiso3code>GUM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>164905</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GT">Guatemala</wb:country>
+    <wb:countryiso3code>GTM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>15971743</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GN">Guinea</wb:country>
+    <wb:countryiso3code>GIN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11767070</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GW">Guinea-Bissau</wb:country>
+    <wb:countryiso3code>GNB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1786457</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GY">Guyana</wb:country>
+    <wb:countryiso3code>GUY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>758781</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="HT">Haiti</wb:country>
+    <wb:countryiso3code>HTI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10523242</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="HN">Honduras</wb:country>
+    <wb:countryiso3code>HND</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9237305</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="HK">Hong Kong SAR, China</wb:country>
+    <wb:countryiso3code>HKG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7291300</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="HU">Hungary</wb:country>
+    <wb:countryiso3code>HUN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9843028</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IS">Iceland</wb:country>
+    <wb:countryiso3code>ISL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>330815</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IN">India</wb:country>
+    <wb:countryiso3code>IND</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1328024498</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ID">Indonesia</wb:country>
+    <wb:countryiso3code>IDN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>261799249</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IR">Iran, Islamic Rep.</wb:country>
+    <wb:countryiso3code>IRN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>82619362</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IQ">Iraq</wb:country>
+    <wb:countryiso3code>IRQ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37560535</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IE">Ireland</wb:country>
+    <wb:countryiso3code>IRL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4701957</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IM">Isle of Man</wb:country>
+    <wb:countryiso3code>IMN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>83593</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IL">Israel</wb:country>
+    <wb:countryiso3code>ISR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8380100</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="IT">Italy</wb:country>
+    <wb:countryiso3code>ITA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>60730582</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="JM">Jamaica</wb:country>
+    <wb:countryiso3code>JAM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2802534</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="JP">Japan</wb:country>
+    <wb:countryiso3code>JPN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>127141000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="JO">Jordan</wb:country>
+    <wb:countryiso3code>JOR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9544729</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KZ">Kazakhstan</wb:country>
+    <wb:countryiso3code>KAZ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18084169</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KE">Kenya</wb:country>
+    <wb:countryiso3code>KEN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>47088526</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KI">Kiribati</wb:country>
+    <wb:countryiso3code>KIR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>116815</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KP">Korea, Dem. People's Rep.</wb:country>
+    <wb:countryiso3code>PRK</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>25575350</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KR">Korea, Rep.</wb:country>
+    <wb:countryiso3code>KOR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>51014947</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="XK">Kosovo</wb:country>
+    <wb:countryiso3code>XKX</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1788274</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KW">Kuwait</wb:country>
+    <wb:countryiso3code>KWT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3834574</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KG">Kyrgyz Republic</wb:country>
+    <wb:countryiso3code>KGZ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6040035.5</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LA">Lao PDR</wb:country>
+    <wb:countryiso3code>LAO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6801645</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LV">Latvia</wb:country>
+    <wb:countryiso3code>LVA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1977527</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LB">Lebanon</wb:country>
+    <wb:countryiso3code>LBN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6472469</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LS">Lesotho</wb:country>
+    <wb:countryiso3code>LSO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2104611</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LR">Liberia</wb:country>
+    <wb:countryiso3code>LBR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4659431</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LY">Libya</wb:country>
+    <wb:countryiso3code>LBY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6531819</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LI">Liechtenstein</wb:country>
+    <wb:countryiso3code>LIE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37494</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LT">Lithuania</wb:country>
+    <wb:countryiso3code>LTU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2904910</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LU">Luxembourg</wb:country>
+    <wb:countryiso3code>LUX</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>569604</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MO">Macao SAR, China</wb:country>
+    <wb:countryiso3code>MAC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>642900</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MG">Madagascar</wb:country>
+    <wb:countryiso3code>MDG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>25426702</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MW">Malawi</wb:country>
+    <wb:countryiso3code>MWI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>17085587</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MY">Malaysia</wb:country>
+    <wb:countryiso3code>MYS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>31232798</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MV">Maldives</wb:country>
+    <wb:countryiso3code>MDV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>428154</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ML">Mali</wb:country>
+    <wb:countryiso3code>MLI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18593022</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MT">Malta</wb:country>
+    <wb:countryiso3code>MLT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>445053</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MH">Marshall Islands</wb:country>
+    <wb:countryiso3code>MHL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>48800</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MR">Mauritania</wb:country>
+    <wb:countryiso3code>MRT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3965959</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MU">Mauritius</wb:country>
+    <wb:countryiso3code>MUS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1262879</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MX">Mexico</wb:country>
+    <wb:countryiso3code>MEX</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>121072306</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="FM">Micronesia, Fed. Sts.</wb:country>
+    <wb:countryiso3code>FSM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>108716</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MD">Moldova</wb:country>
+    <wb:countryiso3code>MDA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2835978</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MC">Monaco</wb:country>
+    <wb:countryiso3code>MCO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>36757</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MN">Mongolia</wb:country>
+    <wb:countryiso3code>MNG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3026864</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ME">Montenegro</wb:country>
+    <wb:countryiso3code>MNE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>622159</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MA">Morocco</wb:country>
+    <wb:countryiso3code>MAR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>34607588</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MZ">Mozambique</wb:country>
+    <wb:countryiso3code>MOZ</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>26547572</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MM">Myanmar</wb:country>
+    <wb:countryiso3code>MMR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>51089056</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NA">Namibia</wb:country>
+    <wb:countryiso3code>NAM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2374300</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NR">Nauru</wb:country>
+    <wb:countryiso3code>NRU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10954</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NP">Nepal</wb:country>
+    <wb:countryiso3code>NPL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>27823629</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NL">Netherlands</wb:country>
+    <wb:countryiso3code>NLD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>16939923</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NC">New Caledonia</wb:country>
+    <wb:countryiso3code>NCL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>283168</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NZ">New Zealand</wb:country>
+    <wb:countryiso3code>NZL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4609400</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NI">Nicaragua</wb:country>
+    <wb:countryiso3code>NIC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6149417</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NE">Niger</wb:country>
+    <wb:countryiso3code>NER</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>19939498</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NG">Nigeria</wb:country>
+    <wb:countryiso3code>NGA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>190671878</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MK">North Macedonia</wb:country>
+    <wb:countryiso3code>MKD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1912430</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MP">Northern Mariana Islands</wb:country>
+    <wb:countryiso3code>MNP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>51514</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="NO">Norway</wb:country>
+    <wb:countryiso3code>NOR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5188607</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="OM">Oman</wb:country>
+    <wb:countryiso3code>OMN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4184895</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PK">Pakistan</wb:country>
+    <wb:countryiso3code>PAK</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>217290883</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PW">Palau</wb:country>
+    <wb:countryiso3code>PLW</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>17770</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PA">Panama</wb:country>
+    <wb:countryiso3code>PAN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3960035</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PG">Papua New Guinea</wb:country>
+    <wb:countryiso3code>PNG</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8743246</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PY">Paraguay</wb:country>
+    <wb:countryiso3code>PRY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6159103</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PE">Peru</wb:country>
+    <wb:countryiso3code>PER</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>30457600</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PH">Philippines</wb:country>
+    <wb:countryiso3code>PHL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>105312992</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PL">Poland</wb:country>
+    <wb:countryiso3code>POL</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37986412</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PT">Portugal</wb:country>
+    <wb:countryiso3code>PRT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10358076</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PR">Puerto Rico</wb:country>
+    <wb:countryiso3code>PRI</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3473232</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="QA">Qatar</wb:country>
+    <wb:countryiso3code>QAT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2344557</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="RO">Romania</wb:country>
+    <wb:countryiso3code>ROU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>19815616</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="RU">Russian Federation</wb:country>
+    <wb:countryiso3code>RUS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>144640716</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="RW">Rwanda</wb:country>
+    <wb:countryiso3code>RWA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11640022</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="WS">Samoa</wb:country>
+    <wb:countryiso3code>WSM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>201782</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SM">San Marino</wb:country>
+    <wb:countryiso3code>SMR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>32897</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ST">Sao Tome and Principe</wb:country>
+    <wb:countryiso3code>STP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>200291</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SA">Saudi Arabia</wb:country>
+    <wb:countryiso3code>SAU</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>29816382</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SN">Senegal</wb:country>
+    <wb:countryiso3code>SEN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>14593331</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="RS">Serbia</wb:country>
+    <wb:countryiso3code>SRB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7095383</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SC">Seychelles</wb:country>
+    <wb:countryiso3code>SYC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>93419</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SL">Sierra Leone</wb:country>
+    <wb:countryiso3code>SLE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7037655</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SG">Singapore</wb:country>
+    <wb:countryiso3code>SGP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5535002</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SX">Sint Maarten (Dutch part)</wb:country>
+    <wb:countryiso3code>SXM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37471</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SK">Slovak Republic</wb:country>
+    <wb:countryiso3code>SVK</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>5423801</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SI">Slovenia</wb:country>
+    <wb:countryiso3code>SVN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>2063531</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SB">Solomon Islands</wb:country>
+    <wb:countryiso3code>SLB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>639415</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SO">Somalia</wb:country>
+    <wb:countryiso3code>SOM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>13806963</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZA">South Africa</wb:country>
+    <wb:countryiso3code>ZAF</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>56723537</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SS">South Sudan</wb:country>
+    <wb:countryiso3code>SSD</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11107561</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ES">Spain</wb:country>
+    <wb:countryiso3code>ESP</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>46444832</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LK">Sri Lanka</wb:country>
+    <wb:countryiso3code>LKA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>20970000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="KN">St. Kitts and Nevis</wb:country>
+    <wb:countryiso3code>KNA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>47087</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="LC">St. Lucia</wb:country>
+    <wb:countryiso3code>LCA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>174905</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="MF">St. Martin (French part)</wb:country>
+    <wb:countryiso3code>MAF</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37369</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VC">St. Vincent and the Grenadines</wb:country>
+    <wb:countryiso3code>VCT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>106960</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SD">Sudan</wb:country>
+    <wb:countryiso3code>SDN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>40024431</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SR">Suriname</wb:country>
+    <wb:countryiso3code>SUR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>581627</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SE">Sweden</wb:country>
+    <wb:countryiso3code>SWE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>9799186</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="CH">Switzerland</wb:country>
+    <wb:countryiso3code>CHE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8282396</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="SY">Syrian Arab Republic</wb:country>
+    <wb:countryiso3code>SYR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>19424618</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TJ">Tajikistan</wb:country>
+    <wb:countryiso3code>TJK</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8643840</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TZ">Tanzania</wb:country>
+    <wb:countryiso3code>TZA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>52020962</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TH">Thailand</wb:country>
+    <wb:countryiso3code>THA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>70540795</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TL">Timor-Leste</wb:country>
+    <wb:countryiso3code>TLS</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1205131</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TG">Togo</wb:country>
+    <wb:countryiso3code>TGO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>7663195</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TO">Tonga</wb:country>
+    <wb:countryiso3code>TON</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>106095</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TT">Trinidad and Tobago</wb:country>
+    <wb:countryiso3code>TTO</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1349667</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TN">Tunisia</wb:country>
+    <wb:countryiso3code>TUN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>11402264</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TR">Turkiye</wb:country>
+    <wb:countryiso3code>TUR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>78218479</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TM">Turkmenistan</wb:country>
+    <wb:countryiso3code>TKM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>6215770</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TC">Turks and Caicos Islands</wb:country>
+    <wb:countryiso3code>TCA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>36605</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="TV">Tuvalu</wb:country>
+    <wb:countryiso3code>TUV</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>10963</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="UG">Uganda</wb:country>
+    <wb:countryiso3code>UGA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>37531446</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="UA">Ukraine</wb:country>
+    <wb:countryiso3code>UKR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>45784896</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="AE">United Arab Emirates</wb:country>
+    <wb:countryiso3code>ARE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>8505237</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="GB">United Kingdom</wb:country>
+    <wb:countryiso3code>GBR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>65116219</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>320738994</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="UY">Uruguay</wb:country>
+    <wb:countryiso3code>URY</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>3368017</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="UZ">Uzbekistan</wb:country>
+    <wb:countryiso3code>UZB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>30749346</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VU">Vanuatu</wb:country>
+    <wb:countryiso3code>VUT</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>266101</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VE">Venezuela, RB</wb:country>
+    <wb:countryiso3code>VEN</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>30573972</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VN">Viet Nam</wb:country>
+    <wb:countryiso3code>VNM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>92823254</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="VI">Virgin Islands (U.S.)</wb:country>
+    <wb:countryiso3code>VIR</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>107712</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="PS">West Bank and Gaza</wb:country>
+    <wb:countryiso3code>PSE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>4270092</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="YE">Yemen, Rep.</wb:country>
+    <wb:countryiso3code>YEM</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>31159379</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZM">Zambia</wb:country>
+    <wb:countryiso3code>ZMB</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>16399089</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="SP.POP.TOTL">Population, total</wb:indicator>
+    <wb:country id="ZW">Zimbabwe</wb:country>
+    <wb:countryiso3code>ZWE</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>14399013</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+</wb:data>

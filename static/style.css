@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Вирівнюємо по верхньому краю */
+}
+
+/* Карта: ширина 850px, висота як була (750px) */
+#map {
+  width: 850px;
+  height: 750px; /* Висота не змінюється! */
+  margin: 20px 0 20px 20px; /* Відступи: верх, право, низ, ліво */
+  background-color: rgb(169, 211, 223);
+  position: relative;
+}
+
+/* Панель керування: ширша (400px) і з більшими відступами */
+#controlPanel {
+  width: 400px; /* Більше місця для інформації */
+  margin: 20px 20px 20px 0; /* Відступи: верх, право, низ, ліво */
+  padding: 20px; /* Більше внутрішнього простору */
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Стилі для полів введення (залишаються колишніми) */
+input[type="text"], select, input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Інформаційна панель: більше місця */
+#infoPanel {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 15px;
+}
