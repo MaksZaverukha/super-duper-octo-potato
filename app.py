@@ -50,38 +50,23 @@ def index():
 
 @app.route("/update")
 def update():
+    indicator = request.args.get("indicator", "population")
+    country = request.args.get("country", "").strip()
+    year = request.args.get("year", "2025")
+    cache_key = f"{indicator}_{country}_{year}"
     try:
-        indicator = request.args.get("indicator", "population")
-        country = request.args.get("country", "").strip()
-        year = request.args.get("year", "2025")
-        cache_key = f"{indicator}_{country}_{year}"
-
-        # Спочатку перевіряємо та виправляємо кеш
         if os.path.exists(CACHE_FILE):
-            try:
-                with open(CACHE_FILE, "r", encoding='utf-8') as f:
-                    cache_data = json.loads(f.read().strip())
-            except json.JSONDecodeError:
-                cache_data = {"worldbank": {}, "api_ninjas": {}}
-                # Зберігаємо виправлений кеш
-                with open(CACHE_FILE, "w", encoding='utf-8') as f:
-                    json.dump(cache_data, f, ensure_ascii=False, indent=2)
-        else:
-            cache_data = {"worldbank": {}, "api_ninjas": {}}
-
-        # Перевіряємо наявність даних у кеші
-        if (cache_data.get("worldbank", {}).get(cache_key) is not None or
-                cache_data.get("api_ninjas", {}).get(cache_key) is not None):
-            return jsonify({"status": "cached", "message": "Дані вже є в кеші"})
-
-        # Запускаємо оновлення даних
+            with open(CACHE_FILE, "r", encoding='utf-8') as f:
+                cache_data = json.load(f)
+            if (cache_data.get("worldbank", {}).get(cache_key) is not None or
+                    cache_data.get("api_ninjas", {}).get(cache_key) is not None):
+                return jsonify({"status": "cached", "message": "Дані вже є в кеші"})
         if run_update(indicator, country, year):
             return jsonify({"status": "success", "message": f"Дані оновлено для {indicator}, {country}, {year}"})
         else:
             return jsonify({"status": "error", "message": "Помилка оновлення даних"}), 500
-
     except Exception as e:
-        logging.error(f"Помилка в /update: {e}")
+        logging.error("Error in /update: %s", e)
         return jsonify({"status": "error", "message": str(e)}), 500
 
 
@@ -103,24 +88,14 @@ def data():
     try:
         if os.path.exists(CACHE_FILE):
             with open(CACHE_FILE, "r", encoding='utf-8') as f:
-                try:
-                    content = f.read().strip()  # Видаляємо зайві пробіли
-                    data_output = json.loads(content)  # Використовуємо loads замість load
-                except json.JSONDecodeError as e:
-                    logging.error(f"Помилка декодування JSON: {e}")
-                    # Створюємо новий кеш у разі помилки
-                    data_output = {"worldbank": {}, "api_ninjas": {}}
-                    # Зберігаємо правильний JSON
-                    with open(CACHE_FILE, "w", encoding='utf-8') as f:
-                        json.dump(data_output, f, ensure_ascii=False, indent=2)
+                data_output = json.load(f)
         else:
             data_output = {"worldbank": {}, "api_ninjas": {}}
-
         response = jsonify(data_output)
         response.headers["Cache-Control"] = "no-store"
         return response
     except Exception as e:
-        logging.error(f"Помилка читання кешу: {e}")
+        logging.error("Error reading cache: %s", e)
         return jsonify({"error": "Помилка читання кешу"}), 500
 
 
