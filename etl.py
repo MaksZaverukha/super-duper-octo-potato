@@ -4,15 +4,15 @@ import requests
 import logging
 import xml.etree.ElementTree as ET
 import sys
+import glob
+import urllib.parse
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
-INPUT_GEOJSON = "data/input.geojson"
+# Тепер результати записуються у data/input.geojson
+INPUT_GEOJSON = os.path.join("data", "input.geojson")
 
-API_KEY = "/mkGQOXLPthytx85xlMdyw==0Jmv7Gs6bwa2Bj0L"
+API_KEY = "5V7O0c43JxoQZRUQtqla3Q==xfXFKSRNZW0CR5jj"
 HEADERS = {"X-Api-Key": API_KEY}
 
 WORLD_BANK_BASE_URL = "https://api.worldbank.org/v2/country"
@@ -33,156 +33,177 @@ INDICATORS = {
     }
 }
 
-def fetch_api_ninjas_data(url, year_filter, api_field):
+
+def fetch_api_ninjas_data(url, year_filter, api_field, indicator_key):
+    logging.debug(f"Request to API Ninjas: {url}")
     try:
-        logging.debug(f"Request to API Ninjas: {url}")
         response = requests.get(url, headers=HEADERS)
         response.raise_for_status()
         data = response.json()
-        try:
-            year_filter_int = int(year_filter)
-        except ValueError:
-            logging.error("Year format error; year must be a number.")
-            return []
-        filtered = [entry for entry in data if entry.get("year") == year_filter_int]
-        logging.debug(f"Filtered data for {year_filter_int}: {filtered}")
+        req_year = int(year_filter)
         features = []
-        for entry in filtered:
-            coords = [entry["longitude"], entry["latitude"]] if "longitude" in entry and "latitude" in entry else None
-            feature = {
-                "type": "Feature",
-                "properties": {
-                    "source": "api_ninjas",
-                    "country": entry.get("country"),
-                    "year": entry.get("year"),
-                    api_field: entry.get(api_field)
-                },
-                "geometry": {"type": "Point", "coordinates": coords} if coords else None
-            }
-            features.append(feature)
+        if (indicator_key == "population" and isinstance(data, dict) and (
+                "historical_population" in data or "population_forecast" in data)):
+            arr = []
+            if "historical_population" in data and any(
+                    int(item.get("year", 0)) == req_year for item in data["historical_population"]):
+                arr = data["historical_population"]
+            elif "population_forecast" in data and any(
+                    int(item.get("year", 0)) == req_year for item in data["population_forecast"]):
+                arr = data["population_forecast"]
+            else:
+                logging.info(f"No population records found for year {req_year} in API Ninjas response.")
+            for entry in arr:
+                try:
+                    if int(entry.get("year", 0)) == req_year:
+                        features.append({
+                            "type": "Feature",
+                            "properties": {
+                                "source": "api_ninjas",
+                                "country": data.get("country_name"),
+                                "year": entry.get("year"),
+                                api_field: entry.get(api_field)
+                            },
+                            "geometry": None
+                        })
+                except (ValueError, TypeError):
+                    continue
+        elif isinstance(data, list):
+            for entry in data:
+                try:
+                    if int(entry.get("year", 0)) == req_year:
+                        features.append({
+                            "type": "Feature",
+                            "properties": {
+                                "source": "api_ninjas",
+                                "country": entry.get("country"),
+                                "year": entry.get("year"),
+                                api_field: entry.get(api_field)
+                            },
+                            "geometry": {"type": "Point",
+                                         "coordinates": [entry.get("longitude"), entry.get("latitude")]}
+                            if ("longitude" in entry and "latitude" in entry) else None
+                        })
+                except (ValueError, TypeError):
+                    continue
+        else:
+            logging.warning("Unexpected data structure returned from API Ninjas.")
+        logging.debug(f"Fetched {len(features)} features from API Ninjas for year {year_filter}.")
         return features
     except Exception as e:
         logging.error(f"Error fetching API Ninjas data: {e}")
         return []
 
+
 def download_and_save_worldbank_xml(indicator, year_filter):
     output_dir = os.path.join("data", "worldbank")
     os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, f"worldbank_{indicator}_{year_filter}.xml")
-    if os.path.exists(output_file):
-        logging.info(f"XML file already exists: {output_file}")
-        return output_file
+    file_name = f"worldbank_{indicator}_{year_filter}.xml"
+    file_path = os.path.join(output_dir, file_name)
+    if os.path.exists(file_path):
+        logging.info(f"Using cached World Bank XML: {file_path}")
+        return file_path
     url = f"{WORLD_BANK_BASE_URL}/all/indicator/{indicator}?format=xml&date={year_filter}:{year_filter}&per_page={PER_PAGE}"
     logging.debug(f"World Bank API request: {url}")
     try:
         response = requests.get(url)
         response.raise_for_status()
-        xml_data = response.content
-        with open(output_file, "wb") as f:
-            f.write(xml_data)
-        logging.info(f"XML file saved: {output_file}")
-        return output_file
+        with open(file_path, "wb") as f:
+            f.write(response.content)
+        logging.info(f"Downloaded World Bank XML: {file_path}")
+        return file_path
     except Exception as e:
         logging.error(f"Error downloading World Bank XML: {e}")
         return None
 
-def fetch_worldbank_data_all(indicator, country_input, year_filter, worldbank_field):
-    user_country_code = country_input.strip().upper()
+
+def fetch_worldbank_data_all(indicator, year_filter, worldbank_field):
     file_path = download_and_save_worldbank_xml(indicator, year_filter)
     if not file_path:
-        return []
+        return {"type": "FeatureCollection", "features": []}
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()
     except Exception as e:
-        logging.error(f"Error parsing XML file: {e}")
-        return []
+        logging.error(f"Error parsing World Bank XML: {e}")
+        return {"type": "FeatureCollection", "features": []}
     features = []
-    records = list(root)
-    logging.debug(f"Found {len(records)} records in XML.")
-    for rec in records:
-        rec_country_code = None
+    for rec in list(root):
+        rec_country = None
         rec_year = None
         rec_value = None
         for child in rec:
-            tag = child.tag.split('}')[-1]
-            if tag == 'countryiso3code':
-                if child.text:
-                    rec_country_code = child.text.strip().upper()
-            elif tag == 'date':
+            tag = child.tag.split("}")[-1]
+            if tag == "countryiso3code" and child.text:
+                rec_country = child.text.strip().upper()
+            elif tag == "date":
                 try:
                     rec_year = int(child.text)
                 except Exception:
                     rec_year = None
-            elif tag == 'value':
+            elif tag == "value":
                 try:
                     rec_value = float(child.text) if child.text else None
                 except Exception:
                     rec_value = None
-        if rec_country_code is None or rec_year is None or rec_value is None:
+        if rec_year != int(year_filter):
             continue
-        if rec_country_code != user_country_code or rec_year != int(year_filter):
+        if rec_country is None or rec_value is None:
             continue
-        feature = {
+        features.append({
             "type": "Feature",
             "properties": {
                 "source": "worldbank_xml",
-                "country": rec_country_code,
+                "country": rec_country,
                 "year": rec_year,
                 worldbank_field: rec_value
             },
             "geometry": None
-        }
-        features.append(feature)
-    logging.debug(f"Generated {len(features)} features from World Bank XML.")
-    return features
+        })
+    logging.debug(f"World Bank features generated: {len(features)}")
+    return {"type": "FeatureCollection", "features": features}
+
 
 def generate_geojson(indicator_key, country_input=None, year_input=None):
     if indicator_key not in INDICATORS:
         logging.error("Invalid indicator!")
         return
-    indicator_obj = INDICATORS[indicator_key]
-    logging.info(f"Loading data for indicator: {indicator_obj['name']}")
-    if country_input is None:
-        country_input = "USA"
+    config = INDICATORS[indicator_key]
+    logging.info(f"Loading data for {config['name']}")
     if year_input is None:
         year_input = "2025"
-    ninjas_url = f"{indicator_obj['api_ninjas_url']}?country={country_input}"
-    logging.debug(f"API Ninjas URL: {ninjas_url}")
-    ninjas_features = fetch_api_ninjas_data(ninjas_url, year_input, indicator_obj["api_field"])
-    worldbank_features = fetch_worldbank_data_all(indicator_obj["worldbank_indicator"], country_input, year_input, indicator_obj["api_field"])
-    features = ninjas_features + worldbank_features
-    if not features:
-        logging.warning(f"No data for {country_input} in {year_input} from both sources!")
-    geojson_data = {
-        "type": "FeatureCollection",
-        "features": features
-    }
-    os.makedirs("data", exist_ok=True)
-    try:
-        with open(INPUT_GEOJSON, "w", encoding="utf-8") as f:
-            json.dump(geojson_data, f, ensure_ascii=False, indent=2)
-        logging.info(f"GeoJSON saved: {INPUT_GEOJSON}")
-    except Exception as e:
-        logging.error(f"Error saving GeoJSON: {e}")
-    worldbank_cache = {}
-    for feature in worldbank_features:
-        props = feature.get("properties", {})
-        iso = props.get("country")
-        val = props.get(indicator_obj["api_field"])
-        if iso:
-            key = indicator_key + "_" + iso + "_" + year_input
-            worldbank_cache[key] = val
-    ninjas_cache = {}
-    for feature in ninjas_features:
-        props = feature.get("properties", {})
-        iso = props.get("country")
-        val = props.get(indicator_obj["api_field"])
-        if iso:
-            key = indicator_key + "_" + iso + "_" + year_input
-            ninjas_cache[key] = val
 
-    cache_data = {"worldbank": worldbank_cache, "api_ninjas": ninjas_cache}
+    if int(year_input) <= 2023:
+        fc = fetch_worldbank_data_all(config["worldbank_indicator"], year_input, config["api_field"])
+    else:
+        if country_input and country_input.strip().upper() != "ALL":
+            encoded_country = urllib.parse.quote(country_input.strip())
+            ninjas_url = f"{config['api_ninjas_url']}?country={encoded_country}"
+            features = fetch_api_ninjas_data(ninjas_url, year_input, config["api_field"], indicator_key)
+            fc = {"type": "FeatureCollection", "features": features}
+        else:
+            logging.warning("For future years, a valid country must be provided (not 'ALL').")
+            fc = {"type": "FeatureCollection", "features": []}
+
+    try:
+        os.makedirs("data", exist_ok=True)
+        with open(INPUT_GEOJSON, "w", encoding="utf-8") as f:
+            json.dump(fc, f, ensure_ascii=False, indent=2)
+        logging.info(f"Input GeoJSON written to {INPUT_GEOJSON} with {len(fc.get('features', []))} features.")
+    except Exception as e:
+        logging.error(f"Error saving input GeoJSON: {e}")
+
+    cache_data = {"worldbank": {}, "api_ninjas": {}}
+    for feature in fc.get("features", []):
+        props = feature.get("properties", {})
+        country_val = props.get("country")
+        field_val = props.get(config["api_field"])
+        if country_val:
+            key = f"{indicator_key}_{country_val}_{year_input}"
+            if props.get("source") == "worldbank_xml":
+                cache_data["worldbank"][key] = field_val
+            else:
+                cache_data["api_ninjas"][key] = field_val
     os.makedirs("static", exist_ok=True)
     try:
         with open(os.path.join("static", "data_cache.json"), "w", encoding="utf-8") as f:
@@ -191,17 +212,15 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
     except Exception as e:
         logging.error(f"Error saving cache: {e}")
 
+
 if __name__ == "__main__":
     if len(sys.argv) >= 5 and sys.argv[1] == "--auto":
-        indicator = sys.argv[2]
-        country = sys.argv[3]
-        year = sys.argv[4]
-        generate_geojson(indicator, country, year)
-    elif len(sys.argv) > 1 and sys.argv[1] == "--auto":
-        generate_geojson("unemployment", "USA", "2025")
+        generate_geojson(sys.argv[2], sys.argv[3], sys.argv[4])
     else:
         logging.info("Available indicators:")
         for key, value in INDICATORS.items():
             logging.info(f"{key}: {value['name']}")
-        selected_indicator = input("Choose indicator (e.g., unemployment or population): ").strip()
-        generate_geojson(selected_indicator)
+        selected_indicator = input("Indicator (population or unemployment): ").strip()
+        selected_country = input("Country (for years > 2023, e.g., Kazakhstan): ").strip()
+        year_selected = input("Year: ").strip()
+        generate_geojson(selected_indicator, selected_country, year_selected)

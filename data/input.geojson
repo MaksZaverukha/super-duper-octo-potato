@@ -4,10 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "RUS",
-        "year": 2016,
-        "unemployment_rate": 5.591
+        "source": "api_ninjas",
+        "country": "Ukraine",
+        "year": 2024,
+        "population": 37860221
       },
       "geometry": null
     }
