@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Глобальні змінні
+    // --- Глобальні змінні та DOM ---
     let currentCache = {};
     let currentIndicator = document.getElementById('indicatorSelect').value;
     let currentYear = document.getElementById('yearSlider').value;
     let boundariesLayer;
-    let finalLayer; // Шар фінальних даних з /geojson
+    let finalLayer;
 
-    // DOM-елементи
     const countryInput = document.getElementById('countryInput');
     const countryDatalist = document.getElementById('countryList');
     const indicatorSelect = document.getElementById('indicatorSelect');
@@ -14,38 +13,251 @@ document.addEventListener("DOMContentLoaded", function() {
     const yearDisplay = document.getElementById('yearDisplay');
     const infoPanel = document.getElementById('infoPanel');
 
-    // Таблиця відповідностей: для World Bank використовуємо ISO, для API Ninjas – повну назву
+    // --- Country mapping ---
     const countryMapping = {
+        "AFG": "Afghanistan",
+        "ALB": "Albania",
+        "DZA": "Algeria",
+        "AND": "Andorra",
+        "AGO": "Angola",
+        "ARG": "Argentina",
+        "ARM": "Armenia",
+        "AUS": "Australia",
+        "AUT": "Austria",
+        "AZE": "Azerbaijan",
+        "BHS": "Bahamas",
+        "BHR": "Bahrain",
+        "BGD": "Bangladesh",
+        "BRB": "Barbados",
+        "BLR": "Belarus",
+        "BEL": "Belgium",
+        "BLZ": "Belize",
+        "BEN": "Benin",
+        "BTN": "Bhutan",
+        "BOL": "Bolivia",
+        "BIH": "Bosnia and Herzegovina",
+        "BWA": "Botswana",
+        "BRA": "Brazil",
+        "BRN": "Brunei Darussalam",
+        "BGR": "Bulgaria",
+        "BFA": "Burkina Faso",
+        "BDI": "Burundi",
+        "KHM": "Cambodia",
+        "CMR": "Cameroon",
+        "CAN": "Canada",
+        "CPV": "Cape Verde",
+        "CAF": "Central African Republic",
+        "TCD": "Chad",
+        "CHL": "Chile",
+        "CHN": "China",
+        "COL": "Colombia",
+        "COM": "Comoros",
+        "COG": "Congo",
+        "CRI": "Costa Rica",
+        "CIV": "Ivory CoastCZE",
+        "HRV": "Croatia",
+        "CUB": "Cuba",
+        "CYP": "Cyprus",
+        "CZE": "Czechia",
+        "COD": "Democratic Republic of the Congo",
+        "DNK": "Denmark",
+        "DJI": "Djibouti",
+        "DMA": "Dominica",
+        "DOM": "Dominican Republic",
+        "ECU": "Ecuador",
+        "EGY": "Egypt",
+        "SLV": "El Salvador",
+        "GNQ": "Equatorial Guinea",
+        "ERI": "Eritrea",
+        "EST": "Estonia",
+        "SWZ": "Eswatini",
+        "ETH": "Ethiopia",
+        "FJI": "Fiji",
+        "FIN": "Finland",
+        "FRA": "France",
+        "GAB": "Gabon",
+        "GMB": "Gambia",
+        "GEO": "Georgia",
+        "DEU": "Germany",
+        "GHA": "Ghana",
+        "GRC": "Greece",
+        "GRD": "Grenada",
+        "GTM": "Guatemala",
+        "GIN": "Guinea",
+        "GNB": "Guinea-Bissau",
+        "GUY": "Guyana",
+        "HTI": "Haiti",
+        "HND": "Honduras",
+        "HUN": "Hungary",
+        "ISL": "Iceland",
+        "IND": "India",
+        "IDN": "Indonesia",
+        "IRN": "Iran",
+        "IRQ": "Iraq",
+        "IRL": "Ireland",
+        "ISR": "Israel",
+        "ITA": "Italy",
+        "JAM": "Jamaica",
+        "JPN": "Japan",
+        "JOR": "Jordan",
+        "KAZ": "Kazakhstan",
+        "KEN": "Kenya",
+        "KIR": "Kiribati",
+        "PRK": "Korea, North",
+        "KOR": "Korea, South",
+        "KWT": "Kuwait",
+        "KGZ": "Kyrgyzstan",
+        "LAO": "Laos",
+        "LVA": "Latvia",
+        "LBN": "Lebanon",
+        "LSO": "Lesotho",
+        "LBR": "Liberia",
+        "LBY": "Libya",
+        "LIE": "Liechtenstein",
+        "LTU": "Lithuania",
+        "LUX": "Luxembourg",
+        "MDG": "Madagascar",
+        "MWI": "Malawi",
+        "MYS": "Malaysia",
+        "MDV": "Maldives",
+        "MLI": "Mali",
+        "MLT": "Malta",
+        "MHL": "Marshall Islands",
+        "MRT": "Mauritania",
+        "MUS": "Mauritius",
+        "MEX": "Mexico",
+        "FSM": "Micronesia",
+        "MDA": "Moldova",
+        "MCO": "Monaco",
+        "MNG": "Mongolia",
+        "MNE": "Montenegro",
+        "MAR": "Morocco",
+        "MOZ": "Mozambique",
+        "MMR": "Myanmar",
+        "NAM": "Namibia",
+        "NRU": "Nauru",
+        "NPL": "Nepal",
+        "NLD": "Netherlands",
+        "NZL": "New Zealand",
+        "NIC": "Nicaragua",
+        "NER": "Niger",
+        "NGA": "Nigeria",
+        "MKD": "North Macedonia",
+        "NOR": "Norway",
+        "OMN": "Oman",
+        "PAK": "Pakistan",
+        "PLW": "Palau",
+        "PSE": "Palestine",
+        "PAN": "Panama",
+        "PNG": "Papua New Guinea",
+        "PRY": "Paraguay",
+        "PER": "Peru",
+        "PHL": "Philippines",
+        "POL": "Poland",
+        "PRT": "Portugal",
+        "QAT": "Qatar",
+        "ROU": "Romania",
+        "RUS": "Russia",
+        "RWA": "Rwanda",
+        "KNA": "Saint Kitts and Nevis",
+        "LCA": "Saint Lucia",
+        "VCT": "Saint Vincent and the Grenadines",
+        "WSM": "Samoa",
+        "SMR": "San Marino",
+        "STP": "Sao Tome and Principe",
+        "SAU": "Saudi Arabia",
+        "SEN": "Senegal",
+        "SRB": "Republic of Serbia",
+        "SYC": "Seychelles",
+        "SLE": "Sierra Leone",
+        "SGP": "Singapore",
+        "SVK": "Slovakia",
+        "SVN": "Slovenia",
+        "SLB": "Solomon Islands",
+        "SOM": "Somalia",
+        "ZAF": "South Africa",
+        "SSD": "South Sudan",
+        "ESP": "Spain",
+        "LKA": "Sri Lanka",
+        "SDN": "Sudan",
+        "SUR": "Suriname",
+        "SWE": "Sweden",
+        "CHE": "Switzerland",
+        "SYR": "Syria",
+        "TWN": "Taiwan",
+        "TJK": "Tajikistan",
+        "TZA": "United Republic of Tanzania",
+        "THA": "Thailand",
+        "TLS": "Timor-Leste",
+        "TGO": "Togo",
+        "TON": "Tonga",
+        "TTO": "Trinidad and Tobago",
+        "TUN": "Tunisia",
+        "TUR": "Turkey",
+        "TKM": "Turkmenistan",
+        "TUV": "Tuvalu",
+        "UGA": "Uganda",
         "UKR": "Ukraine",
-        "USA": "USA",
-        "CHN": "China"
-        // Додайте інші відповідності за потребою.
+        "ARE": "United Arab Emirates",
+        "GBR": "United Kingdom",
+        "USA": "United States of America",
+        "URY": "Uruguay",
+        "UZB": "Uzbekistan",
+        "VUT": "Vanuatu",
+        "VEN": "Venezuela",
+        "VNM": "Vietnam",
+        "YEM": "Yemen",
+        "ZMB": "Zambia",
+        "ZWE": "Zimbabwe",
+        "GRL": "Greenland",
+        "ATF": "French Southern and Antarctic Lands",
+
     };
 
-    // Якщо користувач вводить ISO (3 символи) – повертаємо його,
-    // інакше – шукаємо в mapping (наприклад, "Ukraine" → "UKR")
     function getWorldbankCountry(input) {
         input = input.trim();
         if (input.length === 3 && input === input.toUpperCase() && countryMapping[input]) {
             return input;
-        } else {
-            for (let iso in countryMapping) {
-                if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
-                    return iso;
-                }
+        }
+        for (let iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
+                return iso;
             }
+        }
+        if (input.toLowerCase() === "україна") return "UKR";
+        for (let iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase().includes(input.toLowerCase())) {
+                return iso;
+            }
+        }
+        return input;
+    }
+
+    // --- Оновлена функція для API Ninjas ---
+    function getApiNinjasCountry(input) {
+        input = input.trim();
+        // Якщо це Україна — повертаємо масив з двох варіантів
+        if (
+            input.toLowerCase() === "ukraine" ||
+            input.toLowerCase() === "україна" ||
+            input.toUpperCase() === "UKR"
+        ) {
+            return ["UKR", "Ukraine"];
+        }
+        // Якщо ввели вже код — повертаємо як є
+        if (input.length === 3 && input === input.toUpperCase() && countryMapping[input]) {
             return input;
         }
+        // Якщо ввели повну назву — повертаємо код
+        for (let iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
+                return iso;
+            }
+        }
+        return input;
     }
 
-    // Для API Ninjas повертаємо повну назву без змін
-    function getApiNinjasCountry(input) {
-        return input.trim();
-    }
-
-    // Допоміжна функція для читання назви країни з властивостей фічі
     function getCountryName(feature) {
-        // Перевіряємо можливі поля, де може зберігатися назва
         const fields = ["ADMIN", "NAME", "country"];
         for (let field of fields) {
             if (feature.properties && feature.properties[field]) {
@@ -55,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return "";
     }
 
-    // Налаштування легенди
+    // --- Легенда ---
     const legendConfig = {
         population: {
             colorLow: "#ADD8E6",
@@ -69,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     };
 
-    // Ініціалізація карти
+    // --- Карта ---
     const map = L.map('map', {
         center: [20, 0],
         zoom: 2,
@@ -82,7 +294,6 @@ document.addEventListener("DOMContentLoaded", function() {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    // Додавання легенди
     let legend = L.control({ position: 'bottomright' });
     legend.onAdd = function(map) {
         let div = L.DomUtil.create('div', 'info legend');
@@ -108,7 +319,6 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
     }
 
-    // Обчислення діапазону: мінімум 0, максимум – найбільше значення з усіх країн для даного показника
     function computeIndicatorRange(cache, indicator, year) {
         let values = [];
         if (cache.worldbank) {
@@ -125,7 +335,6 @@ document.addEventListener("DOMContentLoaded", function() {
         return { min: 0, max: Math.max(...values) };
     }
 
-    // Функція для заповнення списку країн (datalist) із завантаженого шару кордонів
     function populateCountryList(geojsonData) {
         const datalist = document.getElementById('countryList');
         let countries = new Set();
@@ -182,7 +391,6 @@ document.addEventListener("DOMContentLoaded", function() {
             .catch(err => console.error("Помилка завантаження фінальних даних:", err));
     }
 
-    // Завантаження шару меж країн із бекенду
     fetch('/static/country_boundaries.geojson')
         .then(res => res.json())
         .then(data => {
@@ -208,50 +416,94 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Оновлення інформаційної панелі
-    // Для World Bank (рік <= 2023) використовуємо ISO (через getWorldbankCountry),
-    // для API Ninjas (рік > 2023) – повну назву.
+    // --- Оновлена функція для панелі інформації ---
     function updateInfoPanel() {
         const indicator = indicatorSelect.value;
         const year = yearSlider.value;
         const yearVal = parseInt(year);
-        const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
+        let selectedInput = (yearVal <= 2023)
+            ? getWorldbankCountry(countryInput.value)
+            : getApiNinjasCountry(countryInput.value);
         let value = null;
+        let key = "";
+        let keysArr = [];
+        let allKeys = [];
+        let foundKey = null;
+
         if (yearVal <= 2023) {
             if (currentCache.worldbank) {
-                let key = `${indicator}_${selectedInput.toUpperCase()}_${year}`;
+                key = `${indicator}_${selectedInput.toUpperCase()}_${year}`;
                 value = currentCache.worldbank[key];
+                allKeys = Object.keys(currentCache.worldbank);
+                keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
+                foundKey = allKeys.find(k => k.toLowerCase().includes(selectedInput.toLowerCase()) && k.startsWith(`${indicator}_`) && k.endsWith(`_${year}`));
             }
         } else {
             if (currentCache.api_ninjas) {
-                let key = `${indicator}_${selectedInput}_${year}`;
-                value = currentCache.api_ninjas[key];
+                // --- ДЛЯ УКРАЇНИ ---
+                if (Array.isArray(selectedInput)) {
+                    for (let variant of selectedInput) {
+                        key = `${indicator}_${variant}_${year}`;
+                        value = currentCache.api_ninjas[key];
+                        if (value !== undefined && value !== null) {
+                            foundKey = key;
+                            break;
+                        }
+                    }
+                    allKeys = Object.keys(currentCache.api_ninjas);
+                    keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
+                } else {
+                    key = `${indicator}_${selectedInput}_${year}`;
+                    value = currentCache.api_ninjas[key];
+                    allKeys = Object.keys(currentCache.api_ninjas);
+                    keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
+                    foundKey = allKeys.find(k => k.toLowerCase().includes(selectedInput.toLowerCase()) && k.startsWith(`${indicator}_`) && k.endsWith(`_${year}`));
+                }
             }
         }
         const indicatorName = indicatorSelect.options[indicatorSelect.selectedIndex].text;
         if (value !== null && value !== undefined) {
             infoPanel.innerHTML = `
-                <h3>Дані для ${selectedInput}</h3>
+                <h3>Дані для ${Array.isArray(selectedInput) ? foundKey.split('_')[1] : selectedInput}</h3>
                 <p>${indicatorName}: ${value.toLocaleString('uk-UA')}</p>
                 <p>Рік: ${year}</p>
             `;
         } else {
             infoPanel.innerHTML = `
                 <h3>Дані відсутні</h3>
-                <p>Немає даних для ${selectedInput} за ${year} рік.</p>
+                <p>Немає даних для ${Array.isArray(selectedInput) ? selectedInput.join(' / ') : selectedInput} за ${year} рік.</p>
+                <details style="margin-top:8px;">
+                  <summary>Доступні ключі для цього року</summary>
+                  <div style="max-height:120px;overflow:auto;font-size:12px;color:#555;">
+                    ${keysArr.map(k => `<div>${k} : ${yearVal <= 2023 ? currentCache.worldbank[k] : currentCache.api_ninjas[k]}</div>`).join("")}
+                  </div>
+                </details>
             `;
         }
     }
 
-    // Стилізація країн на карті. Формуємо ключ залежно від року:
-    // для World Bank – ISO (через getWorldbankCountry), для API Ninjas – повну назву.
     function styleFeature(feature) {
         const year = yearSlider.value;
         const yearVal = parseInt(year);
         let countryName = (yearVal <= 2023) ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature));
-        let cacheKey = (yearVal <= 2023)
-            ? `${currentIndicator}_${countryName.toUpperCase()}_${year}`
-            : `${currentIndicator}_${countryName}_${year}`;
+        let cacheKey;
+        if (yearVal <= 2023) {
+            cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
+        } else {
+            if (Array.isArray(countryName)) {
+                // Для України — шукаємо перший існуючий ключ
+                for (let variant of countryName) {
+                    let key = `${currentIndicator}_${variant}_${year}`;
+                    if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
+                        cacheKey = key;
+                        break;
+                    }
+                }
+                if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
+            } else {
+                cacheKey = `${currentIndicator}_${countryName}_${year}`;
+            }
+        }
         let value = null;
         if (yearVal <= 2023) {
             if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
@@ -274,10 +526,9 @@ document.addEventListener("DOMContentLoaded", function() {
             let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
             style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
         }
-        // Виділення країни, введеної користувачем
         const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
-        if ((yearVal <= 2023 && selectedInput.toUpperCase() === countryName.toUpperCase()) ||
-            (yearVal > 2023 && selectedInput === countryName)) {
+        let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
+        if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
             style.weight = 3;
             style.color = '#FFD700';
         }
@@ -346,8 +597,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>Зачекайте, триває оновлення даних.</p>
         `;
     }
-
-    // Прив'язка подій
+    // --- Події ---
     countryInput.addEventListener("change", triggerUpdate);
     indicatorSelect.addEventListener("change", function() {
         currentIndicator = indicatorSelect.value;
@@ -359,6 +609,6 @@ document.addEventListener("DOMContentLoaded", function() {
         triggerUpdate();
     });
 
-    // Початкове завантаження даних
+    // --- Початкове завантаження ---
     loadGeoJSON();
 });
