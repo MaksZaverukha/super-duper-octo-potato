@@ -4,10 +4,2310 @@
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
-        "country": "Ukraine",
-        "year": 2025,
-        "population": 38980376
+        "source": "worldbank_xml",
+        "country": "AFE",
+        "year": 2000,
+        "unemployment_rate": 7.78831690275508
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AFW",
+        "year": 2000,
+        "unemployment_rate": 4.55111905984559
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ARB",
+        "year": 2000,
+        "unemployment_rate": 12.6274870577085
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CSS",
+        "year": 2000,
+        "unemployment_rate": 11.5264333346702
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CEB",
+        "year": 2000,
+        "unemployment_rate": 12.1661215560372
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EAR",
+        "year": 2000,
+        "unemployment_rate": 7.11472249654015
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EAS",
+        "year": 2000,
+        "unemployment_rate": 3.55420828634153
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EAP",
+        "year": 2000,
+        "unemployment_rate": 3.42330379281354
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TEA",
+        "year": 2000,
+        "unemployment_rate": 3.42896287038122
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EMU",
+        "year": 2000,
+        "unemployment_rate": 9.47224221882325
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ECS",
+        "year": 2000,
+        "unemployment_rate": 9.68992008060942
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ECA",
+        "year": 2000,
+        "unemployment_rate": 10.7484483274832
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TEC",
+        "year": 2000,
+        "unemployment_rate": 11.0252036761132
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EUU",
+        "year": 2000,
+        "unemployment_rate": 9.70649119804801
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FCS",
+        "year": 2000,
+        "unemployment_rate": 5.88813224341885
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HPC",
+        "year": 2000,
+        "unemployment_rate": 5.15456136215711
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IBD",
+        "year": 2000,
+        "unemployment_rate": 6.55733674014356
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IBT",
+        "year": 2000,
+        "unemployment_rate": 6.15636406177533
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IDB",
+        "year": 2000,
+        "unemployment_rate": 3.83122287611329
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IDX",
+        "year": 2000,
+        "unemployment_rate": 4.7402535311592
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IDA",
+        "year": 2000,
+        "unemployment_rate": 4.43736752604206
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LTE",
+        "year": 2000,
+        "unemployment_rate": 5.28526433408884
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LCN",
+        "year": 2000,
+        "unemployment_rate": 9.461823301645
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LAC",
+        "year": 2000,
+        "unemployment_rate": 9.17880511924025
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TLA",
+        "year": 2000,
+        "unemployment_rate": 9.54724386782
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LDC",
+        "year": 2000,
+        "unemployment_rate": 4.69621008348711
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LMY",
+        "year": 2000,
+        "unemployment_rate": 5.82506784093745
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MEA",
+        "year": 2000,
+        "unemployment_rate": 12.0659790449942
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MNA",
+        "year": 2000,
+        "unemployment_rate": 13.0877495079356
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TMN",
+        "year": 2000,
+        "unemployment_rate": 13.1062226879005
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MIC",
+        "year": 2000,
+        "unemployment_rate": 5.88304695947759
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NAC",
+        "year": 2000,
+        "unemployment_rate": 4.27316817166147
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "OED",
+        "year": 2000,
+        "unemployment_rate": 6.71539711222802
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "OSS",
+        "year": 2000,
+        "unemployment_rate": 10.2914019994802
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PSS",
+        "year": 2000,
+        "unemployment_rate": 4.41758167634957
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PST",
+        "year": 2000,
+        "unemployment_rate": 6.53497084664272
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PRE",
+        "year": 2000,
+        "unemployment_rate": 5.14246869302464
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SST",
+        "year": 2000,
+        "unemployment_rate": 9.7615148817054
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SAS",
+        "year": 2000,
+        "unemployment_rate": 6.65606873614265
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TSA",
+        "year": 2000,
+        "unemployment_rate": 6.65606873614265
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SSF",
+        "year": 2000,
+        "unemployment_rate": 6.43551093234137
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SSA",
+        "year": 2000,
+        "unemployment_rate": 6.43551093234137
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TSS",
+        "year": 2000,
+        "unemployment_rate": 6.43551093234137
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "WLD",
+        "year": 2000,
+        "unemployment_rate": 6.12304074094227
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AFG",
+        "year": 2000,
+        "unemployment_rate": 7.935
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ALB",
+        "year": 2000,
+        "unemployment_rate": 19.023
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DZA",
+        "year": 2000,
+        "unemployment_rate": 29.77
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AGO",
+        "year": 2000,
+        "unemployment_rate": 16.682
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ARG",
+        "year": 2000,
+        "unemployment_rate": 15.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ARM",
+        "year": 2000,
+        "unemployment_rate": 11.095
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AUS",
+        "year": 2000,
+        "unemployment_rate": 6.288
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AUT",
+        "year": 2000,
+        "unemployment_rate": 4.687
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AZE",
+        "year": 2000,
+        "unemployment_rate": 11.78
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BHS",
+        "year": 2000,
+        "unemployment_rate": 7.12
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BHR",
+        "year": 2000,
+        "unemployment_rate": 1.083
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BGD",
+        "year": 2000,
+        "unemployment_rate": 3.27
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BRB",
+        "year": 2000,
+        "unemployment_rate": 9.35
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BLR",
+        "year": 2000,
+        "unemployment_rate": 12.224
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BEL",
+        "year": 2000,
+        "unemployment_rate": 6.586
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BLZ",
+        "year": 2000,
+        "unemployment_rate": 10.836
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BEN",
+        "year": 2000,
+        "unemployment_rate": 0.864
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BTN",
+        "year": 2000,
+        "unemployment_rate": 1.66
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BOL",
+        "year": 2000,
+        "unemployment_rate": 2.447
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BIH",
+        "year": 2000,
+        "unemployment_rate": 25.187
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BWA",
+        "year": 2000,
+        "unemployment_rate": 15.88
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BRA",
+        "year": 2000,
+        "unemployment_rate": 10.889
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BRN",
+        "year": 2000,
+        "unemployment_rate": 5.459
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BGR",
+        "year": 2000,
+        "unemployment_rate": 16.218
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BFA",
+        "year": 2000,
+        "unemployment_rate": 2.679
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BDI",
+        "year": 2000,
+        "unemployment_rate": 3.129
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CPV",
+        "year": 2000,
+        "unemployment_rate": 13.088
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KHM",
+        "year": 2000,
+        "unemployment_rate": 0.744
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CMR",
+        "year": 2000,
+        "unemployment_rate": 7.536
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CAN",
+        "year": 2000,
+        "unemployment_rate": 6.829
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CAF",
+        "year": 2000,
+        "unemployment_rate": 5.362
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TCD",
+        "year": 2000,
+        "unemployment_rate": 0.79
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CHI",
+        "year": 2000,
+        "unemployment_rate": 5.551
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CHL",
+        "year": 2000,
+        "unemployment_rate": 10.491
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CHN",
+        "year": 2000,
+        "unemployment_rate": 3.26
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "COL",
+        "year": 2000,
+        "unemployment_rate": 20.52
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "COM",
+        "year": 2000,
+        "unemployment_rate": 4.398
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "COD",
+        "year": 2000,
+        "unemployment_rate": 3.234
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "COG",
+        "year": 2000,
+        "unemployment_rate": 19.87
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CRI",
+        "year": 2000,
+        "unemployment_rate": 5.08
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CIV",
+        "year": 2000,
+        "unemployment_rate": 4.816
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HRV",
+        "year": 2000,
+        "unemployment_rate": 16.064
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CUB",
+        "year": 2000,
+        "unemployment_rate": 5.45
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CYP",
+        "year": 2000,
+        "unemployment_rate": 4.766
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CZE",
+        "year": 2000,
+        "unemployment_rate": 8.764
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DNK",
+        "year": 2000,
+        "unemployment_rate": 4.476
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DJI",
+        "year": 2000,
+        "unemployment_rate": 26.664
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DOM",
+        "year": 2000,
+        "unemployment_rate": 6.432
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ECU",
+        "year": 2000,
+        "unemployment_rate": 4.8
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EGY",
+        "year": 2000,
+        "unemployment_rate": 8.98
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SLV",
+        "year": 2000,
+        "unemployment_rate": 6.96
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GNQ",
+        "year": 2000,
+        "unemployment_rate": 7.955
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ERI",
+        "year": 2000,
+        "unemployment_rate": 5.608
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "EST",
+        "year": 2000,
+        "unemployment_rate": 13.36
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SWZ",
+        "year": 2000,
+        "unemployment_rate": 24.502
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ETH",
+        "year": 2000,
+        "unemployment_rate": 3.5
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FJI",
+        "year": 2000,
+        "unemployment_rate": 4.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FIN",
+        "year": 2000,
+        "unemployment_rate": 11.134
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FRA",
+        "year": 2000,
+        "unemployment_rate": 10.218
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PYF",
+        "year": 2000,
+        "unemployment_rate": 11.579
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GAB",
+        "year": 2000,
+        "unemployment_rate": 17.789
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GMB",
+        "year": 2000,
+        "unemployment_rate": 9.787
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GEO",
+        "year": 2000,
+        "unemployment_rate": 10.82
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DEU",
+        "year": 2000,
+        "unemployment_rate": 7.917
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GHA",
+        "year": 2000,
+        "unemployment_rate": 10.456
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GRC",
+        "year": 2000,
+        "unemployment_rate": 11.345
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GUM",
+        "year": 2000,
+        "unemployment_rate": 15.32
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GTM",
+        "year": 2000,
+        "unemployment_rate": 2.606
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GIN",
+        "year": 2000,
+        "unemployment_rate": 4.599
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GNB",
+        "year": 2000,
+        "unemployment_rate": 3.557
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GUY",
+        "year": 2000,
+        "unemployment_rate": 11.93
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HTI",
+        "year": 2000,
+        "unemployment_rate": 8.454
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HND",
+        "year": 2000,
+        "unemployment_rate": 3.881
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HKG",
+        "year": 2000,
+        "unemployment_rate": 4.92
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "HUN",
+        "year": 2000,
+        "unemployment_rate": 6.563
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ISL",
+        "year": 2000,
+        "unemployment_rate": 1.936
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IND",
+        "year": 2000,
+        "unemployment_rate": 7.624
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IDN",
+        "year": 2000,
+        "unemployment_rate": 6.077
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IRN",
+        "year": 2000,
+        "unemployment_rate": 11.696
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IRQ",
+        "year": 2000,
+        "unemployment_rate": 8.058
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IRL",
+        "year": 2000,
+        "unemployment_rate": 4.318
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ISR",
+        "year": 2000,
+        "unemployment_rate": 11.102
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ITA",
+        "year": 2000,
+        "unemployment_rate": 10.834
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "JAM",
+        "year": 2000,
+        "unemployment_rate": 6.762
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "JPN",
+        "year": 2000,
+        "unemployment_rate": 4.748
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "JOR",
+        "year": 2000,
+        "unemployment_rate": 13.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KAZ",
+        "year": 2000,
+        "unemployment_rate": 12.75
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KEN",
+        "year": 2000,
+        "unemployment_rate": 2.889
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PRK",
+        "year": 2000,
+        "unemployment_rate": 3.05
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KOR",
+        "year": 2000,
+        "unemployment_rate": 4.063
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KWT",
+        "year": 2000,
+        "unemployment_rate": 0.8
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KGZ",
+        "year": 2000,
+        "unemployment_rate": 1.858
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LAO",
+        "year": 2000,
+        "unemployment_rate": 2.046
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LVA",
+        "year": 2000,
+        "unemployment_rate": 14.211
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LBN",
+        "year": 2000,
+        "unemployment_rate": 8.603
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LSO",
+        "year": 2000,
+        "unemployment_rate": 16.227
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LBR",
+        "year": 2000,
+        "unemployment_rate": 2.231
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LBY",
+        "year": 2000,
+        "unemployment_rate": 19.201
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LTU",
+        "year": 2000,
+        "unemployment_rate": 15.931
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LUX",
+        "year": 2000,
+        "unemployment_rate": 2.345
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MAC",
+        "year": 2000,
+        "unemployment_rate": 6.874
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MDG",
+        "year": 2000,
+        "unemployment_rate": 5.8
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MWI",
+        "year": 2000,
+        "unemployment_rate": 5.048
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MYS",
+        "year": 2000,
+        "unemployment_rate": 3.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MDV",
+        "year": 2000,
+        "unemployment_rate": 1.97
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MLI",
+        "year": 2000,
+        "unemployment_rate": 1.414
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MLT",
+        "year": 2000,
+        "unemployment_rate": 6.324
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MRT",
+        "year": 2000,
+        "unemployment_rate": 10.033
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MUS",
+        "year": 2000,
+        "unemployment_rate": 9.138
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MEX",
+        "year": 2000,
+        "unemployment_rate": 2.646
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MDA",
+        "year": 2000,
+        "unemployment_rate": 8.539
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MNG",
+        "year": 2000,
+        "unemployment_rate": 5.993
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MNE",
+        "year": 2000,
+        "unemployment_rate": 30.609
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MAR",
+        "year": 2000,
+        "unemployment_rate": 13.58
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MOZ",
+        "year": 2000,
+        "unemployment_rate": 2.833
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MMR",
+        "year": 2000,
+        "unemployment_rate": 0.717
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NAM",
+        "year": 2000,
+        "unemployment_rate": 20.3
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NPL",
+        "year": 2000,
+        "unemployment_rate": 10.551
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NLD",
+        "year": 2000,
+        "unemployment_rate": 2.725
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NCL",
+        "year": 2000,
+        "unemployment_rate": 17.984
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NZL",
+        "year": 2000,
+        "unemployment_rate": 6.13
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NIC",
+        "year": 2000,
+        "unemployment_rate": 7.162
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NER",
+        "year": 2000,
+        "unemployment_rate": 1.431
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NGA",
+        "year": 2000,
+        "unemployment_rate": 3.963
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MKD",
+        "year": 2000,
+        "unemployment_rate": 32.2
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NOR",
+        "year": 2000,
+        "unemployment_rate": 3.458
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "OMN",
+        "year": 2000,
+        "unemployment_rate": 4.331
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PAK",
+        "year": 2000,
+        "unemployment_rate": 0.634
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PAN",
+        "year": 2000,
+        "unemployment_rate": 6.264
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PNG",
+        "year": 2000,
+        "unemployment_rate": 2.92
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PRY",
+        "year": 2000,
+        "unemployment_rate": 7.61
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PER",
+        "year": 2000,
+        "unemployment_rate": 4.958
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PHL",
+        "year": 2000,
+        "unemployment_rate": 3.767
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "POL",
+        "year": 2000,
+        "unemployment_rate": 14.928
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PRT",
+        "year": 2000,
+        "unemployment_rate": 3.806
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PRI",
+        "year": 2000,
+        "unemployment_rate": 10.08
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "QAT",
+        "year": 2000,
+        "unemployment_rate": 0.87
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ROU",
+        "year": 2000,
+        "unemployment_rate": 6.969
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "RUS",
+        "year": 2000,
+        "unemployment_rate": 10.581
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "RWA",
+        "year": 2000,
+        "unemployment_rate": 11.731
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "WSM",
+        "year": 2000,
+        "unemployment_rate": 4.734
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "STP",
+        "year": 2000,
+        "unemployment_rate": 14.4
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SAU",
+        "year": 2000,
+        "unemployment_rate": 4.57
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SEN",
+        "year": 2000,
+        "unemployment_rate": 2.668
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SRB",
+        "year": 2000,
+        "unemployment_rate": 12.6
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SLE",
+        "year": 2000,
+        "unemployment_rate": 4.08
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SGP",
+        "year": 2000,
+        "unemployment_rate": 3.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SVK",
+        "year": 2000,
+        "unemployment_rate": 18.546
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SVN",
+        "year": 2000,
+        "unemployment_rate": 6.92
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SLB",
+        "year": 2000,
+        "unemployment_rate": 2.45
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SOM",
+        "year": 2000,
+        "unemployment_rate": 18.98
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ZAF",
+        "year": 2000,
+        "unemployment_rate": 22.714
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SSD",
+        "year": 2000,
+        "unemployment_rate": 12.325
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ESP",
+        "year": 2000,
+        "unemployment_rate": 13.785
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LKA",
+        "year": 2000,
+        "unemployment_rate": 7.74
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LCA",
+        "year": 2000,
+        "unemployment_rate": 16.49
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VCT",
+        "year": 2000,
+        "unemployment_rate": 20.794
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SDN",
+        "year": 2000,
+        "unemployment_rate": 15.608
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SUR",
+        "year": 2000,
+        "unemployment_rate": 12.983
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SWE",
+        "year": 2000,
+        "unemployment_rate": 5.466
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CHE",
+        "year": 2000,
+        "unemployment_rate": 2.658
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SYR",
+        "year": 2000,
+        "unemployment_rate": 9.587
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TJK",
+        "year": 2000,
+        "unemployment_rate": 4.15
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TZA",
+        "year": 2000,
+        "unemployment_rate": 3.127
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "THA",
+        "year": 2000,
+        "unemployment_rate": 2.389
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TLS",
+        "year": 2000,
+        "unemployment_rate": 3.477
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TGO",
+        "year": 2000,
+        "unemployment_rate": 4.174
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TON",
+        "year": 2000,
+        "unemployment_rate": 4.12
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TTO",
+        "year": 2000,
+        "unemployment_rate": 12.1
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TUN",
+        "year": 2000,
+        "unemployment_rate": 14.94
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TUR",
+        "year": 2000,
+        "unemployment_rate": 6.495
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TKM",
+        "year": 2000,
+        "unemployment_rate": 11.666
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "UGA",
+        "year": 2000,
+        "unemployment_rate": 3.529
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "UKR",
+        "year": 2000,
+        "unemployment_rate": 11.707
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ARE",
+        "year": 2000,
+        "unemployment_rate": 2.25
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GBR",
+        "year": 2000,
+        "unemployment_rate": 5.558
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "USA",
+        "year": 2000,
+        "unemployment_rate": 3.992
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "URY",
+        "year": 2000,
+        "unemployment_rate": 12.627
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "UZB",
+        "year": 2000,
+        "unemployment_rate": 12.317
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VUT",
+        "year": 2000,
+        "unemployment_rate": 8.283
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VEN",
+        "year": 2000,
+        "unemployment_rate": 13.99
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VNM",
+        "year": 2000,
+        "unemployment_rate": 2.26
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VIR",
+        "year": 2000,
+        "unemployment_rate": 10.546
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PSE",
+        "year": 2000,
+        "unemployment_rate": 10.625
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "YEM",
+        "year": 2000,
+        "unemployment_rate": 11.557
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ZMB",
+        "year": 2000,
+        "unemployment_rate": 12.93
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ZWE",
+        "year": 2000,
+        "unemployment_rate": 5.684
       },
       "geometry": null
     }

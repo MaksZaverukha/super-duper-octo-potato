@@ -1,15 +1,16 @@
+#!/usr/bin/env python
 import os
 import json
 import requests
 import logging
 import xml.etree.ElementTree as ET
 import sys
-import glob
 import urllib.parse
+import shutil  # Для копіювання файлів
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Тепер результати записуються у data/input.geojson
+# Файл для запису вхідного GeoJSON (для сумісності з іншими модулями, наприклад, qgis_processor.py)
 INPUT_GEOJSON = os.path.join("data", "input.geojson")
 
 API_KEY = "5V7O0c43JxoQZRUQtqla3Q==xfXFKSRNZW0CR5jj"
@@ -33,6 +34,30 @@ INDICATORS = {
     }
 }
 
+# Список ISO‑кодів (згідно з вашим script.js/countryMapping)
+ALL_ISO_CODES = [
+    "AFG", "ALB", "DZA", "AND", "AGO", "ARG", "ARM", "AUS", "AUT", "AZE",
+    "BHS", "BHR", "BGD", "BRB", "BLR", "BEL", "BLZ", "BEN", "BTN", "BOL",
+    "BIH", "BWA", "BRA", "BRN", "BGR", "BFA", "BDI", "KHM", "CMR", "CAN",
+    "CPV", "CAF", "TCD", "CHL", "CHN", "COL", "COM", "COG", "CRI", "CIV",
+    "HRV", "CUB", "CYP", "CZE", "COD", "DNK", "DJI", "DMA", "DOM", "ECU",
+    "EGY", "SLV", "GNQ", "ERI", "EST", "SWZ", "ETH", "FJI", "FIN", "FRA",
+    "GAB", "GMB", "GEO", "DEU", "GHA", "GRC", "GRD", "GTM", "GIN", "GNB",
+    "GUY", "HTI", "HND", "HUN", "ISL", "IND", "IDN", "IRN", "IRQ", "IRL",
+    "ISR", "ITA", "JAM", "JPN", "JOR", "KAZ", "KEN", "KIR", "PRK", "KOR",
+    "KWT", "KGZ", "LAO", "LVA", "LBN", "LSO", "LBR", "LBY", "LIE", "LTU",
+    "LUX", "MDG", "MWI", "MYS", "MDV", "MLI", "MLT", "MHL", "MRT", "MUS",
+    "MEX", "FSM", "MDA", "MCO", "MNG", "MNE", "MAR", "MOZ", "MMR", "NAM",
+    "NRU", "NPL", "NLD", "NZL", "NIC", "NER", "NGA", "MKD", "NOR", "OMN",
+    "PAK", "PLW", "PSE", "PAN", "PNG", "PRY", "PER", "PHL", "POL", "PRT",
+    "QAT", "ROU", "RUS", "RWA", "KNA", "LCA", "VCT", "WSM", "SMR", "STP",
+    "SAU", "SEN", "SRB", "SYC", "SLE", "SGP", "SVK", "SVN", "SLB", "SOM",
+    "ZAF", "SSD", "ESP", "LKA", "SDN", "SUR", "SWE", "CHE", "SYR", "TWN",
+    "TJK", "TZA", "THA", "TLS", "TGO", "TON", "TTO", "TUN", "TUR", "TKM",
+    "TUV", "UGA", "UKR", "ARE", "GBR", "USA", "URY", "UZB", "VUT", "VEN",
+    "VNM", "YEM", "ZMB", "ZWE", "GRL", "ATF"
+]
+
 
 def fetch_api_ninjas_data(url, year_filter, api_field, indicator_key):
     logging.debug(f"Request to API Ninjas: {url}")
@@ -42,8 +67,10 @@ def fetch_api_ninjas_data(url, year_filter, api_field, indicator_key):
         data = response.json()
         req_year = int(year_filter)
         features = []
-        if (indicator_key == "population" and isinstance(data, dict) and (
-                "historical_population" in data or "population_forecast" in data)):
+        # Обробка для населення
+        if indicator_key == "population" and isinstance(data, dict) and (
+                "historical_population" in data or "population_forecast" in data):
+            logging.debug(f"Population API response for year {req_year}: {json.dumps(data, ensure_ascii=False)}")
             arr = []
             if "historical_population" in data and any(
                     int(item.get("year", 0)) == req_year for item in data["historical_population"]):
@@ -56,29 +83,43 @@ def fetch_api_ninjas_data(url, year_filter, api_field, indicator_key):
             for entry in arr:
                 try:
                     if int(entry.get("year", 0)) == req_year:
+                        pop_val = entry.get(api_field)
+                        if pop_val is not None:
+                            try:
+                                pop_val = float(pop_val)
+                            except Exception:
+                                pop_val = None
                         features.append({
                             "type": "Feature",
                             "properties": {
                                 "source": "api_ninjas",
-                                "country": data.get("country_name"),
+                                "country": data.get("country_name") or entry.get("country"),
                                 "year": entry.get("year"),
-                                api_field: entry.get(api_field)
+                                api_field: pop_val
                             },
                             "geometry": None
                         })
                 except (ValueError, TypeError):
                     continue
+        # Обробка для безробіття та інших випадків (масив відповіді)
         elif isinstance(data, list):
             for entry in data:
                 try:
                     if int(entry.get("year", 0)) == req_year:
+                        val = entry.get(api_field)
+                        # Спробуємо перетворити на float, якщо це можливо
+                        if val is not None:
+                            try:
+                                val = float(val)
+                            except Exception:
+                                pass
                         features.append({
                             "type": "Feature",
                             "properties": {
                                 "source": "api_ninjas",
                                 "country": entry.get("country"),
                                 "year": entry.get("year"),
-                                api_field: entry.get(api_field)
+                                api_field: val
                             },
                             "geometry": {"type": "Point",
                                          "coordinates": [entry.get("longitude"), entry.get("latitude")]}
@@ -175,23 +216,42 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
 
     if int(year_input) <= 2023:
         fc = fetch_worldbank_data_all(config["worldbank_indicator"], year_input, config["api_field"])
+        json_filename = INPUT_GEOJSON
     else:
-        if country_input and country_input.strip().upper() != "ALL":
-            encoded_country = urllib.parse.quote(country_input.strip())
-            ninjas_url = f"{config['api_ninjas_url']}?country={encoded_country}"
-            features = fetch_api_ninjas_data(ninjas_url, year_input, config["api_field"], indicator_key)
-            fc = {"type": "FeatureCollection", "features": features}
+        json_filename = os.path.join("data", f"api_ninjas_all_{indicator_key}_{year_input}.geojson")
+        if os.path.exists(json_filename):
+            with open(json_filename, "r", encoding="utf-8") as f:
+                fc = json.load(f)
+            logging.info(f"Using cached aggregated data from {json_filename}")
         else:
-            logging.warning("For future years, a valid country must be provided (not 'ALL').")
-            fc = {"type": "FeatureCollection", "features": []}
+            features_all = []
+            for iso in ALL_ISO_CODES:
+                encoded_country = urllib.parse.quote(iso)
+                ninjas_url = f"{config['api_ninjas_url']}?country={encoded_country}"
+                logging.info(f"Requesting API Ninjas data for country {iso} at year {year_input}")
+                features = fetch_api_ninjas_data(ninjas_url, year_input, config["api_field"], indicator_key)
+                features_all.extend(features)
+            fc = {"type": "FeatureCollection", "features": features_all}
+            try:
+                with open(json_filename, "w", encoding="utf-8") as f:
+                    json.dump(fc, f, ensure_ascii=False, indent=2)
+                logging.info(f"API Ninjas data for all countries saved to {json_filename}")
+            except Exception as e:
+                logging.error(f"Error saving all-countries data: {e}")
+        try:
+            with open(INPUT_GEOJSON, "w", encoding="utf-8") as f:
+                json.dump(fc, f, ensure_ascii=False, indent=2)
+            logging.info(f"Aggregated data also copied to {INPUT_GEOJSON}")
+        except Exception as e:
+            logging.error(f"Error saving input GeoJSON copy: {e}")
 
+    os.makedirs("data", exist_ok=True)
     try:
-        os.makedirs("data", exist_ok=True)
-        with open(INPUT_GEOJSON, "w", encoding="utf-8") as f:
+        with open(json_filename, "w", encoding="utf-8") as f:
             json.dump(fc, f, ensure_ascii=False, indent=2)
-        logging.info(f"Input GeoJSON written to {INPUT_GEOJSON} with {len(fc.get('features', []))} features.")
+        logging.info(f"GeoJSON written to {json_filename} with {len(fc.get('features', []))} features.")
     except Exception as e:
-        logging.error(f"Error saving input GeoJSON: {e}")
+        logging.error(f"Error saving GeoJSON: {e}")
 
     cache_data = {"worldbank": {}, "api_ninjas": {}}
     for feature in fc.get("features", []):

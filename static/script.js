@@ -213,6 +213,18 @@ document.addEventListener("DOMContentLoaded", function() {
         "ATF": "French Southern and Antarctic Lands",
 
     };
+// Функція, яка повертає ISO-код для API Ninjas
+function getApiNinjasCountry(input) {
+    // Якщо користувач ввів повну назву, шукаємо відповідний код
+    // Перевіряємо всі пари ключ-значення. Якщо знайдеться збіг (без врахування регістру), повертаємо ключ (ISO).
+    for (const iso in countryMapping) {
+        if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
+            return iso;
+        }
+    }
+    // Якщо ж введено ISO чи нічого не знайдено – повертаємо введене значення
+    return input;
+}
 
     function getWorldbankCountry(input) {
         input = input.trim();
@@ -367,29 +379,51 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadFinalGeoJSON() {
-        fetch('/geojson')
-            .then(res => res.json())
-            .then(data => {
-                if (finalLayer) {
-                    map.removeLayer(finalLayer);
+    fetch('/geojson')
+        .then(response => response.json())
+        .then(data => {
+            if (finalLayer) {
+                map.removeLayer(finalLayer);
+            }
+            finalLayer = L.geoJSON(data, {
+                style: styleFeature,
+                onEachFeature: function(feature, layer) {
+                    // Видаляємо bindPopup та замінюємо його обробником кліку
+                    layer.on('click', function() {
+                        displayCountryInfo(feature);
+                    });
                 }
-                finalLayer = L.geoJSON(data, {
-                    style: {
-                        color: "#3388ff",
-                        weight: 2,
-                        opacity: 1,
-                        fillOpacity: 0.4
-                    },
-                    onEachFeature: function(feature, layer) {
-                        layer.bindPopup(
-                            `<strong>Країна: ${feature.properties.country}</strong><br>${indicatorSelect.options[indicatorSelect.selectedIndex].text}: ${feature.properties.population.toLocaleString('uk-UA')}<br>Рік: ${feature.properties.year}`
-                        );
-                    }
-                }).addTo(map);
-                console.log("Фінальний шар GeoJSON додано на карту");
-            })
-            .catch(err => console.error("Помилка завантаження фінальних даних:", err));
-    }
+            }).addTo(map);
+            console.log("Фінальний шар GeoJSON додано на карту");
+        })
+        .catch(err => console.error("Помилка завантаження фінальних даних:", err));
+}
+
+// Функція, яка оновлює відведену для даних панель на сайті (без pop-up на карті)
+function displayCountryInfo(feature) {
+    // Отримуємо дані з feature.properties
+    let country = feature.properties.country;
+    let indicatorText = indicatorSelect.options[indicatorSelect.selectedIndex].text;
+    // Перевіряємо, які дані є (наприклад, population або unemployment_rate)
+    let value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
+    // работає чи ні работає?
+    console.log("Feature properties:", feature.properties);
+
+    let year = feature.properties.year || "";
+
+    // Оновлюємо інформаційну панель (елемент з id="infoPanel")
+    infoPanel.innerHTML = `
+        <h3>Країна: ${country}</h3>
+        <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
+        <p>Рік: ${year}</p>
+    `;
+
+    // За бажанням можна також оновити поле введення країни
+    countryInput.value = country;
+}
+
+
+
 
     fetch('/static/country_boundaries.geojson')
         .then(res => res.json())
@@ -483,57 +517,56 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function styleFeature(feature) {
-        const year = yearSlider.value;
-        const yearVal = parseInt(year);
-        let countryName = (yearVal <= 2023) ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature));
-        let cacheKey;
-        if (yearVal <= 2023) {
-            cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
-        } else {
-            if (Array.isArray(countryName)) {
-                // Для України — шукаємо перший існуючий ключ
-                for (let variant of countryName) {
-                    let key = `${currentIndicator}_${variant}_${year}`;
-                    if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
-                        cacheKey = key;
-                        break;
-                    }
+    const year = yearSlider.value;
+    const yearVal = parseInt(year);
+    let countryName = (yearVal <= 2023) ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature));
+    let cacheKey;
+    if (yearVal <= 2023) {
+        cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
+    } else {
+        if (Array.isArray(countryName)) {
+            for (let variant of countryName) {
+                let key = `${currentIndicator}_${variant}_${year}`;
+                if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
+                    cacheKey = key;
+                    break;
                 }
-                if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
-            } else {
-                cacheKey = `${currentIndicator}_${countryName}_${year}`;
             }
-        }
-        let value = null;
-        if (yearVal <= 2023) {
-            if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
-                value = currentCache.worldbank[cacheKey];
-            }
+            if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
         } else {
-            if (currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined) {
-                value = currentCache.api_ninjas[cacheKey];
-            }
+            cacheKey = `${currentIndicator}_${countryName}_${year}`;
         }
-        let style = {
-            fillColor: '#ccc',
-            weight: 1,
-            opacity: 1,
-            color: 'white',
-            fillOpacity: 0.7
-        };
-        if (value !== null && value !== undefined) {
-            let range = computeIndicatorRange(currentCache, currentIndicator, year);
-            let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
-            style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
-        }
-        const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
-        let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
-        if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
-            style.weight = 3;
-            style.color = '#FFD700';
-        }
-        return style;
     }
+    let value = null;
+    if (yearVal <= 2023) {
+        if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
+            value = currentCache.worldbank[cacheKey];
+        }
+    } else {
+        if (currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined) {
+            value = currentCache.api_ninjas[cacheKey];
+        }
+    }
+    let style = {
+        fillColor: '#ccc',
+        weight: 1,
+        opacity: 1,
+        color: 'white',
+        fillOpacity: 0.7
+    };
+    if (value !== null && value !== undefined) {
+        let range = computeIndicatorRange(currentCache, currentIndicator, year);
+        let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
+        style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
+    }
+    const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
+    let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
+    if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
+        style.weight = 3;
+        style.color = '#FFD700';
+    }
+    return style;
+}
 
     function interpolateColor(value, min, max, colorLow, colorHigh) {
         let ratio = (value - min) / (max - min);
