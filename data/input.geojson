@@ -4,2610 +4,1960 @@
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "AFE",
-        "year": 2004,
-        "population": 450928044.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "AFW",
-        "year": 2004,
-        "population": 307725100.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ARB",
-        "year": 2004,
-        "population": 315060277.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "CSS",
-        "year": 2004,
-        "population": 2735189.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "CEB",
-        "year": 2004,
-        "population": 106331716.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "EAR",
-        "year": 2004,
-        "population": 2693184997.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "EAS",
-        "year": 2004,
-        "population": 2118747885.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "EAP",
-        "year": 2004,
-        "population": 1883675167.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TEA",
-        "year": 2004,
-        "population": 1859450104.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "EMU",
-        "year": 2004,
-        "population": 331997265.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ECS",
-        "year": 2004,
-        "population": 872926624.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ECA",
-        "year": 2004,
-        "population": 222413289.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TEC",
-        "year": 2004,
-        "population": 438136035.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "EUU",
-        "year": 2004,
-        "population": 434050396.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "FCS",
-        "year": 2004,
-        "population": 685830138.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "HPC",
-        "year": 2004,
-        "population": 539803501.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "IBD",
-        "year": 2004,
-        "population": 4168676771.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "IBT",
-        "year": 2004,
-        "population": 5417128228.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "IDB",
-        "year": 2004,
-        "population": 416552454.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "IDX",
-        "year": 2004,
-        "population": 831899003.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "IDA",
-        "year": 2004,
-        "population": 1248451457.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LTE",
-        "year": 2004,
-        "population": 2099412662.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LCN",
-        "year": 2004,
-        "population": 548455563.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LAC",
-        "year": 2004,
-        "population": 492232564.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TLA",
-        "year": 2004,
-        "population": 532556401.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LDC",
-        "year": 2004,
-        "population": 742717957.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LMY",
-        "year": 2004,
-        "population": 5188460859.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "MEA",
-        "year": 2004,
-        "population": 348239858.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "MNA",
-        "year": 2004,
-        "population": 310771929.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TMN",
-        "year": 2004,
-        "population": 307535303.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "MIC",
-        "year": 2004,
-        "population": 4751078008.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "NAC",
-        "year": 2004,
-        "population": 324806660.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "OED",
-        "year": 2004,
-        "population": 1237753724.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "OSS",
-        "year": 2004,
-        "population": 11194800.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PSS",
-        "year": 2004,
-        "population": 2145505.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PST",
-        "year": 2004,
-        "population": 1041747900.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PRE",
-        "year": 2004,
-        "population": 632445407.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SST",
-        "year": 2004,
-        "population": 16075494.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SAS",
-        "year": 2004,
-        "population": 1520797241.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TSA",
-        "year": 2004,
-        "population": 1520797241.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SSF",
-        "year": 2004,
-        "population": 758653144.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SSA",
-        "year": 2004,
-        "population": 758570669.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TSS",
-        "year": 2004,
-        "population": 758653144.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "WLD",
-        "year": 2004,
-        "population": 6492626975.5
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "AFG",
-        "year": 2004,
-        "population": 23560654.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ALB",
-        "year": 2004,
-        "population": 3026939.0
+        "year": 2025,
+        "unemployment_rate": 10.7
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "DZA",
-        "year": 2004,
-        "population": 32628286.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "ASM",
-        "year": 2004,
-        "population": 56818.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "AND",
-        "year": 2004,
-        "population": 74325.0
+        "year": 2025,
+        "unemployment_rate": 1.6
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "AGO",
-        "year": 2004,
-        "population": 18600423.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "ATG",
-        "year": 2004,
-        "population": 78719.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ARG",
-        "year": 2004,
-        "population": 38815916.0
+        "year": 2025,
+        "unemployment_rate": 7.6
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ARM",
-        "year": 2004,
-        "population": 3164900.0
+        "year": 2025,
+        "unemployment_rate": 13.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "ABW",
-        "year": 2004,
-        "population": 95138.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "AUS",
-        "year": 2004,
-        "population": 19932722.0
+        "year": 2025,
+        "unemployment_rate": 4.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "AUT",
-        "year": 2004,
-        "population": 8171966.0
+        "year": 2025,
+        "unemployment_rate": 5.6
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "AZE",
-        "year": 2004,
-        "population": 8306500.0
+        "year": 2025,
+        "unemployment_rate": 5.3
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BHS",
-        "year": 2004,
-        "population": 339782.0
+        "year": 2025,
+        "unemployment_rate": 9.8
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BHR",
-        "year": 2004,
-        "population": 823741.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BGD",
-        "year": 2004,
-        "population": 142902856.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BRB",
-        "year": 2004,
-        "population": 267298.0
+        "year": 2025,
+        "unemployment_rate": 7.9
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BLR",
-        "year": 2004,
-        "population": 9730146.0
+        "year": 2025,
+        "unemployment_rate": 2.9
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BEL",
-        "year": 2004,
-        "population": 10421137.0
+        "year": 2025,
+        "unemployment_rate": 5.7
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BLZ",
-        "year": 2004,
-        "population": 271688.0
+        "year": 2025,
+        "unemployment_rate": 3.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BEN",
-        "year": 2004,
-        "population": 8159094.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "BMU",
-        "year": 2004,
-        "population": 62555.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BTN",
-        "year": 2004,
-        "population": 650544.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BOL",
-        "year": 2004,
-        "population": 9204287.0
+        "year": 2025,
+        "unemployment_rate": 5.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BIH",
-        "year": 2004,
-        "population": 4140987.0
+        "year": 2025,
+        "unemployment_rate": 13.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BWA",
-        "year": 2004,
-        "population": 1807146.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BRA",
-        "year": 2004,
-        "population": 182675143.0
+        "year": 2025,
+        "unemployment_rate": 7.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "VGB",
-        "year": 2004,
-        "population": 22881.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BRN",
-        "year": 2004,
-        "population": 352911.0
+        "year": 2025,
+        "unemployment_rate": 4.9
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "BGR",
-        "year": 2004,
-        "population": 7716860.0
+        "year": 2025,
+        "unemployment_rate": 4.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BFA",
-        "year": 2004,
-        "population": 13500533.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "BDI",
-        "year": 2004,
-        "population": 7310656.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "CPV",
-        "year": 2004,
-        "population": 479370.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "KHM",
-        "year": 2004,
-        "population": 13244731.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "CMR",
-        "year": 2004,
-        "population": 16610487.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CAN",
-        "year": 2004,
-        "population": 31938807.0
+        "year": 2025,
+        "unemployment_rate": 6.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "CYM",
-        "year": 2004,
-        "population": 45352.0
+        "source": "api_ninjas",
+        "country": "CPV",
+        "year": 2025,
+        "unemployment_rate": 8.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "CAF",
-        "year": 2004,
-        "population": 4192826.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "TCD",
-        "year": 2004,
-        "population": 9920036.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "CHI",
-        "year": 2004,
-        "population": 152039.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CHL",
-        "year": 2004,
-        "population": 16187322.0
+        "year": 2025,
+        "unemployment_rate": 8.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CHN",
-        "year": 2004,
-        "population": 1296075000.0
+        "year": 2025,
+        "unemployment_rate": 5.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "COL",
-        "year": 2004,
-        "population": 41543171.0
+        "year": 2025,
+        "unemployment_rate": 10.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "COM",
-        "year": 2004,
-        "population": 580704.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "COD",
-        "year": 2004,
-        "population": 56997741.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "COG",
-        "year": 2004,
-        "population": 3565554.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CRI",
-        "year": 2004,
-        "population": 4200078.0
+        "year": 2025,
+        "unemployment_rate": 8.7
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "CIV",
-        "year": 2004,
-        "population": 19595000.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "HRV",
-        "year": 2004,
-        "population": 4304600.0
+        "year": 2025,
+        "unemployment_rate": 5.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "CUB",
-        "year": 2004,
-        "population": 11238756.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "CUW",
-        "year": 2004,
-        "population": 134192.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CYP",
-        "year": 2004,
-        "population": 1017875.0
+        "year": 2025,
+        "unemployment_rate": 5.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "CZE",
-        "year": 2004,
-        "population": 10197101.0
+        "year": 2025,
+        "unemployment_rate": 2.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
+        "country": "COD",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
         "country": "DNK",
-        "year": 2004,
-        "population": 5404523.0
+        "year": 2025,
+        "unemployment_rate": 3.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "DJI",
-        "year": 2004,
-        "population": 826124.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "DMA",
-        "year": 2004,
-        "population": 68649.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "DOM",
-        "year": 2004,
-        "population": 9104892.0
+        "year": 2025,
+        "unemployment_rate": 6.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ECU",
-        "year": 2004,
-        "population": 13608701.0
+        "year": 2025,
+        "unemployment_rate": 4.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "EGY",
-        "year": 2004,
-        "population": 79477443.0
+        "year": 2025,
+        "unemployment_rate": 7.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "SLV",
-        "year": 2004,
-        "population": 6004671.0
+        "year": 2025,
+        "unemployment_rate": 5.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GNQ",
-        "year": 2004,
-        "population": 899917.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "ERI",
-        "year": 2004,
-        "population": 2598284.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "EST",
-        "year": 2004,
-        "population": 1362550.0
+        "year": 2025,
+        "unemployment_rate": 7.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "SWZ",
-        "year": 2004,
-        "population": 1073159.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "ETH",
-        "year": 2004,
-        "population": 76077206.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "FRO",
-        "year": 2004,
-        "population": 48384.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "FJI",
-        "year": 2004,
-        "population": 874366.0
+        "year": 2025,
+        "unemployment_rate": 4.7
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "FIN",
-        "year": 2004,
-        "population": 5228172.0
+        "year": 2025,
+        "unemployment_rate": 7.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "FRA",
-        "year": 2004,
-        "population": 62707588.0
+        "year": 2025,
+        "unemployment_rate": 7.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "PYF",
-        "year": 2004,
-        "population": 255654.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GAB",
-        "year": 2004,
-        "population": 1421609.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GMB",
-        "year": 2004,
-        "population": 1621312.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "GEO",
-        "year": 2004,
-        "population": 3927340.0
+        "year": 2025,
+        "unemployment_rate": 14.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "DEU",
-        "year": 2004,
-        "population": 82516260.0
+        "year": 2025,
+        "unemployment_rate": 3.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GHA",
-        "year": 2004,
-        "population": 21868298.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "GIB",
-        "year": 2004,
-        "population": 28715.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "GRC",
-        "year": 2004,
-        "population": 10955141.0
+        "year": 2025,
+        "unemployment_rate": 10.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "GRL",
-        "year": 2004,
-        "population": 56911.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GRD",
-        "year": 2004,
-        "population": 109323.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "GUM",
-        "year": 2004,
-        "population": 163810.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GTM",
-        "year": 2004,
-        "population": 12807402.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GIN",
-        "year": 2004,
-        "population": 9062726.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GNB",
-        "year": 2004,
-        "population": 1349563.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "GUY",
-        "year": 2004,
-        "population": 762418.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "HTI",
-        "year": 2004,
-        "population": 8910263.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "HND",
-        "year": 2004,
-        "population": 7298994.0
+        "year": 2025,
+        "unemployment_rate": 8.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "HKG",
-        "year": 2004,
-        "population": 6783500.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "HUN",
-        "year": 2004,
-        "population": 10107146.0
+        "year": 2025,
+        "unemployment_rate": 4.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ISL",
-        "year": 2004,
-        "population": 292074.0
+        "year": 2025,
+        "unemployment_rate": 3.8
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "IND",
-        "year": 2004,
-        "population": 1135991513.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "IDN",
-        "year": 2004,
-        "population": 227926649.0
+        "year": 2025,
+        "unemployment_rate": 5.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "IRN",
-        "year": 2004,
-        "population": 70256316.0
+        "year": 2025,
+        "unemployment_rate": 8.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "IRQ",
-        "year": 2004,
-        "population": 27577878.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "IRL",
-        "year": 2004,
-        "population": 4070262.0
+        "year": 2025,
+        "unemployment_rate": 4.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "IMN",
-        "year": 2004,
-        "population": 78792.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ISR",
-        "year": 2004,
-        "population": 6809000.0
+        "year": 2025,
+        "unemployment_rate": 3.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "ITA",
-        "year": 2004,
-        "population": 57685327.0
+        "year": 2025,
+        "unemployment_rate": 7.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "JAM",
-        "year": 2004,
-        "population": 2672225.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "JPN",
-        "year": 2004,
-        "population": 127761000.0
+        "year": 2025,
+        "unemployment_rate": 2.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "JOR",
-        "year": 2004,
-        "population": 5882061.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "KAZ",
-        "year": 2004,
-        "population": 15850159.0
+        "year": 2025,
+        "unemployment_rate": 4.8
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "KEN",
-        "year": 2004,
-        "population": 34713455.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "KIR",
-        "year": 2004,
-        "population": 96085.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "PRK",
-        "year": 2004,
-        "population": 24254943.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "KOR",
-        "year": 2004,
-        "population": 48082519.0
+        "year": 2025,
+        "unemployment_rate": 3.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "XKX",
-        "year": 2004,
-        "population": 1822773.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "KWT",
-        "year": 2004,
-        "population": 2157320.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "KGZ",
-        "year": 2004,
-        "population": 5104712.5
+        "year": 2025,
+        "unemployment_rate": 9.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LAO",
-        "year": 2004,
-        "population": 5781626.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "LVA",
-        "year": 2004,
-        "population": 2263122.0
+        "year": 2025,
+        "unemployment_rate": 6.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LBN",
-        "year": 2004,
-        "population": 4599279.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LSO",
-        "year": 2004,
-        "population": 1971129.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LBR",
-        "year": 2004,
-        "population": 3156892.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LBY",
-        "year": 2004,
-        "population": 5736693.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "LIE",
-        "year": 2004,
-        "population": 34447.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "LTU",
-        "year": 2004,
-        "population": 3377075.0
+        "year": 2025,
+        "unemployment_rate": 7.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "LUX",
-        "year": 2004,
-        "population": 458095.0
+        "year": 2025,
+        "unemployment_rate": 5.9
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "MAC",
-        "year": 2004,
-        "population": 454700.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MDG",
-        "year": 2004,
-        "population": 18606608.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MWI",
-        "year": 2004,
-        "population": 12500737.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MYS",
-        "year": 2004,
-        "population": 25256772.0
+        "year": 2025,
+        "unemployment_rate": 3.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MDV",
-        "year": 2004,
-        "population": 301413.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MLI",
-        "year": 2004,
-        "population": 13102409.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MLT",
-        "year": 2004,
-        "population": 401268.0
+        "year": 2025,
+        "unemployment_rate": 3.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MHL",
-        "year": 2004,
-        "population": 51791.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MRT",
-        "year": 2004,
-        "population": 2868664.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MUS",
-        "year": 2004,
-        "population": 1221003.0
+        "year": 2025,
+        "unemployment_rate": 6.3
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MEX",
-        "year": 2004,
-        "population": 104394131.0
+        "year": 2025,
+        "unemployment_rate": 3.3
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "FSM",
-        "year": 2004,
-        "population": 111925.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MDA",
-        "year": 2004,
-        "population": 2896023.0
+        "year": 2025,
+        "unemployment_rate": 3.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MCO",
-        "year": 2004,
-        "population": 32307.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MNG",
-        "year": 2004,
-        "population": 2508412.0
+        "year": 2025,
+        "unemployment_rate": 5.0
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MNE",
-        "year": 2004,
-        "population": 613353.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MAR",
-        "year": 2004,
-        "population": 29953018.0
+        "year": 2025,
+        "unemployment_rate": 12.6
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MOZ",
-        "year": 2004,
-        "population": 19840313.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "MMR",
-        "year": 2004,
-        "population": 47068772.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "NAM",
-        "year": 2004,
-        "population": 1942082.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "NRU",
-        "year": 2004,
-        "population": 10060.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "NPL",
-        "year": 2004,
-        "population": 26016656.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "NLD",
-        "year": 2004,
-        "population": 16281779.0
+        "year": 2025,
+        "unemployment_rate": 4.2
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "NCL",
-        "year": 2004,
-        "population": 240852.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "NZL",
-        "year": 2004,
-        "population": 4087500.0
+        "year": 2025,
+        "unemployment_rate": 5.1
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "NIC",
-        "year": 2004,
-        "population": 5272912.0
+        "year": 2025,
+        "unemployment_rate": 6.4
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "NER",
-        "year": 2004,
-        "population": 13265836.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "NGA",
-        "year": 2004,
-        "population": 141057045.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "MKD",
-        "year": 2004,
-        "population": 2016186.0
+        "year": 2025,
+        "unemployment_rate": 12.8
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "MNP",
-        "year": 2004,
-        "population": 63938.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "NOR",
-        "year": 2004,
-        "population": 4591910.0
+        "year": 2025,
+        "unemployment_rate": 3.8
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "OMN",
-        "year": 2004,
-        "population": 2404821.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
         "country": "PAK",
-        "year": 2004,
-        "population": 171286000.0
+        "year": 2025,
+        "unemployment_rate": 7.5
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "PLW",
-        "year": 2004,
-        "population": 19820.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
-        "country": "PAN",
-        "year": 2004,
-        "population": 3251155.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PNG",
-        "year": 2004,
-        "population": 6328041.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PRY",
-        "year": 2004,
-        "population": 5388175.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PER",
-        "year": 2004,
-        "population": 27852190.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PHL",
-        "year": 2004,
-        "population": 86394504.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "POL",
-        "year": 2004,
-        "population": 38182222.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PRT",
-        "year": 2004,
-        "population": 10483861.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "PRI",
-        "year": 2004,
-        "population": 3826878.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "QAT",
-        "year": 2004,
-        "population": 773332.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ROU",
-        "year": 2004,
-        "population": 21451748.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "RUS",
-        "year": 2004,
-        "population": 144067316.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "RWA",
-        "year": 2004,
-        "population": 8816844.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "WSM",
-        "year": 2004,
-        "population": 186249.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SMR",
-        "year": 2004,
-        "population": 29457.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "STP",
-        "year": 2004,
-        "population": 157705.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SAU",
-        "year": 2004,
-        "population": 19669480.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SEN",
-        "year": 2004,
-        "population": 10975704.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SRB",
-        "year": 2004,
-        "population": 7463157.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SYC",
-        "year": 2004,
-        "population": 82475.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SLE",
-        "year": 2004,
-        "population": 5355717.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SGP",
-        "year": 2004,
-        "population": 4166664.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SXM",
-        "year": 2004,
-        "population": 31690.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SVK",
-        "year": 2004,
-        "population": 5372280.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SVN",
-        "year": 2004,
-        "population": 1997012.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SLB",
-        "year": 2004,
-        "population": 474611.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SOM",
-        "year": 2004,
-        "population": 10280998.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ZAF",
-        "year": 2004,
-        "population": 48991421.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SSD",
-        "year": 2004,
-        "population": 7233041.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ESP",
-        "year": 2004,
-        "population": 42921895.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LKA",
-        "year": 2004,
-        "population": 20087605.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "KNA",
-        "year": 2004,
-        "population": 46315.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "LCA",
-        "year": 2004,
-        "population": 164239.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "MAF",
-        "year": 2004,
-        "population": 33171.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "VCT",
-        "year": 2004,
-        "population": 112835.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SDN",
-        "year": 2004,
-        "population": 30556637.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SUR",
-        "year": 2004,
-        "population": 513923.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SWE",
-        "year": 2004,
-        "population": 8993531.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "CHE",
-        "year": 2004,
-        "population": 7389625.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "SYR",
-        "year": 2004,
-        "population": 18336875.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TJK",
-        "year": 2004,
-        "population": 6790547.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TZA",
-        "year": 2004,
-        "population": 38109668.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "THA",
-        "year": 2004,
-        "population": 65452047.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TLS",
-        "year": 2004,
-        "population": 929074.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TGO",
-        "year": 2004,
-        "population": 5696508.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TON",
-        "year": 2004,
-        "population": 105071.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TTO",
-        "year": 2004,
-        "population": 1345380.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TUN",
-        "year": 2004,
-        "population": 10166163.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TUR",
-        "year": 2004,
-        "population": 68592617.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TKM",
-        "year": 2004,
-        "population": 4958093.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TCA",
-        "year": 2004,
-        "population": 22856.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "TUV",
-        "year": 2004,
-        "population": 9816.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "UGA",
-        "year": 2004,
-        "population": 27154515.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "UKR",
-        "year": 2004,
-        "population": 47979507.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "ARE",
-        "year": 2004,
-        "population": 4428967.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "GBR",
-        "year": 2004,
-        "population": 59987905.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "USA",
-        "year": 2004,
-        "population": 292805298.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "URY",
-        "year": 2004,
-        "population": 3283148.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "UZB",
-        "year": 2004,
-        "population": 26029350.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "VUT",
-        "year": 2004,
-        "population": 205711.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "VEN",
-        "year": 2004,
-        "population": 26340838.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "VNM",
-        "year": 2004,
-        "population": 80338971.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
-        "country": "VIR",
-        "year": 2004,
-        "population": 108466.0
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "PSE",
-        "year": 2004,
-        "population": 3236626.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "api_ninjas",
+        "country": "PAN",
+        "year": 2025,
+        "unemployment_rate": 8.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "PNG",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "PRY",
+        "year": 2025,
+        "unemployment_rate": 6.3
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "PER",
+        "year": 2025,
+        "unemployment_rate": 6.5
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "PHL",
+        "year": 2025,
+        "unemployment_rate": 5.2
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "POL",
+        "year": 2025,
+        "unemployment_rate": 3.3
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "PRT",
+        "year": 2025,
+        "unemployment_rate": 6.4
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "QAT",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "ROU",
+        "year": 2025,
+        "unemployment_rate": 5.4
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "RUS",
+        "year": 2025,
+        "unemployment_rate": 3.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "RWA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "KNA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "LCA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "VCT",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "WSM",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SMR",
+        "year": 2025,
+        "unemployment_rate": 3.9
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "STP",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SAU",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SEN",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SRB",
+        "year": 2025,
+        "unemployment_rate": 9.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SYC",
+        "year": 2025,
+        "unemployment_rate": 3.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SLE",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SGP",
+        "year": 2025,
+        "unemployment_rate": 1.9
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SVK",
+        "year": 2025,
+        "unemployment_rate": 5.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SVN",
+        "year": 2025,
+        "unemployment_rate": 3.5
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SLB",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SOM",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "ZAF",
+        "year": 2025,
+        "unemployment_rate": 33.9
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SSD",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "ESP",
+        "year": 2025,
+        "unemployment_rate": 11.2
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "LKA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SDN",
+        "year": 2025,
+        "unemployment_rate": 55.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SUR",
+        "year": 2025,
+        "unemployment_rate": 10.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "SWE",
+        "year": 2025,
+        "unemployment_rate": 8.3
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "CHE",
+        "year": 2025,
+        "unemployment_rate": 2.5
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "SYR",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "TWN",
+        "year": 2025,
+        "unemployment_rate": 3.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TJK",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TZA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "THA",
+        "year": 2025,
+        "unemployment_rate": 1.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TLS",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TGO",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TON",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TTO",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TUN",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "TUR",
+        "year": 2025,
+        "unemployment_rate": 9.9
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TKM",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "TUV",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "UGA",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "UKR",
+        "year": 2025,
+        "unemployment_rate": 12.7
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "ARE",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "GBR",
+        "year": 2025,
+        "unemployment_rate": 4.1
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "USA",
+        "year": 2025,
+        "unemployment_rate": 4.4
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "URY",
+        "year": 2025,
+        "unemployment_rate": 8.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "UZB",
+        "year": 2025,
+        "unemployment_rate": 5.8
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "VUT",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "VEN",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "api_ninjas",
+        "country": "VNM",
+        "year": 2025,
+        "unemployment_rate": 2.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
         "country": "YEM",
-        "year": 2004,
-        "population": 22095167.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "ZMB",
-        "year": 2004,
-        "population": 11338198.0
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "worldbank_xml",
+        "source": "no_data",
         "country": "ZWE",
-        "year": 2004,
-        "population": 12365896.0
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "GRL",
+        "year": "2025",
+        "unemployment_rate": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "no_data",
+        "country": "ATF",
+        "year": "2025",
+        "unemployment_rate": null
       },
       "geometry": null
     }

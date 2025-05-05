@@ -9,16 +9,16 @@
 <body>
   <div id="map"></div>
   <div id="controlPanel">
-    <label for="countryInput">Країна:</label>
-    <!-- Об’єднане поле: введення із автодоповненням -->
-    <input type="text" id="countryInput" list="countryList" placeholder="Введіть або виберіть країну">
-    <datalist id="countryList"></datalist>
-
     <label for="indicatorSelect">Показник:</label>
     <select id="indicatorSelect">
+      <option value="" disabled selected hidden>Виберіть показник…</option>
       <option value="unemployment">Рівень безробіття</option>
       <option value="population">Населення</option>
     </select>
+
+    <label for="countryInput">Країна:</label>
+    <input type="text" id="countryInput" list="countryList" placeholder="Введіть або виберіть країну">
+    <datalist id="countryList"></datalist>
 
     <label for="yearSlider">Рік: <span id="yearDisplay">2025</span></label>
     <input type="range" id="yearSlider" min="1980" max="2025" step="1" value="2025">

@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "COM": "Comoros",
         "COG": "Congo",
         "CRI": "Costa Rica",
-        "CIV": "Ivory CoastCZE",
+        "CIV": "Ivory Coast",
         "HRV": "Croatia",
         "CUB": "Cuba",
         "CYP": "Cyprus",
@@ -213,18 +213,19 @@ document.addEventListener("DOMContentLoaded", function() {
         "ATF": "French Southern and Antarctic Lands",
 
     };
-// Функція, яка повертає ISO-код для API Ninjas
-function getApiNinjasCountry(input) {
-    // Якщо користувач ввів повну назву, шукаємо відповідний код
-    // Перевіряємо всі пари ключ-значення. Якщо знайдеться збіг (без врахування регістру), повертаємо ключ (ISO).
-    for (const iso in countryMapping) {
-        if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
-            return iso;
+
+    // Функція, яка повертає ISO-код для API Ninjas
+    function getApiNinjasCountry(input) {
+        // Якщо користувач ввів повну назву, шукаємо відповідний код
+        // Перевіряємо всі пари ключ-значення. Якщо знайдеться збіг (без врахування регістру), повертаємо ключ (ISO).
+        for (const iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
+                return iso;
+            }
         }
+        // Якщо ж введено ISO чи нічого не знайдено – повертаємо введене значення
+        return input;
     }
-    // Якщо ж введено ISO чи нічого не знайдено – повертаємо введене значення
-    return input;
-}
 
     function getWorldbankCountry(input) {
         input = input.trim();
@@ -277,6 +278,21 @@ function getApiNinjasCountry(input) {
             }
         }
         return "";
+    }
+
+    // --- Функція для отримання ISO-коду країни з geojson feature ---
+    function getCountryISOFromFeature(feature) {
+        const name = getCountryName(feature).toLowerCase().replace(/[^a-zа-яёіїєґ0-9 ]/gi, '').trim();
+        // 1. Точний збіг
+        for (const iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase() === name) return iso;
+        }
+        // 2. Частковий збіг (наприклад, Czechia vs Czech Republic)
+        for (const iso in countryMapping) {
+            if (countryMapping[iso].toLowerCase().includes(name) || name.includes(countryMapping[iso].toLowerCase())) return iso;
+        }
+        // 3. Якщо не знайдено — null
+        return null;
     }
 
     // --- Легенда ---
@@ -379,49 +395,60 @@ function getApiNinjasCountry(input) {
     }
 
     function loadFinalGeoJSON() {
-    fetch('/geojson')
-        .then(response => response.json())
-        .then(data => {
-            if (finalLayer) {
-                map.removeLayer(finalLayer);
-            }
-            finalLayer = L.geoJSON(data, {
-                style: styleFeature,
-                onEachFeature: function(feature, layer) {
-                    // Видаляємо bindPopup та замінюємо його обробником кліку
-                    layer.on('click', function() {
-                        displayCountryInfo(feature);
-                    });
+        fetch('/geojson')
+            .then(response => response.json())
+            .then(data => {
+                if (finalLayer) {
+                    map.removeLayer(finalLayer);
                 }
-            }).addTo(map);
-            console.log("Фінальний шар GeoJSON додано на карту");
-        })
-        .catch(err => console.error("Помилка завантаження фінальних даних:", err));
-}
-
-// Функція, яка оновлює відведену для даних панель на сайті (без pop-up на карті)
-function displayCountryInfo(feature) {
-    let country = feature.properties.country;
-    let indicatorText = indicatorSelect.options[indicatorSelect.selectedIndex].text;
-    let value;
-    if (currentIndicator === "population") {
-        value = feature.properties.population;
-    } else if (currentIndicator === "unemployment") {
-        value = feature.properties.unemployment_rate;
-    } else {
-        value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
+                finalLayer = L.geoJSON(data, {
+                    style: styleFeature,
+                    onEachFeature: function(feature, layer) {
+                        // Видаляємо bindPopup та замінюємо його обробником кліку
+                        layer.on('click', function() {
+                            displayCountryInfo(feature);
+                        });
+                    }
+                }).addTo(map);
+                console.log("Фінальний шар GeoJSON додано на карту");
+            })
+            .catch(err => console.error("Помилка завантаження фінальних даних:", err));
     }
-    let year = feature.properties.year || "";
-    infoPanel.innerHTML = `
-        <h3>Країна: ${country}</h3>
-        <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
-        <p>Рік: ${year}</p>
-    `;
-    countryInput.value = country;
-}
 
-
-
+    // Функція, яка оновлює відведену для даних панель на сайті (без pop-up на карті)
+    function displayCountryInfo(feature) {
+        // --- Використовуємо ISO-код для пошуку даних ---
+        let isoCode = getCountryISOFromFeature(feature);
+        let country = isoCode ? countryMapping[isoCode] : feature.properties.country;
+        let indicatorText = indicatorSelect.options[indicatorSelect.selectedIndex].text;
+        let value;
+        let year = feature.properties.year || currentYear;
+        let cacheKey = `${currentIndicator}_${isoCode || country}_${year}`;
+        const yearVal = parseInt(year);
+        if (yearVal <= 2023) {
+            if (currentIndicator === "population" || currentIndicator === "unemployment") {
+                value = (isoCode && currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined)
+                    ? currentCache.worldbank[cacheKey]
+                    : (currentIndicator === "population" ? feature.properties.population : feature.properties.unemployment_rate);
+            } else {
+                value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
+            }
+        } else {
+            if (currentIndicator === "population" || currentIndicator === "unemployment") {
+                value = (isoCode && currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined)
+                    ? currentCache.api_ninjas[cacheKey]
+                    : (currentIndicator === "population" ? feature.properties.population : feature.properties.unemployment_rate);
+            } else {
+                value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
+            }
+        }
+        infoPanel.innerHTML = `
+            <h3>Країна: ${country}</h3>
+            <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
+            <p>Рік: ${year}</p>
+        `;
+        countryInput.value = country;
+    }
 
     fetch('/static/country_boundaries.geojson')
         .then(res => res.json())
@@ -456,6 +483,18 @@ function displayCountryInfo(feature) {
         let selectedInput = (yearVal <= 2023)
             ? getWorldbankCountry(countryInput.value)
             : getApiNinjasCountry(countryInput.value);
+        // --- Якщо введено назву країни, шукаємо ISO-код ---
+        if (typeof selectedInput === 'string' && countryMapping[selectedInput]) {
+            selectedInput = selectedInput;
+        } else if (typeof selectedInput === 'string') {
+            // Пробуємо знайти ISO-код по назві
+            for (const iso in countryMapping) {
+                if (countryMapping[iso].toLowerCase() === selectedInput.toLowerCase()) {
+                    selectedInput = iso;
+                    break;
+                }
+            }
+        }
         let value = null;
         let key = "";
         let keysArr = [];
@@ -515,56 +554,58 @@ function displayCountryInfo(feature) {
     }
 
     function styleFeature(feature) {
-    const year = yearSlider.value;
-    const yearVal = parseInt(year);
-    let countryName = (yearVal <= 2023) ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature));
-    let cacheKey;
-    if (yearVal <= 2023) {
-        cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
-    } else {
-        if (Array.isArray(countryName)) {
-            for (let variant of countryName) {
-                let key = `${currentIndicator}_${variant}_${year}`;
-                if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
-                    cacheKey = key;
-                    break;
-                }
-            }
-            if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
+        const year = yearSlider.value;
+        const yearVal = parseInt(year);
+        // --- Використовуємо ISO-код для пошуку даних ---
+        let isoCode = getCountryISOFromFeature(feature);
+        let countryName = isoCode ? isoCode : (yearVal <= 2023 ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature)));
+        let cacheKey;
+        if (yearVal <= 2023) {
+            cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
         } else {
-            cacheKey = `${currentIndicator}_${countryName}_${year}`;
+            if (Array.isArray(countryName)) {
+                for (let variant of countryName) {
+                    let key = `${currentIndicator}_${variant}_${year}`;
+                    if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
+                        cacheKey = key;
+                        break;
+                    }
+                }
+                if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
+            } else {
+                cacheKey = `${currentIndicator}_${countryName}_${year}`;
+            }
         }
-    }
-    let value = null;
-    if (yearVal <= 2023) {
-        if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
-            value = currentCache.worldbank[cacheKey];
+        let value = null;
+        if (yearVal <= 2023) {
+            if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
+                value = currentCache.worldbank[cacheKey];
+            }
+        } else {
+            if (currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined) {
+                value = currentCache.api_ninjas[cacheKey];
+            }
         }
-    } else {
-        if (currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined) {
-            value = currentCache.api_ninjas[cacheKey];
+        let style = {
+            fillColor: '#ccc',
+            weight: 1,
+            opacity: 1,
+            color: 'white',
+            fillOpacity: 0.7
+        };
+        if (value !== null && value !== undefined) {
+            let range = computeIndicatorRange(currentCache, currentIndicator, year);
+            let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
+            style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
         }
+        const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
+        let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
+        if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
+            style.weight = 3;
+            style.color = '#FFD700';
+        }
+        return style;
     }
-    let style = {
-        fillColor: '#ccc',
-        weight: 1,
-        opacity: 1,
-        color: 'white',
-        fillOpacity: 0.7
-    };
-    if (value !== null && value !== undefined) {
-        let range = computeIndicatorRange(currentCache, currentIndicator, year);
-        let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
-        style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
-    }
-    const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
-    let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
-    if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
-        style.weight = 3;
-        style.color = '#FFD700';
-    }
-    return style;
-}
 
     function interpolateColor(value, min, max, colorLow, colorHigh) {
         let ratio = (value - min) / (max - min);
@@ -602,13 +643,6 @@ function displayCountryInfo(feature) {
         const country = countryInput.value.trim();
         const indicator = indicatorSelect.value;
         const year = yearSlider.value;
-        if (parseInt(year) > 2023 && (!country || country.toUpperCase() === 'ALL')) {
-            infoPanel.innerHTML = `
-                <h3>Увага!</h3>
-                <p>Для років після 2023 потрібно вибрати конкретну країну.</p>
-            `;
-            return;
-        }
         showLoadingMessage();
         fetch(`/update?indicator=${indicator}&country=${encodeURIComponent(country)}&year=${year}`)
             .then(res => res.json())
@@ -629,7 +663,8 @@ function displayCountryInfo(feature) {
         `;
     }
     // --- Події ---
-    countryInput.addEventListener("change", triggerUpdate);
+    countryInput.addEventListener("blur", triggerUpdate); // Оновлення при втраті фокусу
+    countryInput.addEventListener("keyup", e => { if (e.key === "Enter") triggerUpdate(); }); // Оновлення при Enter
     indicatorSelect.addEventListener("change", function() {
         currentIndicator = indicatorSelect.value;
         triggerUpdate();
@@ -641,5 +676,8 @@ function displayCountryInfo(feature) {
     });
 
     // --- Початкове завантаження ---
-    loadGeoJSON();
+    infoPanel.innerHTML = `
+        <h3>Інформаційна Панель</h3>
+        <p>Введіть країну, виберіть показник та рік для перегляду даних.</p>
+    `;
 });

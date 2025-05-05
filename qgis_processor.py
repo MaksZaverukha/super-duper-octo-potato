@@ -27,6 +27,19 @@ Processing.initialize()
 BOUNDARIES_FILE = os.path.join("static", "country_boundaries.geojson")
 COUNTRY_FIELDS = ["ADMIN", "NAME", "country"]  # перевіряти усі можливі варіанти
 
+# --- ISO_A3 to ADMIN mapping (з country_boundaries.geojson) ---
+ISO_TO_ADMIN = {}
+try:
+    with open(BOUNDARIES_FILE, "r", encoding="utf-8") as f:
+        geo = json.load(f)
+        for feat in geo.get("features", []):
+            iso = feat["properties"].get("ISO_A3")
+            admin = feat["properties"].get("ADMIN")
+            if iso and admin:
+                ISO_TO_ADMIN[iso] = admin
+except Exception as e:
+    logging.warning(f"Не вдалося зчитати ISO_TO_ADMIN: {e}")
+
 def get_boundary_country(feature):
     for field in COUNTRY_FIELDS:
         if feature.attributes() and feature[field]:
@@ -52,9 +65,13 @@ def add_geometry_from_boundaries(features, boundaries_layer):
         if not geom or not geom.get("coordinates"):
             country = props.get("country")
             if country:
-                # Ми перевіряємо декілька альтернативних полів за допомогою ILIKE
-                expr = ' OR '.join([f'"{field}" ILIKE \'{country}\''
-                                     for field in COUNTRY_FIELDS])
+                # Якщо country схожий на ISO-код, шукаємо по ISO_A3
+                expr = None
+                if country in ISO_TO_ADMIN:
+                    expr = f'"ISO_A3" = \'{country}\''
+                else:
+                    # Пробуємо по ADMIN/NAME/country
+                    expr = ' OR '.join([f'"{field}" ILIKE \'{country}\'' for field in COUNTRY_FIELDS])
                 request = QgsFeatureRequest().setFilterExpression(expr)
                 matching_feats = list(boundaries_layer.getFeatures(request))
                 if matching_feats:

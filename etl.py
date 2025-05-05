@@ -429,24 +429,72 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
         else:
             features_all = []
             for iso in ALL_ISO_CODES:
-                encoded_country = urllib.parse.quote(iso)
-                ninjas_url = f"{config['api_ninjas_url']}?country={encoded_country}"
-                logging.info(f"Requesting API Ninjas data for country {iso} at year {year_input}")
-                features = fetch_api_ninjas_data(ninjas_url, year_input, config["api_field"], indicator_key)
-                features_all.extend(features)
+                if indicator_key == "population":
+                    # Для population — тільки по англійській назві
+                    eng_name = None
+                    for name, code in COUNTRY_NAME_TO_ISO.items():
+                        if code == iso:
+                            eng_name = name
+                            break
+                    if eng_name:
+                        encoded_country_name = urllib.parse.quote(eng_name)
+                        ninjas_url_name = f"{config['api_ninjas_url']}?country={encoded_country_name}"
+                        features = fetch_api_ninjas_data(ninjas_url_name, year_input, config["api_field"], indicator_key)
+                        # Якщо знайдено — підставляємо ISO-код у properties
+                        for f in features:
+                            f["properties"]["country"] = iso
+                        features_all.extend(features)
+                else:
+                    # Для unemployment — ISO, потім англійська назва
+                    encoded_country_iso = urllib.parse.quote(iso)
+                    ninjas_url_iso = f"{config['api_ninjas_url']}?country={encoded_country_iso}"
+                    features = fetch_api_ninjas_data(ninjas_url_iso, year_input, config["api_field"], indicator_key)
+                    if not features:
+                        eng_name = None
+                        for name, code in COUNTRY_NAME_TO_ISO.items():
+                            if code == iso:
+                                eng_name = name
+                                break
+                        if eng_name:
+                            encoded_country_name = urllib.parse.quote(eng_name)
+                            ninjas_url_name = f"{config['api_ninjas_url']}?country={encoded_country_name}"
+                            features = fetch_api_ninjas_data(ninjas_url_name, year_input, config["api_field"], indicator_key)
+                            for f in features:
+                                f["properties"]["country"] = iso
+                    features_all.extend(features)
             fc = {"type": "FeatureCollection", "features": features_all}
-            try:
-                with open(json_filename, "w", encoding="utf-8") as f:
-                    json.dump(fc, f, ensure_ascii=False, indent=2)
-                logging.info(f"API Ninjas data for all countries saved to {json_filename}")
-            except Exception as e:
-                logging.error(f"Error saving all-countries data: {e}")
+        try:
+            with open(json_filename, "w", encoding="utf-8") as f:
+                json.dump(fc, f, ensure_ascii=False, indent=2)
+            logging.info(f"API Ninjas data for all countries saved to {json_filename}")
+        except Exception as e:
+            logging.error(f"Error saving all-countries data: {e}")
         try:
             with open(INPUT_GEOJSON, "w", encoding="utf-8") as f:
                 json.dump(fc, f, ensure_ascii=False, indent=2)
             logging.info(f"Aggregated data also copied to {INPUT_GEOJSON}")
         except Exception as e:
             logging.error(f"Error saving input GeoJSON copy: {e}")
+
+    # --- Додаємо фічі для всіх країн, навіть якщо даних немає ---
+    features_by_iso = {str(f.get('properties', {}).get('country')).upper(): f for f in fc.get('features', []) if f.get('properties', {}).get('country')}
+    completed_features = []
+    for iso in ALL_ISO_CODES:
+        feat = features_by_iso.get(iso)
+        if feat:
+            completed_features.append(feat)
+        else:
+            completed_features.append({
+                "type": "Feature",
+                "properties": {
+                    "source": "no_data",
+                    "country": iso,
+                    "year": year_input,
+                    config["api_field"]: None
+                },
+                "geometry": None
+            })
+    fc["features"] = completed_features
 
     os.makedirs("data", exist_ok=True)
     try:
@@ -457,16 +505,19 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
         logging.error(f"Error saving GeoJSON: {e}")
 
     cache_data = {"worldbank": {}, "api_ninjas": {}}
-    for feature in fc.get("features", []):
-        props = feature.get("properties", {})
-        country_val = props.get("country")
-        field_val = props.get(config["api_field"])
-        if country_val:
-            key = f"{indicator_key}_{country_val}_{year_input}"
-            if props.get("source") == "worldbank_xml":
-                cache_data["worldbank"][key] = field_val
-            else:
-                cache_data["api_ninjas"][key] = field_val
+    for iso in ALL_ISO_CODES:
+        key = f"{indicator_key}_{iso}_{year_input}"
+        # Шукаємо фічу для цієї країни
+        feat = next((f for f in fc["features"] if str(f.get("properties", {}).get("country")).upper() == iso), None)
+        field_val = None
+        if feat:
+            field_val = feat.get("properties", {}).get(config["api_field"])
+        # Визначаємо джерело
+        if int(year_input) <= 2023:
+            cache_data["worldbank"][key] = field_val
+        else:
+            cache_data["api_ninjas"][key] = field_val
+
     os.makedirs("static", exist_ok=True)
     try:
         with open(os.path.join("static", "data_cache.json"), "w", encoding="utf-8") as f:
