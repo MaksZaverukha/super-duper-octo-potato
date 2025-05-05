@@ -401,24 +401,22 @@ function getApiNinjasCountry(input) {
 
 // Функція, яка оновлює відведену для даних панель на сайті (без pop-up на карті)
 function displayCountryInfo(feature) {
-    // Отримуємо дані з feature.properties
     let country = feature.properties.country;
     let indicatorText = indicatorSelect.options[indicatorSelect.selectedIndex].text;
-    // Перевіряємо, які дані є (наприклад, population або unemployment_rate)
-    let value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
-    // работає чи ні работає?
-    console.log("Feature properties:", feature.properties);
-
+    let value;
+    if (currentIndicator === "population") {
+        value = feature.properties.population;
+    } else if (currentIndicator === "unemployment") {
+        value = feature.properties.unemployment_rate;
+    } else {
+        value = feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
+    }
     let year = feature.properties.year || "";
-
-    // Оновлюємо інформаційну панель (елемент з id="infoPanel")
     infoPanel.innerHTML = `
         <h3>Країна: ${country}</h3>
         <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
         <p>Рік: ${year}</p>
     `;
-
-    // За бажанням можна також оновити поле введення країни
     countryInput.value = country;
 }
 

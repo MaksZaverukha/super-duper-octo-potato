@@ -6,8 +6,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AFE",
-        "year": 2000,
-        "unemployment_rate": 7.78831690275508
+        "year": 2004,
+        "population": 450928044.0
       },
       "geometry": null
     },
@@ -16,8 +16,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AFW",
-        "year": 2000,
-        "unemployment_rate": 4.55111905984559
+        "year": 2004,
+        "population": 307725100.0
       },
       "geometry": null
     },
@@ -26,8 +26,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ARB",
-        "year": 2000,
-        "unemployment_rate": 12.6274870577085
+        "year": 2004,
+        "population": 315060277.0
       },
       "geometry": null
     },
@@ -36,8 +36,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CSS",
-        "year": 2000,
-        "unemployment_rate": 11.5264333346702
+        "year": 2004,
+        "population": 2735189.0
       },
       "geometry": null
     },
@@ -46,8 +46,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CEB",
-        "year": 2000,
-        "unemployment_rate": 12.1661215560372
+        "year": 2004,
+        "population": 106331716.0
       },
       "geometry": null
     },
@@ -56,8 +56,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EAR",
-        "year": 2000,
-        "unemployment_rate": 7.11472249654015
+        "year": 2004,
+        "population": 2693184997.0
       },
       "geometry": null
     },
@@ -66,8 +66,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EAS",
-        "year": 2000,
-        "unemployment_rate": 3.55420828634153
+        "year": 2004,
+        "population": 2118747885.0
       },
       "geometry": null
     },
@@ -76,8 +76,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EAP",
-        "year": 2000,
-        "unemployment_rate": 3.42330379281354
+        "year": 2004,
+        "population": 1883675167.0
       },
       "geometry": null
     },
@@ -86,8 +86,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TEA",
-        "year": 2000,
-        "unemployment_rate": 3.42896287038122
+        "year": 2004,
+        "population": 1859450104.0
       },
       "geometry": null
     },
@@ -96,8 +96,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EMU",
-        "year": 2000,
-        "unemployment_rate": 9.47224221882325
+        "year": 2004,
+        "population": 331997265.0
       },
       "geometry": null
     },
@@ -106,8 +106,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ECS",
-        "year": 2000,
-        "unemployment_rate": 9.68992008060942
+        "year": 2004,
+        "population": 872926624.5
       },
       "geometry": null
     },
@@ -116,8 +116,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ECA",
-        "year": 2000,
-        "unemployment_rate": 10.7484483274832
+        "year": 2004,
+        "population": 222413289.5
       },
       "geometry": null
     },
@@ -126,8 +126,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TEC",
-        "year": 2000,
-        "unemployment_rate": 11.0252036761132
+        "year": 2004,
+        "population": 438136035.5
       },
       "geometry": null
     },
@@ -136,8 +136,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EUU",
-        "year": 2000,
-        "unemployment_rate": 9.70649119804801
+        "year": 2004,
+        "population": 434050396.0
       },
       "geometry": null
     },
@@ -146,8 +146,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "FCS",
-        "year": 2000,
-        "unemployment_rate": 5.88813224341885
+        "year": 2004,
+        "population": 685830138.0
       },
       "geometry": null
     },
@@ -156,8 +156,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HPC",
-        "year": 2000,
-        "unemployment_rate": 5.15456136215711
+        "year": 2004,
+        "population": 539803501.0
       },
       "geometry": null
     },
@@ -166,8 +166,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IBD",
-        "year": 2000,
-        "unemployment_rate": 6.55733674014356
+        "year": 2004,
+        "population": 4168676771.0
       },
       "geometry": null
     },
@@ -176,8 +176,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IBT",
-        "year": 2000,
-        "unemployment_rate": 6.15636406177533
+        "year": 2004,
+        "population": 5417128228.5
       },
       "geometry": null
     },
@@ -186,8 +186,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IDB",
-        "year": 2000,
-        "unemployment_rate": 3.83122287611329
+        "year": 2004,
+        "population": 416552454.0
       },
       "geometry": null
     },
@@ -196,8 +196,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IDX",
-        "year": 2000,
-        "unemployment_rate": 4.7402535311592
+        "year": 2004,
+        "population": 831899003.5
       },
       "geometry": null
     },
@@ -206,8 +206,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IDA",
-        "year": 2000,
-        "unemployment_rate": 4.43736752604206
+        "year": 2004,
+        "population": 1248451457.5
       },
       "geometry": null
     },
@@ -216,8 +216,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LTE",
-        "year": 2000,
-        "unemployment_rate": 5.28526433408884
+        "year": 2004,
+        "population": 2099412662.5
       },
       "geometry": null
     },
@@ -226,8 +226,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LCN",
-        "year": 2000,
-        "unemployment_rate": 9.461823301645
+        "year": 2004,
+        "population": 548455563.0
       },
       "geometry": null
     },
@@ -236,8 +236,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LAC",
-        "year": 2000,
-        "unemployment_rate": 9.17880511924025
+        "year": 2004,
+        "population": 492232564.0
       },
       "geometry": null
     },
@@ -246,8 +246,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TLA",
-        "year": 2000,
-        "unemployment_rate": 9.54724386782
+        "year": 2004,
+        "population": 532556401.0
       },
       "geometry": null
     },
@@ -256,8 +256,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LDC",
-        "year": 2000,
-        "unemployment_rate": 4.69621008348711
+        "year": 2004,
+        "population": 742717957.0
       },
       "geometry": null
     },
@@ -266,8 +266,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LMY",
-        "year": 2000,
-        "unemployment_rate": 5.82506784093745
+        "year": 2004,
+        "population": 5188460859.5
       },
       "geometry": null
     },
@@ -276,8 +276,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MEA",
-        "year": 2000,
-        "unemployment_rate": 12.0659790449942
+        "year": 2004,
+        "population": 348239858.0
       },
       "geometry": null
     },
@@ -286,8 +286,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MNA",
-        "year": 2000,
-        "unemployment_rate": 13.0877495079356
+        "year": 2004,
+        "population": 310771929.0
       },
       "geometry": null
     },
@@ -296,8 +296,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TMN",
-        "year": 2000,
-        "unemployment_rate": 13.1062226879005
+        "year": 2004,
+        "population": 307535303.0
       },
       "geometry": null
     },
@@ -306,8 +306,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MIC",
-        "year": 2000,
-        "unemployment_rate": 5.88304695947759
+        "year": 2004,
+        "population": 4751078008.5
       },
       "geometry": null
     },
@@ -316,8 +316,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NAC",
-        "year": 2000,
-        "unemployment_rate": 4.27316817166147
+        "year": 2004,
+        "population": 324806660.0
       },
       "geometry": null
     },
@@ -326,8 +326,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "OED",
-        "year": 2000,
-        "unemployment_rate": 6.71539711222802
+        "year": 2004,
+        "population": 1237753724.0
       },
       "geometry": null
     },
@@ -336,8 +336,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "OSS",
-        "year": 2000,
-        "unemployment_rate": 10.2914019994802
+        "year": 2004,
+        "population": 11194800.0
       },
       "geometry": null
     },
@@ -346,8 +346,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PSS",
-        "year": 2000,
-        "unemployment_rate": 4.41758167634957
+        "year": 2004,
+        "population": 2145505.0
       },
       "geometry": null
     },
@@ -356,8 +356,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PST",
-        "year": 2000,
-        "unemployment_rate": 6.53497084664272
+        "year": 2004,
+        "population": 1041747900.0
       },
       "geometry": null
     },
@@ -366,8 +366,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PRE",
-        "year": 2000,
-        "unemployment_rate": 5.14246869302464
+        "year": 2004,
+        "population": 632445407.0
       },
       "geometry": null
     },
@@ -376,8 +376,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SST",
-        "year": 2000,
-        "unemployment_rate": 9.7615148817054
+        "year": 2004,
+        "population": 16075494.0
       },
       "geometry": null
     },
@@ -386,8 +386,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SAS",
-        "year": 2000,
-        "unemployment_rate": 6.65606873614265
+        "year": 2004,
+        "population": 1520797241.0
       },
       "geometry": null
     },
@@ -396,8 +396,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TSA",
-        "year": 2000,
-        "unemployment_rate": 6.65606873614265
+        "year": 2004,
+        "population": 1520797241.0
       },
       "geometry": null
     },
@@ -406,8 +406,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SSF",
-        "year": 2000,
-        "unemployment_rate": 6.43551093234137
+        "year": 2004,
+        "population": 758653144.0
       },
       "geometry": null
     },
@@ -416,8 +416,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SSA",
-        "year": 2000,
-        "unemployment_rate": 6.43551093234137
+        "year": 2004,
+        "population": 758570669.0
       },
       "geometry": null
     },
@@ -426,8 +426,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TSS",
-        "year": 2000,
-        "unemployment_rate": 6.43551093234137
+        "year": 2004,
+        "population": 758653144.0
       },
       "geometry": null
     },
@@ -436,8 +436,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "WLD",
-        "year": 2000,
-        "unemployment_rate": 6.12304074094227
+        "year": 2004,
+        "population": 6492626975.5
       },
       "geometry": null
     },
@@ -446,8 +446,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AFG",
-        "year": 2000,
-        "unemployment_rate": 7.935
+        "year": 2004,
+        "population": 23560654.0
       },
       "geometry": null
     },
@@ -456,8 +456,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ALB",
-        "year": 2000,
-        "unemployment_rate": 19.023
+        "year": 2004,
+        "population": 3026939.0
       },
       "geometry": null
     },
@@ -466,8 +466,28 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "DZA",
-        "year": 2000,
-        "unemployment_rate": 29.77
+        "year": 2004,
+        "population": 32628286.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ASM",
+        "year": 2004,
+        "population": 56818.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "AND",
+        "year": 2004,
+        "population": 74325.0
       },
       "geometry": null
     },
@@ -476,8 +496,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AGO",
-        "year": 2000,
-        "unemployment_rate": 16.682
+        "year": 2004,
+        "population": 18600423.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ATG",
+        "year": 2004,
+        "population": 78719.0
       },
       "geometry": null
     },
@@ -486,8 +516,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ARG",
-        "year": 2000,
-        "unemployment_rate": 15.0
+        "year": 2004,
+        "population": 38815916.0
       },
       "geometry": null
     },
@@ -496,8 +526,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ARM",
-        "year": 2000,
-        "unemployment_rate": 11.095
+        "year": 2004,
+        "population": 3164900.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "ABW",
+        "year": 2004,
+        "population": 95138.0
       },
       "geometry": null
     },
@@ -506,8 +546,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AUS",
-        "year": 2000,
-        "unemployment_rate": 6.288
+        "year": 2004,
+        "population": 19932722.0
       },
       "geometry": null
     },
@@ -516,8 +556,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AUT",
-        "year": 2000,
-        "unemployment_rate": 4.687
+        "year": 2004,
+        "population": 8171966.0
       },
       "geometry": null
     },
@@ -526,8 +566,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "AZE",
-        "year": 2000,
-        "unemployment_rate": 11.78
+        "year": 2004,
+        "population": 8306500.0
       },
       "geometry": null
     },
@@ -536,8 +576,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BHS",
-        "year": 2000,
-        "unemployment_rate": 7.12
+        "year": 2004,
+        "population": 339782.0
       },
       "geometry": null
     },
@@ -546,8 +586,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BHR",
-        "year": 2000,
-        "unemployment_rate": 1.083
+        "year": 2004,
+        "population": 823741.0
       },
       "geometry": null
     },
@@ -556,8 +596,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BGD",
-        "year": 2000,
-        "unemployment_rate": 3.27
+        "year": 2004,
+        "population": 142902856.0
       },
       "geometry": null
     },
@@ -566,8 +606,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BRB",
-        "year": 2000,
-        "unemployment_rate": 9.35
+        "year": 2004,
+        "population": 267298.0
       },
       "geometry": null
     },
@@ -576,8 +616,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BLR",
-        "year": 2000,
-        "unemployment_rate": 12.224
+        "year": 2004,
+        "population": 9730146.0
       },
       "geometry": null
     },
@@ -586,8 +626,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BEL",
-        "year": 2000,
-        "unemployment_rate": 6.586
+        "year": 2004,
+        "population": 10421137.0
       },
       "geometry": null
     },
@@ -596,8 +636,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BLZ",
-        "year": 2000,
-        "unemployment_rate": 10.836
+        "year": 2004,
+        "population": 271688.0
       },
       "geometry": null
     },
@@ -606,8 +646,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BEN",
-        "year": 2000,
-        "unemployment_rate": 0.864
+        "year": 2004,
+        "population": 8159094.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "BMU",
+        "year": 2004,
+        "population": 62555.0
       },
       "geometry": null
     },
@@ -616,8 +666,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BTN",
-        "year": 2000,
-        "unemployment_rate": 1.66
+        "year": 2004,
+        "population": 650544.0
       },
       "geometry": null
     },
@@ -626,8 +676,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BOL",
-        "year": 2000,
-        "unemployment_rate": 2.447
+        "year": 2004,
+        "population": 9204287.0
       },
       "geometry": null
     },
@@ -636,8 +686,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BIH",
-        "year": 2000,
-        "unemployment_rate": 25.187
+        "year": 2004,
+        "population": 4140987.0
       },
       "geometry": null
     },
@@ -646,8 +696,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BWA",
-        "year": 2000,
-        "unemployment_rate": 15.88
+        "year": 2004,
+        "population": 1807146.0
       },
       "geometry": null
     },
@@ -656,8 +706,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BRA",
-        "year": 2000,
-        "unemployment_rate": 10.889
+        "year": 2004,
+        "population": 182675143.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "VGB",
+        "year": 2004,
+        "population": 22881.0
       },
       "geometry": null
     },
@@ -666,8 +726,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BRN",
-        "year": 2000,
-        "unemployment_rate": 5.459
+        "year": 2004,
+        "population": 352911.0
       },
       "geometry": null
     },
@@ -676,8 +736,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BGR",
-        "year": 2000,
-        "unemployment_rate": 16.218
+        "year": 2004,
+        "population": 7716860.0
       },
       "geometry": null
     },
@@ -686,8 +746,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BFA",
-        "year": 2000,
-        "unemployment_rate": 2.679
+        "year": 2004,
+        "population": 13500533.0
       },
       "geometry": null
     },
@@ -696,8 +756,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "BDI",
-        "year": 2000,
-        "unemployment_rate": 3.129
+        "year": 2004,
+        "population": 7310656.0
       },
       "geometry": null
     },
@@ -706,8 +766,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CPV",
-        "year": 2000,
-        "unemployment_rate": 13.088
+        "year": 2004,
+        "population": 479370.0
       },
       "geometry": null
     },
@@ -716,8 +776,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KHM",
-        "year": 2000,
-        "unemployment_rate": 0.744
+        "year": 2004,
+        "population": 13244731.0
       },
       "geometry": null
     },
@@ -726,8 +786,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CMR",
-        "year": 2000,
-        "unemployment_rate": 7.536
+        "year": 2004,
+        "population": 16610487.0
       },
       "geometry": null
     },
@@ -736,8 +796,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CAN",
-        "year": 2000,
-        "unemployment_rate": 6.829
+        "year": 2004,
+        "population": 31938807.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CYM",
+        "year": 2004,
+        "population": 45352.0
       },
       "geometry": null
     },
@@ -746,8 +816,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CAF",
-        "year": 2000,
-        "unemployment_rate": 5.362
+        "year": 2004,
+        "population": 4192826.0
       },
       "geometry": null
     },
@@ -756,8 +826,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TCD",
-        "year": 2000,
-        "unemployment_rate": 0.79
+        "year": 2004,
+        "population": 9920036.0
       },
       "geometry": null
     },
@@ -766,8 +836,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CHI",
-        "year": 2000,
-        "unemployment_rate": 5.551
+        "year": 2004,
+        "population": 152039.0
       },
       "geometry": null
     },
@@ -776,8 +846,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CHL",
-        "year": 2000,
-        "unemployment_rate": 10.491
+        "year": 2004,
+        "population": 16187322.0
       },
       "geometry": null
     },
@@ -786,8 +856,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CHN",
-        "year": 2000,
-        "unemployment_rate": 3.26
+        "year": 2004,
+        "population": 1296075000.0
       },
       "geometry": null
     },
@@ -796,8 +866,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "COL",
-        "year": 2000,
-        "unemployment_rate": 20.52
+        "year": 2004,
+        "population": 41543171.0
       },
       "geometry": null
     },
@@ -806,8 +876,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "COM",
-        "year": 2000,
-        "unemployment_rate": 4.398
+        "year": 2004,
+        "population": 580704.0
       },
       "geometry": null
     },
@@ -816,8 +886,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "COD",
-        "year": 2000,
-        "unemployment_rate": 3.234
+        "year": 2004,
+        "population": 56997741.0
       },
       "geometry": null
     },
@@ -826,8 +896,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "COG",
-        "year": 2000,
-        "unemployment_rate": 19.87
+        "year": 2004,
+        "population": 3565554.0
       },
       "geometry": null
     },
@@ -836,8 +906,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CRI",
-        "year": 2000,
-        "unemployment_rate": 5.08
+        "year": 2004,
+        "population": 4200078.0
       },
       "geometry": null
     },
@@ -846,8 +916,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CIV",
-        "year": 2000,
-        "unemployment_rate": 4.816
+        "year": 2004,
+        "population": 19595000.0
       },
       "geometry": null
     },
@@ -856,8 +926,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HRV",
-        "year": 2000,
-        "unemployment_rate": 16.064
+        "year": 2004,
+        "population": 4304600.0
       },
       "geometry": null
     },
@@ -866,8 +936,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CUB",
-        "year": 2000,
-        "unemployment_rate": 5.45
+        "year": 2004,
+        "population": 11238756.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "CUW",
+        "year": 2004,
+        "population": 134192.0
       },
       "geometry": null
     },
@@ -876,8 +956,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CYP",
-        "year": 2000,
-        "unemployment_rate": 4.766
+        "year": 2004,
+        "population": 1017875.0
       },
       "geometry": null
     },
@@ -886,8 +966,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CZE",
-        "year": 2000,
-        "unemployment_rate": 8.764
+        "year": 2004,
+        "population": 10197101.0
       },
       "geometry": null
     },
@@ -896,8 +976,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "DNK",
-        "year": 2000,
-        "unemployment_rate": 4.476
+        "year": 2004,
+        "population": 5404523.0
       },
       "geometry": null
     },
@@ -906,8 +986,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "DJI",
-        "year": 2000,
-        "unemployment_rate": 26.664
+        "year": 2004,
+        "population": 826124.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "DMA",
+        "year": 2004,
+        "population": 68649.0
       },
       "geometry": null
     },
@@ -916,8 +1006,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "DOM",
-        "year": 2000,
-        "unemployment_rate": 6.432
+        "year": 2004,
+        "population": 9104892.0
       },
       "geometry": null
     },
@@ -926,8 +1016,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ECU",
-        "year": 2000,
-        "unemployment_rate": 4.8
+        "year": 2004,
+        "population": 13608701.0
       },
       "geometry": null
     },
@@ -936,8 +1026,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EGY",
-        "year": 2000,
-        "unemployment_rate": 8.98
+        "year": 2004,
+        "population": 79477443.0
       },
       "geometry": null
     },
@@ -946,8 +1036,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SLV",
-        "year": 2000,
-        "unemployment_rate": 6.96
+        "year": 2004,
+        "population": 6004671.0
       },
       "geometry": null
     },
@@ -956,8 +1046,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GNQ",
-        "year": 2000,
-        "unemployment_rate": 7.955
+        "year": 2004,
+        "population": 899917.0
       },
       "geometry": null
     },
@@ -966,8 +1056,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ERI",
-        "year": 2000,
-        "unemployment_rate": 5.608
+        "year": 2004,
+        "population": 2598284.0
       },
       "geometry": null
     },
@@ -976,8 +1066,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "EST",
-        "year": 2000,
-        "unemployment_rate": 13.36
+        "year": 2004,
+        "population": 1362550.0
       },
       "geometry": null
     },
@@ -986,8 +1076,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SWZ",
-        "year": 2000,
-        "unemployment_rate": 24.502
+        "year": 2004,
+        "population": 1073159.0
       },
       "geometry": null
     },
@@ -996,8 +1086,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ETH",
-        "year": 2000,
-        "unemployment_rate": 3.5
+        "year": 2004,
+        "population": 76077206.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FRO",
+        "year": 2004,
+        "population": 48384.0
       },
       "geometry": null
     },
@@ -1006,8 +1106,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "FJI",
-        "year": 2000,
-        "unemployment_rate": 4.7
+        "year": 2004,
+        "population": 874366.0
       },
       "geometry": null
     },
@@ -1016,8 +1116,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "FIN",
-        "year": 2000,
-        "unemployment_rate": 11.134
+        "year": 2004,
+        "population": 5228172.0
       },
       "geometry": null
     },
@@ -1026,8 +1126,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "FRA",
-        "year": 2000,
-        "unemployment_rate": 10.218
+        "year": 2004,
+        "population": 62707588.0
       },
       "geometry": null
     },
@@ -1036,8 +1136,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PYF",
-        "year": 2000,
-        "unemployment_rate": 11.579
+        "year": 2004,
+        "population": 255654.0
       },
       "geometry": null
     },
@@ -1046,8 +1146,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GAB",
-        "year": 2000,
-        "unemployment_rate": 17.789
+        "year": 2004,
+        "population": 1421609.0
       },
       "geometry": null
     },
@@ -1056,8 +1156,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GMB",
-        "year": 2000,
-        "unemployment_rate": 9.787
+        "year": 2004,
+        "population": 1621312.0
       },
       "geometry": null
     },
@@ -1066,8 +1166,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GEO",
-        "year": 2000,
-        "unemployment_rate": 10.82
+        "year": 2004,
+        "population": 3927340.0
       },
       "geometry": null
     },
@@ -1076,8 +1176,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "DEU",
-        "year": 2000,
-        "unemployment_rate": 7.917
+        "year": 2004,
+        "population": 82516260.0
       },
       "geometry": null
     },
@@ -1086,8 +1186,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GHA",
-        "year": 2000,
-        "unemployment_rate": 10.456
+        "year": 2004,
+        "population": 21868298.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GIB",
+        "year": 2004,
+        "population": 28715.0
       },
       "geometry": null
     },
@@ -1096,8 +1206,28 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GRC",
-        "year": 2000,
-        "unemployment_rate": 11.345
+        "year": 2004,
+        "population": 10955141.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GRL",
+        "year": 2004,
+        "population": 56911.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "GRD",
+        "year": 2004,
+        "population": 109323.0
       },
       "geometry": null
     },
@@ -1106,8 +1236,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GUM",
-        "year": 2000,
-        "unemployment_rate": 15.32
+        "year": 2004,
+        "population": 163810.0
       },
       "geometry": null
     },
@@ -1116,8 +1246,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GTM",
-        "year": 2000,
-        "unemployment_rate": 2.606
+        "year": 2004,
+        "population": 12807402.0
       },
       "geometry": null
     },
@@ -1126,8 +1256,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GIN",
-        "year": 2000,
-        "unemployment_rate": 4.599
+        "year": 2004,
+        "population": 9062726.0
       },
       "geometry": null
     },
@@ -1136,8 +1266,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GNB",
-        "year": 2000,
-        "unemployment_rate": 3.557
+        "year": 2004,
+        "population": 1349563.0
       },
       "geometry": null
     },
@@ -1146,8 +1276,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GUY",
-        "year": 2000,
-        "unemployment_rate": 11.93
+        "year": 2004,
+        "population": 762418.0
       },
       "geometry": null
     },
@@ -1156,8 +1286,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HTI",
-        "year": 2000,
-        "unemployment_rate": 8.454
+        "year": 2004,
+        "population": 8910263.0
       },
       "geometry": null
     },
@@ -1166,8 +1296,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HND",
-        "year": 2000,
-        "unemployment_rate": 3.881
+        "year": 2004,
+        "population": 7298994.0
       },
       "geometry": null
     },
@@ -1176,8 +1306,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HKG",
-        "year": 2000,
-        "unemployment_rate": 4.92
+        "year": 2004,
+        "population": 6783500.0
       },
       "geometry": null
     },
@@ -1186,8 +1316,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "HUN",
-        "year": 2000,
-        "unemployment_rate": 6.563
+        "year": 2004,
+        "population": 10107146.0
       },
       "geometry": null
     },
@@ -1196,8 +1326,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ISL",
-        "year": 2000,
-        "unemployment_rate": 1.936
+        "year": 2004,
+        "population": 292074.0
       },
       "geometry": null
     },
@@ -1206,8 +1336,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IND",
-        "year": 2000,
-        "unemployment_rate": 7.624
+        "year": 2004,
+        "population": 1135991513.0
       },
       "geometry": null
     },
@@ -1216,8 +1346,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IDN",
-        "year": 2000,
-        "unemployment_rate": 6.077
+        "year": 2004,
+        "population": 227926649.0
       },
       "geometry": null
     },
@@ -1226,8 +1356,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IRN",
-        "year": 2000,
-        "unemployment_rate": 11.696
+        "year": 2004,
+        "population": 70256316.0
       },
       "geometry": null
     },
@@ -1236,8 +1366,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IRQ",
-        "year": 2000,
-        "unemployment_rate": 8.058
+        "year": 2004,
+        "population": 27577878.0
       },
       "geometry": null
     },
@@ -1246,8 +1376,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "IRL",
-        "year": 2000,
-        "unemployment_rate": 4.318
+        "year": 2004,
+        "population": 4070262.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "IMN",
+        "year": 2004,
+        "population": 78792.0
       },
       "geometry": null
     },
@@ -1256,8 +1396,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ISR",
-        "year": 2000,
-        "unemployment_rate": 11.102
+        "year": 2004,
+        "population": 6809000.0
       },
       "geometry": null
     },
@@ -1266,8 +1406,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ITA",
-        "year": 2000,
-        "unemployment_rate": 10.834
+        "year": 2004,
+        "population": 57685327.0
       },
       "geometry": null
     },
@@ -1276,8 +1416,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "JAM",
-        "year": 2000,
-        "unemployment_rate": 6.762
+        "year": 2004,
+        "population": 2672225.0
       },
       "geometry": null
     },
@@ -1286,8 +1426,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "JPN",
-        "year": 2000,
-        "unemployment_rate": 4.748
+        "year": 2004,
+        "population": 127761000.0
       },
       "geometry": null
     },
@@ -1296,8 +1436,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "JOR",
-        "year": 2000,
-        "unemployment_rate": 13.7
+        "year": 2004,
+        "population": 5882061.0
       },
       "geometry": null
     },
@@ -1306,8 +1446,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KAZ",
-        "year": 2000,
-        "unemployment_rate": 12.75
+        "year": 2004,
+        "population": 15850159.0
       },
       "geometry": null
     },
@@ -1316,8 +1456,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KEN",
-        "year": 2000,
-        "unemployment_rate": 2.889
+        "year": 2004,
+        "population": 34713455.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KIR",
+        "year": 2004,
+        "population": 96085.0
       },
       "geometry": null
     },
@@ -1326,8 +1476,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PRK",
-        "year": 2000,
-        "unemployment_rate": 3.05
+        "year": 2004,
+        "population": 24254943.0
       },
       "geometry": null
     },
@@ -1336,8 +1486,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KOR",
-        "year": 2000,
-        "unemployment_rate": 4.063
+        "year": 2004,
+        "population": 48082519.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "XKX",
+        "year": 2004,
+        "population": 1822773.0
       },
       "geometry": null
     },
@@ -1346,8 +1506,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KWT",
-        "year": 2000,
-        "unemployment_rate": 0.8
+        "year": 2004,
+        "population": 2157320.0
       },
       "geometry": null
     },
@@ -1356,8 +1516,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "KGZ",
-        "year": 2000,
-        "unemployment_rate": 1.858
+        "year": 2004,
+        "population": 5104712.5
       },
       "geometry": null
     },
@@ -1366,8 +1526,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LAO",
-        "year": 2000,
-        "unemployment_rate": 2.046
+        "year": 2004,
+        "population": 5781626.0
       },
       "geometry": null
     },
@@ -1376,8 +1536,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LVA",
-        "year": 2000,
-        "unemployment_rate": 14.211
+        "year": 2004,
+        "population": 2263122.0
       },
       "geometry": null
     },
@@ -1386,8 +1546,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LBN",
-        "year": 2000,
-        "unemployment_rate": 8.603
+        "year": 2004,
+        "population": 4599279.0
       },
       "geometry": null
     },
@@ -1396,8 +1556,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LSO",
-        "year": 2000,
-        "unemployment_rate": 16.227
+        "year": 2004,
+        "population": 1971129.0
       },
       "geometry": null
     },
@@ -1406,8 +1566,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LBR",
-        "year": 2000,
-        "unemployment_rate": 2.231
+        "year": 2004,
+        "population": 3156892.0
       },
       "geometry": null
     },
@@ -1416,8 +1576,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LBY",
-        "year": 2000,
-        "unemployment_rate": 19.201
+        "year": 2004,
+        "population": 5736693.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "LIE",
+        "year": 2004,
+        "population": 34447.0
       },
       "geometry": null
     },
@@ -1426,8 +1596,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LTU",
-        "year": 2000,
-        "unemployment_rate": 15.931
+        "year": 2004,
+        "population": 3377075.0
       },
       "geometry": null
     },
@@ -1436,8 +1606,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LUX",
-        "year": 2000,
-        "unemployment_rate": 2.345
+        "year": 2004,
+        "population": 458095.0
       },
       "geometry": null
     },
@@ -1446,8 +1616,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MAC",
-        "year": 2000,
-        "unemployment_rate": 6.874
+        "year": 2004,
+        "population": 454700.0
       },
       "geometry": null
     },
@@ -1456,8 +1626,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MDG",
-        "year": 2000,
-        "unemployment_rate": 5.8
+        "year": 2004,
+        "population": 18606608.0
       },
       "geometry": null
     },
@@ -1466,8 +1636,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MWI",
-        "year": 2000,
-        "unemployment_rate": 5.048
+        "year": 2004,
+        "population": 12500737.0
       },
       "geometry": null
     },
@@ -1476,8 +1646,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MYS",
-        "year": 2000,
-        "unemployment_rate": 3.0
+        "year": 2004,
+        "population": 25256772.0
       },
       "geometry": null
     },
@@ -1486,8 +1656,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MDV",
-        "year": 2000,
-        "unemployment_rate": 1.97
+        "year": 2004,
+        "population": 301413.0
       },
       "geometry": null
     },
@@ -1496,8 +1666,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MLI",
-        "year": 2000,
-        "unemployment_rate": 1.414
+        "year": 2004,
+        "population": 13102409.0
       },
       "geometry": null
     },
@@ -1506,8 +1676,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MLT",
-        "year": 2000,
-        "unemployment_rate": 6.324
+        "year": 2004,
+        "population": 401268.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MHL",
+        "year": 2004,
+        "population": 51791.0
       },
       "geometry": null
     },
@@ -1516,8 +1696,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MRT",
-        "year": 2000,
-        "unemployment_rate": 10.033
+        "year": 2004,
+        "population": 2868664.0
       },
       "geometry": null
     },
@@ -1526,8 +1706,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MUS",
-        "year": 2000,
-        "unemployment_rate": 9.138
+        "year": 2004,
+        "population": 1221003.0
       },
       "geometry": null
     },
@@ -1536,8 +1716,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MEX",
-        "year": 2000,
-        "unemployment_rate": 2.646
+        "year": 2004,
+        "population": 104394131.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "FSM",
+        "year": 2004,
+        "population": 111925.0
       },
       "geometry": null
     },
@@ -1546,8 +1736,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MDA",
-        "year": 2000,
-        "unemployment_rate": 8.539
+        "year": 2004,
+        "population": 2896023.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MCO",
+        "year": 2004,
+        "population": 32307.0
       },
       "geometry": null
     },
@@ -1556,8 +1756,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MNG",
-        "year": 2000,
-        "unemployment_rate": 5.993
+        "year": 2004,
+        "population": 2508412.0
       },
       "geometry": null
     },
@@ -1566,8 +1766,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MNE",
-        "year": 2000,
-        "unemployment_rate": 30.609
+        "year": 2004,
+        "population": 613353.0
       },
       "geometry": null
     },
@@ -1576,8 +1776,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MAR",
-        "year": 2000,
-        "unemployment_rate": 13.58
+        "year": 2004,
+        "population": 29953018.0
       },
       "geometry": null
     },
@@ -1586,8 +1786,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MOZ",
-        "year": 2000,
-        "unemployment_rate": 2.833
+        "year": 2004,
+        "population": 19840313.0
       },
       "geometry": null
     },
@@ -1596,8 +1796,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MMR",
-        "year": 2000,
-        "unemployment_rate": 0.717
+        "year": 2004,
+        "population": 47068772.0
       },
       "geometry": null
     },
@@ -1606,8 +1806,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NAM",
-        "year": 2000,
-        "unemployment_rate": 20.3
+        "year": 2004,
+        "population": 1942082.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "NRU",
+        "year": 2004,
+        "population": 10060.0
       },
       "geometry": null
     },
@@ -1616,8 +1826,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NPL",
-        "year": 2000,
-        "unemployment_rate": 10.551
+        "year": 2004,
+        "population": 26016656.0
       },
       "geometry": null
     },
@@ -1626,8 +1836,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NLD",
-        "year": 2000,
-        "unemployment_rate": 2.725
+        "year": 2004,
+        "population": 16281779.0
       },
       "geometry": null
     },
@@ -1636,8 +1846,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NCL",
-        "year": 2000,
-        "unemployment_rate": 17.984
+        "year": 2004,
+        "population": 240852.0
       },
       "geometry": null
     },
@@ -1646,8 +1856,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NZL",
-        "year": 2000,
-        "unemployment_rate": 6.13
+        "year": 2004,
+        "population": 4087500.0
       },
       "geometry": null
     },
@@ -1656,8 +1866,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NIC",
-        "year": 2000,
-        "unemployment_rate": 7.162
+        "year": 2004,
+        "population": 5272912.0
       },
       "geometry": null
     },
@@ -1666,8 +1876,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NER",
-        "year": 2000,
-        "unemployment_rate": 1.431
+        "year": 2004,
+        "population": 13265836.0
       },
       "geometry": null
     },
@@ -1676,8 +1886,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NGA",
-        "year": 2000,
-        "unemployment_rate": 3.963
+        "year": 2004,
+        "population": 141057045.0
       },
       "geometry": null
     },
@@ -1686,8 +1896,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "MKD",
-        "year": 2000,
-        "unemployment_rate": 32.2
+        "year": 2004,
+        "population": 2016186.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MNP",
+        "year": 2004,
+        "population": 63938.0
       },
       "geometry": null
     },
@@ -1696,8 +1916,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "NOR",
-        "year": 2000,
-        "unemployment_rate": 3.458
+        "year": 2004,
+        "population": 4591910.0
       },
       "geometry": null
     },
@@ -1706,8 +1926,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "OMN",
-        "year": 2000,
-        "unemployment_rate": 4.331
+        "year": 2004,
+        "population": 2404821.0
       },
       "geometry": null
     },
@@ -1716,8 +1936,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PAK",
-        "year": 2000,
-        "unemployment_rate": 0.634
+        "year": 2004,
+        "population": 171286000.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "PLW",
+        "year": 2004,
+        "population": 19820.0
       },
       "geometry": null
     },
@@ -1726,8 +1956,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PAN",
-        "year": 2000,
-        "unemployment_rate": 6.264
+        "year": 2004,
+        "population": 3251155.0
       },
       "geometry": null
     },
@@ -1736,8 +1966,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PNG",
-        "year": 2000,
-        "unemployment_rate": 2.92
+        "year": 2004,
+        "population": 6328041.0
       },
       "geometry": null
     },
@@ -1746,8 +1976,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PRY",
-        "year": 2000,
-        "unemployment_rate": 7.61
+        "year": 2004,
+        "population": 5388175.0
       },
       "geometry": null
     },
@@ -1756,8 +1986,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PER",
-        "year": 2000,
-        "unemployment_rate": 4.958
+        "year": 2004,
+        "population": 27852190.0
       },
       "geometry": null
     },
@@ -1766,8 +1996,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PHL",
-        "year": 2000,
-        "unemployment_rate": 3.767
+        "year": 2004,
+        "population": 86394504.0
       },
       "geometry": null
     },
@@ -1776,8 +2006,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "POL",
-        "year": 2000,
-        "unemployment_rate": 14.928
+        "year": 2004,
+        "population": 38182222.0
       },
       "geometry": null
     },
@@ -1786,8 +2016,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PRT",
-        "year": 2000,
-        "unemployment_rate": 3.806
+        "year": 2004,
+        "population": 10483861.0
       },
       "geometry": null
     },
@@ -1796,8 +2026,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PRI",
-        "year": 2000,
-        "unemployment_rate": 10.08
+        "year": 2004,
+        "population": 3826878.0
       },
       "geometry": null
     },
@@ -1806,8 +2036,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "QAT",
-        "year": 2000,
-        "unemployment_rate": 0.87
+        "year": 2004,
+        "population": 773332.0
       },
       "geometry": null
     },
@@ -1816,8 +2046,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ROU",
-        "year": 2000,
-        "unemployment_rate": 6.969
+        "year": 2004,
+        "population": 21451748.0
       },
       "geometry": null
     },
@@ -1826,8 +2056,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "RUS",
-        "year": 2000,
-        "unemployment_rate": 10.581
+        "year": 2004,
+        "population": 144067316.0
       },
       "geometry": null
     },
@@ -1836,8 +2066,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "RWA",
-        "year": 2000,
-        "unemployment_rate": 11.731
+        "year": 2004,
+        "population": 8816844.0
       },
       "geometry": null
     },
@@ -1846,8 +2076,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "WSM",
-        "year": 2000,
-        "unemployment_rate": 4.734
+        "year": 2004,
+        "population": 186249.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SMR",
+        "year": 2004,
+        "population": 29457.0
       },
       "geometry": null
     },
@@ -1856,8 +2096,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "STP",
-        "year": 2000,
-        "unemployment_rate": 14.4
+        "year": 2004,
+        "population": 157705.0
       },
       "geometry": null
     },
@@ -1866,8 +2106,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SAU",
-        "year": 2000,
-        "unemployment_rate": 4.57
+        "year": 2004,
+        "population": 19669480.0
       },
       "geometry": null
     },
@@ -1876,8 +2116,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SEN",
-        "year": 2000,
-        "unemployment_rate": 2.668
+        "year": 2004,
+        "population": 10975704.0
       },
       "geometry": null
     },
@@ -1886,8 +2126,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SRB",
-        "year": 2000,
-        "unemployment_rate": 12.6
+        "year": 2004,
+        "population": 7463157.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SYC",
+        "year": 2004,
+        "population": 82475.0
       },
       "geometry": null
     },
@@ -1896,8 +2146,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SLE",
-        "year": 2000,
-        "unemployment_rate": 4.08
+        "year": 2004,
+        "population": 5355717.0
       },
       "geometry": null
     },
@@ -1906,8 +2156,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SGP",
-        "year": 2000,
-        "unemployment_rate": 3.7
+        "year": 2004,
+        "population": 4166664.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "SXM",
+        "year": 2004,
+        "population": 31690.0
       },
       "geometry": null
     },
@@ -1916,8 +2176,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SVK",
-        "year": 2000,
-        "unemployment_rate": 18.546
+        "year": 2004,
+        "population": 5372280.0
       },
       "geometry": null
     },
@@ -1926,8 +2186,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SVN",
-        "year": 2000,
-        "unemployment_rate": 6.92
+        "year": 2004,
+        "population": 1997012.0
       },
       "geometry": null
     },
@@ -1936,8 +2196,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SLB",
-        "year": 2000,
-        "unemployment_rate": 2.45
+        "year": 2004,
+        "population": 474611.0
       },
       "geometry": null
     },
@@ -1946,8 +2206,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SOM",
-        "year": 2000,
-        "unemployment_rate": 18.98
+        "year": 2004,
+        "population": 10280998.0
       },
       "geometry": null
     },
@@ -1956,8 +2216,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ZAF",
-        "year": 2000,
-        "unemployment_rate": 22.714
+        "year": 2004,
+        "population": 48991421.0
       },
       "geometry": null
     },
@@ -1966,8 +2226,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SSD",
-        "year": 2000,
-        "unemployment_rate": 12.325
+        "year": 2004,
+        "population": 7233041.0
       },
       "geometry": null
     },
@@ -1976,8 +2236,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ESP",
-        "year": 2000,
-        "unemployment_rate": 13.785
+        "year": 2004,
+        "population": 42921895.0
       },
       "geometry": null
     },
@@ -1986,8 +2246,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LKA",
-        "year": 2000,
-        "unemployment_rate": 7.74
+        "year": 2004,
+        "population": 20087605.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "KNA",
+        "year": 2004,
+        "population": 46315.0
       },
       "geometry": null
     },
@@ -1996,8 +2266,18 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "LCA",
-        "year": 2000,
-        "unemployment_rate": 16.49
+        "year": 2004,
+        "population": 164239.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "MAF",
+        "year": 2004,
+        "population": 33171.0
       },
       "geometry": null
     },
@@ -2006,8 +2286,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "VCT",
-        "year": 2000,
-        "unemployment_rate": 20.794
+        "year": 2004,
+        "population": 112835.0
       },
       "geometry": null
     },
@@ -2016,8 +2296,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SDN",
-        "year": 2000,
-        "unemployment_rate": 15.608
+        "year": 2004,
+        "population": 30556637.0
       },
       "geometry": null
     },
@@ -2026,8 +2306,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SUR",
-        "year": 2000,
-        "unemployment_rate": 12.983
+        "year": 2004,
+        "population": 513923.0
       },
       "geometry": null
     },
@@ -2036,8 +2316,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SWE",
-        "year": 2000,
-        "unemployment_rate": 5.466
+        "year": 2004,
+        "population": 8993531.0
       },
       "geometry": null
     },
@@ -2046,8 +2326,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "CHE",
-        "year": 2000,
-        "unemployment_rate": 2.658
+        "year": 2004,
+        "population": 7389625.0
       },
       "geometry": null
     },
@@ -2056,8 +2336,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "SYR",
-        "year": 2000,
-        "unemployment_rate": 9.587
+        "year": 2004,
+        "population": 18336875.0
       },
       "geometry": null
     },
@@ -2066,8 +2346,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TJK",
-        "year": 2000,
-        "unemployment_rate": 4.15
+        "year": 2004,
+        "population": 6790547.0
       },
       "geometry": null
     },
@@ -2076,8 +2356,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TZA",
-        "year": 2000,
-        "unemployment_rate": 3.127
+        "year": 2004,
+        "population": 38109668.0
       },
       "geometry": null
     },
@@ -2086,8 +2366,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "THA",
-        "year": 2000,
-        "unemployment_rate": 2.389
+        "year": 2004,
+        "population": 65452047.0
       },
       "geometry": null
     },
@@ -2096,8 +2376,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TLS",
-        "year": 2000,
-        "unemployment_rate": 3.477
+        "year": 2004,
+        "population": 929074.0
       },
       "geometry": null
     },
@@ -2106,8 +2386,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TGO",
-        "year": 2000,
-        "unemployment_rate": 4.174
+        "year": 2004,
+        "population": 5696508.0
       },
       "geometry": null
     },
@@ -2116,8 +2396,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TON",
-        "year": 2000,
-        "unemployment_rate": 4.12
+        "year": 2004,
+        "population": 105071.0
       },
       "geometry": null
     },
@@ -2126,8 +2406,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TTO",
-        "year": 2000,
-        "unemployment_rate": 12.1
+        "year": 2004,
+        "population": 1345380.0
       },
       "geometry": null
     },
@@ -2136,8 +2416,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TUN",
-        "year": 2000,
-        "unemployment_rate": 14.94
+        "year": 2004,
+        "population": 10166163.0
       },
       "geometry": null
     },
@@ -2146,8 +2426,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TUR",
-        "year": 2000,
-        "unemployment_rate": 6.495
+        "year": 2004,
+        "population": 68592617.0
       },
       "geometry": null
     },
@@ -2156,8 +2436,28 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "TKM",
-        "year": 2000,
-        "unemployment_rate": 11.666
+        "year": 2004,
+        "population": 4958093.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TCA",
+        "year": 2004,
+        "population": 22856.0
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source": "worldbank_xml",
+        "country": "TUV",
+        "year": 2004,
+        "population": 9816.0
       },
       "geometry": null
     },
@@ -2166,8 +2466,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "UGA",
-        "year": 2000,
-        "unemployment_rate": 3.529
+        "year": 2004,
+        "population": 27154515.0
       },
       "geometry": null
     },
@@ -2176,8 +2476,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "UKR",
-        "year": 2000,
-        "unemployment_rate": 11.707
+        "year": 2004,
+        "population": 47979507.0
       },
       "geometry": null
     },
@@ -2186,8 +2486,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ARE",
-        "year": 2000,
-        "unemployment_rate": 2.25
+        "year": 2004,
+        "population": 4428967.0
       },
       "geometry": null
     },
@@ -2196,8 +2496,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "GBR",
-        "year": 2000,
-        "unemployment_rate": 5.558
+        "year": 2004,
+        "population": 59987905.0
       },
       "geometry": null
     },
@@ -2206,8 +2506,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "USA",
-        "year": 2000,
-        "unemployment_rate": 3.992
+        "year": 2004,
+        "population": 292805298.0
       },
       "geometry": null
     },
@@ -2216,8 +2516,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "URY",
-        "year": 2000,
-        "unemployment_rate": 12.627
+        "year": 2004,
+        "population": 3283148.0
       },
       "geometry": null
     },
@@ -2226,8 +2526,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "UZB",
-        "year": 2000,
-        "unemployment_rate": 12.317
+        "year": 2004,
+        "population": 26029350.0
       },
       "geometry": null
     },
@@ -2236,8 +2536,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "VUT",
-        "year": 2000,
-        "unemployment_rate": 8.283
+        "year": 2004,
+        "population": 205711.0
       },
       "geometry": null
     },
@@ -2246,8 +2546,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "VEN",
-        "year": 2000,
-        "unemployment_rate": 13.99
+        "year": 2004,
+        "population": 26340838.0
       },
       "geometry": null
     },
@@ -2256,8 +2556,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "VNM",
-        "year": 2000,
-        "unemployment_rate": 2.26
+        "year": 2004,
+        "population": 80338971.0
       },
       "geometry": null
     },
@@ -2266,8 +2566,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "VIR",
-        "year": 2000,
-        "unemployment_rate": 10.546
+        "year": 2004,
+        "population": 108466.0
       },
       "geometry": null
     },
@@ -2276,8 +2576,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "PSE",
-        "year": 2000,
-        "unemployment_rate": 10.625
+        "year": 2004,
+        "population": 3236626.0
       },
       "geometry": null
     },
@@ -2286,8 +2586,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "YEM",
-        "year": 2000,
-        "unemployment_rate": 11.557
+        "year": 2004,
+        "population": 22095167.0
       },
       "geometry": null
     },
@@ -2296,8 +2596,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ZMB",
-        "year": 2000,
-        "unemployment_rate": 12.93
+        "year": 2004,
+        "population": 11338198.0
       },
       "geometry": null
     },
@@ -2306,8 +2606,8 @@
       "properties": {
         "source": "worldbank_xml",
         "country": "ZWE",
-        "year": 2000,
-        "unemployment_rate": 5.684
+        "year": 2004,
+        "population": 12365896.0
       },
       "geometry": null
     }
