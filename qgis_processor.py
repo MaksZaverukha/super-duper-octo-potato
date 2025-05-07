@@ -62,16 +62,17 @@ def add_geometry_from_boundaries(features, boundaries_layer):
     for feat in features:
         geom = feat.get("geometry")
         props = feat.get("properties", {})
+        country = props.get("country")
         if not geom or not geom.get("coordinates"):
-            country = props.get("country")
-            if country:
-                # Якщо country схожий на ISO-код, шукаємо по ISO_A3
-                expr = None
-                if country in ISO_TO_ADMIN:
-                    expr = f'"ISO_A3" = \'{country}\''
-                else:
-                    # Пробуємо по ADMIN/NAME/country
-                    expr = ' OR '.join([f'"{field}" ILIKE \'{country}\'' for field in COUNTRY_FIELDS])
+            expr = None
+            # Пробуємо по ISO_A3 (country має бути ISO-кодом)
+            if country and country in ISO_TO_ADMIN:
+                expr = f'"ISO_A3" = \'{country}\''
+            elif country:
+                # Пробуємо по ADMIN, NAME, NAME_LONG, BRK_NAME, NAME_SORT
+                alt_fields = COUNTRY_FIELDS + ["NAME_LONG", "BRK_NAME", "NAME_SORT"]
+                expr = ' OR '.join([f'"{field}" ILIKE \'{country}\'' for field in alt_fields])
+            if expr:
                 request = QgsFeatureRequest().setFilterExpression(expr)
                 matching_feats = list(boundaries_layer.getFeatures(request))
                 if matching_feats:

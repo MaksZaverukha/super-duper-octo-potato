@@ -4,1960 +4,1960 @@
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "AFG",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ALB",
-        "year": 2025,
-        "unemployment_rate": 10.7
+        "year": "2006",
+        "energy_use": 707.890606549635
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "DZA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1032.63866815022
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "AND",
-        "year": 2025,
-        "unemployment_rate": 1.6
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "AGO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 422.909458684002
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ARG",
-        "year": 2025,
-        "unemployment_rate": 7.6
+        "year": "2006",
+        "energy_use": 1784.01669776279
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ARM",
-        "year": 2025,
-        "unemployment_rate": 13.5
+        "year": "2006",
+        "energy_use": 818.274997390362
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "AUS",
-        "year": 2025,
-        "unemployment_rate": 4.4
+        "year": "2006",
+        "energy_use": 5775.11675226564
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "AUT",
-        "year": 2025,
-        "unemployment_rate": 5.6
+        "year": "2006",
+        "energy_use": 4105.07525027388
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "AZE",
-        "year": 2025,
-        "unemployment_rate": 5.3
+        "year": "2006",
+        "energy_use": 1559.84917576741
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BHS",
-        "year": 2025,
-        "unemployment_rate": 9.8
+        "year": "2006",
+        "energy_use": 2026.55184786509
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BHR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 11582.0205666291
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BGD",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 168.32467252269
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BRB",
-        "year": 2025,
-        "unemployment_rate": 7.9
+        "year": "2006",
+        "energy_use": 1474.06315508774
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BLR",
-        "year": 2025,
-        "unemployment_rate": 2.9
+        "year": "2006",
+        "energy_use": 2974.24553406449
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BEL",
-        "year": 2025,
-        "unemployment_rate": 5.7
+        "year": "2006",
+        "energy_use": 5445.56547084695
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BLZ",
-        "year": 2025,
-        "unemployment_rate": 3.4
+        "year": "2006",
+        "energy_use": 597.475319406137
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BEN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 339.270972775752
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BTN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 314.550260212075
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BOL",
-        "year": 2025,
-        "unemployment_rate": 5.1
+        "year": "2006",
+        "energy_use": 568.36995826632
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BIH",
-        "year": 2025,
-        "unemployment_rate": 13.2
+        "year": "2006",
+        "energy_use": 1304.39455421949
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BWA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1096.75774429819
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BRA",
-        "year": 2025,
-        "unemployment_rate": 7.2
+        "year": "2006",
+        "energy_use": 1202.05933940304
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BRN",
-        "year": 2025,
-        "unemployment_rate": 4.9
+        "year": "2006",
+        "energy_use": 8644.25613377398
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "BGR",
-        "year": 2025,
-        "unemployment_rate": 4.2
+        "year": "2006",
+        "energy_use": 2696.78264240444
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BFA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 160.051947053493
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "BDI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "KHM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 289.726360027538
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "CMR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 385.035153073309
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CAN",
-        "year": 2025,
-        "unemployment_rate": 6.2
+        "year": "2006",
+        "energy_use": 8422.73319617476
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CPV",
-        "year": 2025,
-        "unemployment_rate": 8.5
+        "year": "2006",
+        "energy_use": 207.854452975987
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "CAF",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TCD",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 224.010107053053
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CHL",
-        "year": 2025,
-        "unemployment_rate": 8.0
+        "year": "2006",
+        "energy_use": 1788.47442583539
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CHN",
-        "year": 2025,
-        "unemployment_rate": 5.1
+        "year": "2006",
+        "energy_use": 1486.39617489664
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "COL",
-        "year": 2025,
-        "unemployment_rate": 10.0
+        "year": "2006",
+        "energy_use": 678.542899481449
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "COM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 69.4498415055403
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "COG",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 369.707983010852
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CRI",
-        "year": 2025,
-        "unemployment_rate": 8.7
+        "year": "2006",
+        "energy_use": 974.343838741737
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "CIV",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 460.427068503443
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "HRV",
-        "year": 2025,
-        "unemployment_rate": 5.5
+        "year": "2006",
+        "energy_use": 2247.14619166641
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "CUB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 943.950122138325
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CYP",
-        "year": 2025,
-        "unemployment_rate": 5.1
+        "year": "2006",
+        "energy_use": 2209.33213219678
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CZE",
-        "year": 2025,
-        "unemployment_rate": 2.5
+        "year": "2006",
+        "energy_use": 4519.45697588637
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "COD",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 285.454693557021
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "DNK",
-        "year": 2025,
-        "unemployment_rate": 3.0
+        "year": "2006",
+        "energy_use": 3729.69717999863
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "DJI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 167.102144983897
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "DMA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 610.41188268465
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "DOM",
-        "year": 2025,
-        "unemployment_rate": 6.0
+        "year": "2006",
+        "energy_use": 792.6097043369
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ECU",
-        "year": 2025,
-        "unemployment_rate": 4.0
+        "year": "2006",
+        "energy_use": 811.02739152362
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "EGY",
-        "year": 2025,
-        "unemployment_rate": 7.4
+        "year": "2006",
+        "energy_use": 806.249709401288
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SLV",
-        "year": 2025,
-        "unemployment_rate": 5.2
+        "year": "2006",
+        "energy_use": 686.957827636037
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GNQ",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1362.7589016065
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ERI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 245.383387133755
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "EST",
-        "year": 2025,
-        "unemployment_rate": 7.1
+        "year": "2006",
+        "energy_use": 4006.73962643142
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SWZ",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 900.421781084863
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ETH",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 366.046138985671
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "FJI",
-        "year": 2025,
-        "unemployment_rate": 4.7
+        "year": "2006",
+        "energy_use": 627.8324058111
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "FIN",
-        "year": 2025,
-        "unemployment_rate": 7.4
+        "year": "2006",
+        "energy_use": 7106.70978937984
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "FRA",
-        "year": 2025,
-        "unemployment_rate": 7.2
+        "year": "2006",
+        "energy_use": 4214.29234630039
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GAB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 2263.43017323991
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GMB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 66.4616460917346
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "GEO",
-        "year": 2025,
-        "unemployment_rate": 14.5
+        "year": "2006",
+        "energy_use": 781.34402083108
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "DEU",
-        "year": 2025,
-        "unemployment_rate": 3.2
+        "year": "2006",
+        "energy_use": 4235.93876578004
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GHA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 275.072843065691
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "GRC",
-        "year": 2025,
-        "unemployment_rate": 10.1
+        "year": "2006",
+        "energy_use": 2748.70086926019
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GRD",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 735.461025105552
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GTM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 686.763346928881
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GIN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GNB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 63.5906233506182
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GUY",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 658.791039387799
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "HTI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 367.726653817866
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "HND",
-        "year": 2025,
-        "unemployment_rate": 8.0
+        "year": "2006",
+        "energy_use": 563.815954585841
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "HUN",
-        "year": 2025,
-        "unemployment_rate": 4.2
+        "year": "2006",
+        "energy_use": 2760.46242793694
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ISL",
-        "year": 2025,
-        "unemployment_rate": 3.8
+        "year": "2006",
+        "energy_use": 13184.4771597611
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "IND",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 441.786253247166
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "IDN",
-        "year": 2025,
-        "unemployment_rate": 5.1
+        "year": "2006",
+        "energy_use": 643.624554536871
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "IRN",
-        "year": 2025,
-        "unemployment_rate": 8.4
+        "year": "2006",
+        "energy_use": 2459.04565215879
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "IRQ",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 916.179043545813
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "IRL",
-        "year": 2025,
-        "unemployment_rate": 4.4
+        "year": "2006",
+        "energy_use": 3433.14872836764
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ISR",
-        "year": 2025,
-        "unemployment_rate": 3.4
+        "year": "2006",
+        "energy_use": 2883.01357713219
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ITA",
-        "year": 2025,
-        "unemployment_rate": 7.2
+        "year": "2006",
+        "energy_use": 3176.15781064622
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "JAM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1470.67499756086
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "JPN",
-        "year": 2025,
-        "unemployment_rate": 2.5
+        "year": "2006",
+        "energy_use": 4064.36063398842
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "JOR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1066.3573147471
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "KAZ",
-        "year": 2025,
-        "unemployment_rate": 4.8
+        "year": "2006",
+        "energy_use": 3763.63490829315
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "KEN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 458.805496880821
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "KIR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 99.9830028895088
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "PRK",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 878.701770260996
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "KOR",
-        "year": 2025,
-        "unemployment_rate": 3.0
+        "year": "2006",
+        "energy_use": 4337.55103463972
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "KWT",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 10451.2180900059
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "KGZ",
-        "year": 2025,
-        "unemployment_rate": 9.0
+        "year": "2006",
+        "energy_use": 485.424849059713
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LAO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 349.385020841441
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "LVA",
-        "year": 2025,
-        "unemployment_rate": 6.5
+        "year": "2006",
+        "energy_use": 2114.39349147162
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LBN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 985.785471251008
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LSO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 9.76832112893001
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LBR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LBY",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 2733.38300724871
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LIE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "LTU",
-        "year": 2025,
-        "unemployment_rate": 7.1
+        "year": "2006",
+        "energy_use": 2669.90395839998
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "LUX",
-        "year": 2025,
-        "unemployment_rate": 5.9
+        "year": "2006",
+        "energy_use": 9172.05598332149
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MDG",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 250.834742473721
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MWI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MYS",
-        "year": 2025,
-        "unemployment_rate": 3.5
+        "year": "2006",
+        "energy_use": 2472.12683283587
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MDV",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 917.632889492147
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MLI",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MLT",
-        "year": 2025,
-        "unemployment_rate": 3.0
+        "year": "2006",
+        "energy_use": 2095.17873042085
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MHL",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 577.011847976612
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MRT",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MUS",
-        "year": 2025,
-        "unemployment_rate": 6.3
+        "year": "2006",
+        "energy_use": 1006.02062916824
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MEX",
-        "year": 2025,
-        "unemployment_rate": 3.3
+        "year": "2006",
+        "energy_use": 1711.48201994753
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "FSM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MDA",
-        "year": 2025,
-        "unemployment_rate": 3.5
+        "year": "2006",
+        "energy_use": 1197.85781024639
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MCO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MNG",
-        "year": 2025,
-        "unemployment_rate": 5.0
+        "year": "2006",
+        "energy_use": 1301.09928192751
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MNE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1841.6794367328
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MAR",
-        "year": 2025,
-        "unemployment_rate": 12.6
+        "year": "2006",
+        "energy_use": 486.582730066603
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MOZ",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 428.692521920125
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "MMR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 314.353500872765
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "NAM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 693.015801871712
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "NRU",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "NPL",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 343.770753341625
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "NLD",
-        "year": 2025,
-        "unemployment_rate": 4.2
+        "year": "2006",
+        "energy_use": 4840.784340365
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "NZL",
-        "year": 2025,
-        "unemployment_rate": 5.1
+        "year": "2006",
+        "energy_use": 4023.01740657031
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "NIC",
-        "year": 2025,
-        "unemployment_rate": 6.4
+        "year": "2006",
+        "energy_use": 538.914055514578
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "NER",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 124.905224384617
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "NGA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 287.950796331134
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "MKD",
-        "year": 2025,
-        "unemployment_rate": 12.8
+        "year": "2006",
+        "energy_use": 1486.59574899626
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "NOR",
-        "year": 2025,
-        "unemployment_rate": 3.8
+        "year": "2006",
+        "energy_use": 6319.15452788829
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "OMN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 6138.77344250291
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PAK",
-        "year": 2025,
-        "unemployment_rate": 7.5
+        "year": "2006",
+        "energy_use": 443.865350777373
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "PLW",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "PSE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PAN",
-        "year": 2025,
-        "unemployment_rate": 8.0
+        "year": "2006",
+        "energy_use": 874.56606978567
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "PNG",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PRY",
-        "year": 2025,
-        "unemployment_rate": 6.3
+        "year": "2006",
+        "energy_use": 742.137810783961
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PER",
-        "year": 2025,
-        "unemployment_rate": 6.5
+        "year": "2006",
+        "energy_use": 503.243223308839
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PHL",
-        "year": 2025,
-        "unemployment_rate": 5.2
+        "year": "2006",
+        "energy_use": 423.356012358413
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "POL",
-        "year": 2025,
-        "unemployment_rate": 3.3
+        "year": "2006",
+        "energy_use": 2538.76112384258
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "PRT",
-        "year": 2025,
-        "unemployment_rate": 6.4
+        "year": "2006",
+        "energy_use": 2390.46374599498
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "QAT",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 20140.3428752631
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ROU",
-        "year": 2025,
-        "unemployment_rate": 5.4
+        "year": "2006",
+        "energy_use": 1881.71766548482
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "RUS",
-        "year": 2025,
-        "unemployment_rate": 3.0
+        "year": "2006",
+        "energy_use": 4689.15108443259
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "RWA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 350.903344670586
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "KNA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1696.40748137173
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LCA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 714.118543678251
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "VCT",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 624.921884764404
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "WSM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 303.661518627237
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SMR",
-        "year": 2025,
-        "unemployment_rate": 3.9
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "STP",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 265.639527161642
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SAU",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 6605.44101687621
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SEN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 241.589611245821
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SRB",
-        "year": 2025,
-        "unemployment_rate": 9.0
+        "year": "2006",
+        "energy_use": 2293.67913246219
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SYC",
-        "year": 2025,
-        "unemployment_rate": 3.0
+        "year": "2006",
+        "energy_use": 2872.34042553192
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SLE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SGP",
-        "year": 2025,
-        "unemployment_rate": 1.9
+        "year": "2006",
+        "energy_use": 5128.30865666219
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SVK",
-        "year": 2025,
-        "unemployment_rate": 5.7
+        "year": "2006",
+        "energy_use": 3469.42737880421
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SVN",
-        "year": 2025,
-        "unemployment_rate": 3.5
+        "year": "2006",
+        "energy_use": 3735.02431343807
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SLB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 120.017738214868
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SOM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ZAF",
-        "year": 2025,
-        "unemployment_rate": 33.9
+        "year": "2006",
+        "energy_use": 2377.14602269064
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SSD",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "ESP",
-        "year": 2025,
-        "unemployment_rate": 11.2
+        "year": "2006",
+        "energy_use": 3190.72627710892
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "LKA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 446.303743469172
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SDN",
-        "year": 2025,
-        "unemployment_rate": 55.7
+        "year": "2006",
+        "energy_use": 508.243151523165
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SUR",
-        "year": 2025,
-        "unemployment_rate": 10.0
+        "year": "2006",
+        "energy_use": 1174.71907397922
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "SWE",
-        "year": 2025,
-        "unemployment_rate": 8.3
+        "year": "2006",
+        "energy_use": 5532.76265714386
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "CHE",
-        "year": 2025,
-        "unemployment_rate": 2.5
+        "year": "2006",
+        "energy_use": 3600.20599088199
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "SYR",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 1101.63821463784
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "TWN",
-        "year": 2025,
-        "unemployment_rate": 3.7
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TJK",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 341.863711848015
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TZA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 429.313725233187
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "THA",
-        "year": 2025,
-        "unemployment_rate": 1.0
+        "year": "2006",
+        "energy_use": 1525.12619877511
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TLS",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 60.4138656989526
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TGO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 394.055905016925
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TON",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 536.455441258129
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TTO",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 13820.6467519783
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TUN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 845.985604662777
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "TUR",
-        "year": 2025,
-        "unemployment_rate": 9.9
+        "year": "2006",
+        "energy_use": 1328.69230138979
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TKM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 3604.33240214602
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "TUV",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "UGA",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 393.870894212368
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "UKR",
-        "year": 2025,
-        "unemployment_rate": 12.7
+        "year": "2006",
+        "energy_use": 2866.6234732695
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ARE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 9239.48012400956
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "GBR",
-        "year": 2025,
-        "unemployment_rate": 4.1
+        "year": "2006",
+        "energy_use": 3601.05090812166
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "USA",
-        "year": 2025,
-        "unemployment_rate": 4.4
+        "year": "2006",
+        "energy_use": 7694.40657948116
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "URY",
-        "year": 2025,
-        "unemployment_rate": 8.0
+        "year": "2006",
+        "energy_use": 990.488024294237
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "UZB",
-        "year": 2025,
-        "unemployment_rate": 5.8
+        "year": "2006",
+        "energy_use": 1695.1035686445
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "VUT",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 143.56969845732
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "VEN",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 2375.23205873567
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "api_ninjas",
+        "source": "fallback",
         "country": "VNM",
-        "year": 2025,
-        "unemployment_rate": 2.0
+        "year": "2006",
+        "energy_use": 515.075042472671
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "YEM",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 299.542924935684
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ZMB",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 604.442195262904
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ZWE",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": 494.383766335302
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "GRL",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     },
     {
       "type": "Feature",
       "properties": {
-        "source": "no_data",
+        "source": "fallback",
         "country": "ATF",
-        "year": "2025",
-        "unemployment_rate": null
+        "year": "2006",
+        "energy_use": null
       },
       "geometry": null
     }
