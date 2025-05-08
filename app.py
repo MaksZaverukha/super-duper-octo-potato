@@ -3,9 +3,11 @@ import os
 import json
 import subprocess
 import logging
+from report import report_bp
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 app = Flask(__name__)
+app.register_blueprint(report_bp)
 
 CACHE_FILE = os.path.join('static', 'data_cache.json')
 RESULT_GEOJSON = os.path.join('data', 'result.geojson')
@@ -51,7 +53,7 @@ def run_update(indicator, country, year):
 def update():
     indicator = request.args.get("indicator", "population")
     country = request.args.get("country", "").strip()
-    year = request.args.get("year", "2025")
+    year = request.args.get("year", "2023")
     try:
         from etl import ALL_ISO_CODES
     except ImportError:
@@ -62,7 +64,7 @@ def update():
             with open(CACHE_FILE, "r", encoding='utf-8') as f:
                 cache_data = json.load(f)
             if all_keys and all(
-                (cache_data.get("worldbank", {}).get(k) is not None or cache_data.get("api_ninjas", {}).get(k) is not None)
+                cache_data.get("worldbank", {}).get(k) is not None
                 for k in all_keys
             ):
                 return jsonify({"status": "cached", "message": "Дані вже є в кеші для всіх країн"})
@@ -78,7 +80,7 @@ def update():
 @app.route("/geojson")
 def geojson():
     indicator = request.args.get("indicator", "population")
-    year = request.args.get("year", "2025")
+    year = request.args.get("year", "2023")
     # Формуємо шлях до відповідного result_<indicator>_<year>.geojson
     result_file = os.path.join('data', f'result_{indicator}_{year}.geojson')
     # Якщо такого немає, fallback на старий result.geojson
@@ -102,7 +104,7 @@ def data():
             with open(CACHE_FILE, "r", encoding='utf-8') as f:
                 data_output = json.load(f)
         else:
-            data_output = {"worldbank": {}, "api_ninjas": {}}
+            data_output = {"worldbank": {}}
         response = jsonify(data_output)
         response.headers["Cache-Control"] = "no-store"
         return response

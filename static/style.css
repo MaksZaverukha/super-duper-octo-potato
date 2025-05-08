@@ -44,3 +44,69 @@ input[type="text"], select, input[type="range"] {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   margin-top: 15px;
 }
+
+/* Стилі для таблиці динаміки в infoPanel */
+#infoPanel table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+}
+#infoPanel th, #infoPanel td {
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  text-align: right;
+}
+#infoPanel th {
+  background: #f3f3f3;
+  font-weight: bold;
+}
+#infoPanel tr:nth-child(even) {
+  background: #fafafa;
+}
+#infoPanel tr[style*='background:#f0f0f0'] {
+  background: #e0e0e0 !important;
+}
+#infoPanel td:first-child, #infoPanel th:first-child {
+  text-align: center;
+}
+
+/* Стилі для нового блоку #reportBlock */
+#reportBlock {
+  background: #f6f6fb;
+  margin-top: 18px;
+  padding: 18px 20px 16px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e3e3e3;
+}
+#reportBlock h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #3a3a3a;
+  font-weight: 600;
+}
+#reportOptions {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+#reportOptions label {
+  font-size: 1em;
+  color: #444;
+  cursor: pointer;
+  user-select: none;
+}
+#downloadReportBtn {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#downloadReportBtn:hover {
+  background: #357ab8;
+}

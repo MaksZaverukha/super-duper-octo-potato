@@ -6,8 +6,8 @@
       "properties": {
         "source": "fallback",
         "country": "AFG",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 26.933
       },
       "geometry": {
         "coordinates": [
@@ -300,8 +300,8 @@
       "properties": {
         "source": "fallback",
         "country": "ALB",
-        "year": "2006",
-        "energy_use": 707.890606549635
+        "year": "2023",
+        "urbanization_rate": 64.603
       },
       "geometry": {
         "coordinates": [
@@ -414,8 +414,8 @@
       "properties": {
         "source": "fallback",
         "country": "DZA",
-        "year": "2006",
-        "energy_use": 1032.63866815022
+        "year": "2023",
+        "urbanization_rate": 75.268
       },
       "geometry": {
         "coordinates": [
@@ -680,8 +680,8 @@
       "properties": {
         "source": "fallback",
         "country": "AND",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 87.774
       },
       "geometry": null
     },
@@ -690,8 +690,8 @@
       "properties": {
         "source": "fallback",
         "country": "AGO",
-        "year": "2006",
-        "energy_use": 422.909458684002
+        "year": "2023",
+        "urbanization_rate": 68.688
       },
       "geometry": {
         "coordinates": [
@@ -1012,8 +1012,8 @@
       "properties": {
         "source": "fallback",
         "country": "ARG",
-        "year": "2006",
-        "energy_use": 1784.01669776279
+        "year": "2023",
+        "urbanization_rate": 92.463
       },
       "geometry": {
         "coordinates": [
@@ -1518,8 +1518,8 @@
       "properties": {
         "source": "fallback",
         "country": "ARM",
-        "year": "2006",
-        "energy_use": 818.274997390362
+        "year": "2023",
+        "urbanization_rate": 63.739
       },
       "geometry": {
         "coordinates": [
@@ -1616,8 +1616,8 @@
       "properties": {
         "source": "fallback",
         "country": "AUS",
-        "year": "2006",
-        "energy_use": 5775.11675226564
+        "year": "2023",
+        "urbanization_rate": 86.617
       },
       "geometry": {
         "coordinates": [
@@ -2602,8 +2602,8 @@
       "properties": {
         "source": "fallback",
         "country": "AUT",
-        "year": "2006",
-        "energy_use": 4105.07525027388
+        "year": "2023",
+        "urbanization_rate": 59.53
       },
       "geometry": {
         "coordinates": [
@@ -2768,8 +2768,8 @@
       "properties": {
         "source": "fallback",
         "country": "AZE",
-        "year": "2006",
-        "energy_use": 1559.84917576741
+        "year": "2023",
+        "urbanization_rate": 57.577
       },
       "geometry": {
         "coordinates": [
@@ -2966,8 +2966,8 @@
       "properties": {
         "source": "fallback",
         "country": "BHS",
-        "year": "2006",
-        "energy_use": 2026.55184786509
+        "year": "2023",
+        "urbanization_rate": 83.625
       },
       "geometry": {
         "coordinates": [
@@ -3076,8 +3076,8 @@
       "properties": {
         "source": "fallback",
         "country": "BHR",
-        "year": "2006",
-        "energy_use": 11582.0205666291
+        "year": "2023",
+        "urbanization_rate": 89.869
       },
       "geometry": null
     },
@@ -3086,8 +3086,8 @@
       "properties": {
         "source": "fallback",
         "country": "BGD",
-        "year": "2006",
-        "energy_use": 168.32467252269
+        "year": "2023",
+        "urbanization_rate": 40.473
       },
       "geometry": {
         "coordinates": [
@@ -3248,8 +3248,8 @@
       "properties": {
         "source": "fallback",
         "country": "BRB",
-        "year": "2006",
-        "energy_use": 1474.06315508774
+        "year": "2023",
+        "urbanization_rate": 31.425
       },
       "geometry": null
     },
@@ -3258,8 +3258,8 @@
       "properties": {
         "source": "fallback",
         "country": "BLR",
-        "year": "2006",
-        "energy_use": 2974.24553406449
+        "year": "2023",
+        "urbanization_rate": 80.731
       },
       "geometry": {
         "coordinates": [
@@ -3456,8 +3456,8 @@
       "properties": {
         "source": "fallback",
         "country": "BEL",
-        "year": "2006",
-        "energy_use": 5445.56547084695
+        "year": "2023",
+        "urbanization_rate": 98.189
       },
       "geometry": {
         "coordinates": [
@@ -3542,8 +3542,8 @@
       "properties": {
         "source": "fallback",
         "country": "BLZ",
-        "year": "2006",
-        "energy_use": 597.475319406137
+        "year": "2023",
+        "urbanization_rate": 46.608
       },
       "geometry": {
         "coordinates": [
@@ -3640,8 +3640,8 @@
       "properties": {
         "source": "fallback",
         "country": "BEN",
-        "year": "2006",
-        "energy_use": 339.270972775752
+        "year": "2023",
+        "urbanization_rate": 50.1
       },
       "geometry": {
         "coordinates": [
@@ -3758,8 +3758,8 @@
       "properties": {
         "source": "fallback",
         "country": "BTN",
-        "year": "2006",
-        "energy_use": 314.550260212075
+        "year": "2023",
+        "urbanization_rate": 44.35
       },
       "geometry": {
         "coordinates": [
@@ -3828,8 +3828,8 @@
       "properties": {
         "source": "fallback",
         "country": "BOL",
-        "year": "2006",
-        "energy_use": 568.36995826632
+        "year": "2023",
+        "urbanization_rate": 71.186
       },
       "geometry": {
         "coordinates": [
@@ -4086,8 +4086,8 @@
       "properties": {
         "source": "fallback",
         "country": "BIH",
-        "year": "2006",
-        "energy_use": 1304.39455421949
+        "year": "2023",
+        "urbanization_rate": 50.269
       },
       "geometry": {
         "coordinates": [
@@ -4196,8 +4196,8 @@
       "properties": {
         "source": "fallback",
         "country": "BWA",
-        "year": "2006",
-        "energy_use": 1096.75774429819
+        "year": "2023",
+        "urbanization_rate": 72.867
       },
       "geometry": {
         "coordinates": [
@@ -4374,8 +4374,8 @@
       "properties": {
         "source": "fallback",
         "country": "BRA",
-        "year": "2006",
-        "energy_use": 1202.05933940304
+        "year": "2023",
+        "urbanization_rate": 87.788
       },
       "geometry": {
         "coordinates": [
@@ -5204,8 +5204,8 @@
       "properties": {
         "source": "fallback",
         "country": "BRN",
-        "year": "2006",
-        "energy_use": 8644.25613377398
+        "year": "2023",
+        "urbanization_rate": 79.149
       },
       "geometry": {
         "coordinates": [
@@ -5254,8 +5254,8 @@
       "properties": {
         "source": "fallback",
         "country": "BGR",
-        "year": "2006",
-        "energy_use": 2696.78264240444
+        "year": "2023",
+        "urbanization_rate": 76.701
       },
       "geometry": {
         "coordinates": [
@@ -5384,8 +5384,8 @@
       "properties": {
         "source": "fallback",
         "country": "BFA",
-        "year": "2006",
-        "energy_use": 160.051947053493
+        "year": "2023",
+        "urbanization_rate": 32.52
       },
       "geometry": {
         "coordinates": [
@@ -5558,8 +5558,8 @@
       "properties": {
         "source": "fallback",
         "country": "BDI",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 14.784
       },
       "geometry": {
         "coordinates": [
@@ -5628,8 +5628,8 @@
       "properties": {
         "source": "fallback",
         "country": "KHM",
-        "year": "2006",
-        "energy_use": 289.726360027538
+        "year": "2023",
+        "urbanization_rate": 25.57
       },
       "geometry": {
         "coordinates": [
@@ -5714,8 +5714,8 @@
       "properties": {
         "source": "fallback",
         "country": "CMR",
-        "year": "2006",
-        "energy_use": 385.035153073309
+        "year": "2023",
+        "urbanization_rate": 59.315
       },
       "geometry": {
         "coordinates": [
@@ -5976,8 +5976,8 @@
       "properties": {
         "source": "fallback",
         "country": "CAN",
-        "year": "2006",
-        "energy_use": 8422.73319617476
+        "year": "2023",
+        "urbanization_rate": 81.862
       },
       "geometry": {
         "coordinates": [
@@ -9286,8 +9286,8 @@
       "properties": {
         "source": "fallback",
         "country": "CPV",
-        "year": "2006",
-        "energy_use": 207.854452975987
+        "year": "2023",
+        "urbanization_rate": 67.982
       },
       "geometry": null
     },
@@ -9296,8 +9296,8 @@
       "properties": {
         "source": "fallback",
         "country": "CAF",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 43.614
       },
       "geometry": {
         "coordinates": [
@@ -9562,8 +9562,8 @@
       "properties": {
         "source": "fallback",
         "country": "TCD",
-        "year": "2006",
-        "energy_use": 224.010107053053
+        "year": "2023",
+        "urbanization_rate": 24.366
       },
       "geometry": {
         "coordinates": [
@@ -9812,8 +9812,8 @@
       "properties": {
         "source": "fallback",
         "country": "CHL",
-        "year": "2006",
-        "energy_use": 1788.47442583539
+        "year": "2023",
+        "urbanization_rate": 88.012
       },
       "geometry": {
         "coordinates": [
@@ -10290,8 +10290,8 @@
       "properties": {
         "source": "fallback",
         "country": "CHN",
-        "year": "2006",
-        "energy_use": 1486.39617489664
+        "year": "2023",
+        "urbanization_rate": 64.57
       },
       "geometry": {
         "coordinates": [
@@ -11272,8 +11272,8 @@
       "properties": {
         "source": "fallback",
         "country": "COL",
-        "year": "2006",
-        "energy_use": 678.542899481449
+        "year": "2023",
+        "urbanization_rate": 82.354
       },
       "geometry": {
         "coordinates": [
@@ -11690,8 +11690,8 @@
       "properties": {
         "source": "fallback",
         "country": "COM",
-        "year": "2006",
-        "energy_use": 69.4498415055403
+        "year": "2023",
+        "urbanization_rate": 30.132
       },
       "geometry": null
     },
@@ -11700,8 +11700,8 @@
       "properties": {
         "source": "fallback",
         "country": "COG",
-        "year": "2006",
-        "energy_use": 369.707983010852
+        "year": "2023",
+        "urbanization_rate": 69.188
       },
       "geometry": {
         "coordinates": [
@@ -11914,8 +11914,8 @@
       "properties": {
         "source": "fallback",
         "country": "CRI",
-        "year": "2006",
-        "energy_use": 974.343838741737
+        "year": "2023",
+        "urbanization_rate": 82.622
       },
       "geometry": {
         "coordinates": [
@@ -12076,8 +12076,8 @@
       "properties": {
         "source": "fallback",
         "country": "CIV",
-        "year": "2006",
-        "energy_use": 460.427068503443
+        "year": "2023",
+        "urbanization_rate": 53.149
       },
       "geometry": {
         "coordinates": [
@@ -12278,8 +12278,8 @@
       "properties": {
         "source": "fallback",
         "country": "HRV",
-        "year": "2006",
-        "energy_use": 2247.14619166641
+        "year": "2023",
+        "urbanization_rate": 58.575
       },
       "geometry": {
         "coordinates": [
@@ -12468,8 +12468,8 @@
       "properties": {
         "source": "fallback",
         "country": "CUB",
-        "year": "2006",
-        "energy_use": 943.950122138325
+        "year": "2023",
+        "urbanization_rate": 77.523
       },
       "geometry": {
         "coordinates": [
@@ -12654,8 +12654,8 @@
       "properties": {
         "source": "fallback",
         "country": "CYP",
-        "year": "2006",
-        "energy_use": 2209.33213219678
+        "year": "2023",
+        "urbanization_rate": 66.987
       },
       "geometry": {
         "coordinates": [
@@ -12732,8 +12732,8 @@
       "properties": {
         "source": "fallback",
         "country": "CZE",
-        "year": "2006",
-        "energy_use": 4519.45697588637
+        "year": "2023",
+        "urbanization_rate": 74.552
       },
       "geometry": {
         "coordinates": [
@@ -12890,8 +12890,8 @@
       "properties": {
         "source": "fallback",
         "country": "COD",
-        "year": "2006",
-        "energy_use": 285.454693557021
+        "year": "2023",
+        "urbanization_rate": 47.444
       },
       "geometry": {
         "coordinates": [
@@ -13404,8 +13404,8 @@
       "properties": {
         "source": "fallback",
         "country": "DNK",
-        "year": "2006",
-        "energy_use": 3729.69717999863
+        "year": "2023",
+        "urbanization_rate": 88.495
       },
       "geometry": {
         "coordinates": [
@@ -13522,8 +13522,8 @@
       "properties": {
         "source": "fallback",
         "country": "DJI",
-        "year": "2006",
-        "energy_use": 167.102144983897
+        "year": "2023",
+        "urbanization_rate": 78.552
       },
       "geometry": {
         "coordinates": [
@@ -13600,8 +13600,8 @@
       "properties": {
         "source": "fallback",
         "country": "DMA",
-        "year": "2006",
-        "energy_use": 610.41188268465
+        "year": "2023",
+        "urbanization_rate": 72.006
       },
       "geometry": null
     },
@@ -13610,8 +13610,8 @@
       "properties": {
         "source": "fallback",
         "country": "DOM",
-        "year": "2006",
-        "energy_use": 792.6097043369
+        "year": "2023",
+        "urbanization_rate": 84.446
       },
       "geometry": {
         "coordinates": [
@@ -13732,8 +13732,8 @@
       "properties": {
         "source": "fallback",
         "country": "ECU",
-        "year": "2006",
-        "energy_use": 811.02739152362
+        "year": "2023",
+        "urbanization_rate": 64.792
       },
       "geometry": {
         "coordinates": [
@@ -13882,8 +13882,8 @@
       "properties": {
         "source": "fallback",
         "country": "EGY",
-        "year": "2006",
-        "energy_use": 806.249709401288
+        "year": "2023",
+        "urbanization_rate": 43.1
       },
       "geometry": {
         "coordinates": [
@@ -14076,8 +14076,8 @@
       "properties": {
         "source": "fallback",
         "country": "SLV",
-        "year": "2006",
-        "energy_use": 686.957827636037
+        "year": "2023",
+        "urbanization_rate": 75.393
       },
       "geometry": {
         "coordinates": [
@@ -14174,8 +14174,8 @@
       "properties": {
         "source": "fallback",
         "country": "GNQ",
-        "year": "2006",
-        "energy_use": 1362.7589016065
+        "year": "2023",
+        "urbanization_rate": 74.448
       },
       "geometry": {
         "coordinates": [
@@ -14220,8 +14220,8 @@
       "properties": {
         "source": "fallback",
         "country": "ERI",
-        "year": "2006",
-        "energy_use": 245.383387133755
+        "year": "2023",
+        "urbanization_rate": 43.267
       },
       "geometry": {
         "coordinates": [
@@ -14350,8 +14350,8 @@
       "properties": {
         "source": "fallback",
         "country": "EST",
-        "year": "2006",
-        "energy_use": 4006.73962643142
+        "year": "2023",
+        "urbanization_rate": 69.81
       },
       "geometry": {
         "coordinates": [
@@ -14444,8 +14444,8 @@
       "properties": {
         "source": "fallback",
         "country": "SWZ",
-        "year": "2006",
-        "energy_use": 900.421781084863
+        "year": "2023",
+        "urbanization_rate": 24.79
       },
       "geometry": {
         "coordinates": [
@@ -14506,8 +14506,8 @@
       "properties": {
         "source": "fallback",
         "country": "ETH",
-        "year": "2006",
-        "energy_use": 366.046138985671
+        "year": "2023",
+        "urbanization_rate": 23.157
       },
       "geometry": {
         "coordinates": [
@@ -14760,8 +14760,8 @@
       "properties": {
         "source": "fallback",
         "country": "FJI",
-        "year": "2006",
-        "energy_use": 627.8324058111
+        "year": "2023",
+        "urbanization_rate": 58.713
       },
       "geometry": {
         "coordinates": [
@@ -14874,8 +14874,8 @@
       "properties": {
         "source": "fallback",
         "country": "FIN",
-        "year": "2006",
-        "energy_use": 7106.70978937984
+        "year": "2023",
+        "urbanization_rate": 85.773
       },
       "geometry": {
         "coordinates": [
@@ -15052,8 +15052,8 @@
       "properties": {
         "source": "fallback",
         "country": "FRA",
-        "year": "2006",
-        "energy_use": 4214.29234630039
+        "year": "2023",
+        "urbanization_rate": 81.777
       },
       "geometry": null
     },
@@ -15062,8 +15062,8 @@
       "properties": {
         "source": "fallback",
         "country": "GAB",
-        "year": "2006",
-        "energy_use": 2263.43017323991
+        "year": "2023",
+        "urbanization_rate": 91.029
       },
       "geometry": {
         "coordinates": [
@@ -15204,8 +15204,8 @@
       "properties": {
         "source": "fallback",
         "country": "GMB",
-        "year": "2006",
-        "energy_use": 66.4616460917346
+        "year": "2023",
+        "urbanization_rate": 64.472
       },
       "geometry": {
         "coordinates": [
@@ -15286,8 +15286,8 @@
       "properties": {
         "source": "fallback",
         "country": "GEO",
-        "year": "2006",
-        "energy_use": 781.34402083108
+        "year": "2023",
+        "urbanization_rate": 60.727
       },
       "geometry": {
         "coordinates": [
@@ -15400,8 +15400,8 @@
       "properties": {
         "source": "fallback",
         "country": "DEU",
-        "year": "2006",
-        "energy_use": 4235.93876578004
+        "year": "2023",
+        "urbanization_rate": 77.765
       },
       "geometry": {
         "coordinates": [
@@ -15650,8 +15650,8 @@
       "properties": {
         "source": "fallback",
         "country": "GHA",
-        "year": "2006",
-        "energy_use": 275.072843065691
+        "year": "2023",
+        "urbanization_rate": 59.238
       },
       "geometry": {
         "coordinates": [
@@ -15768,8 +15768,8 @@
       "properties": {
         "source": "fallback",
         "country": "GRC",
-        "year": "2006",
-        "energy_use": 2748.70086926019
+        "year": "2023",
+        "urbanization_rate": 80.673
       },
       "geometry": {
         "coordinates": [
@@ -16006,8 +16006,8 @@
       "properties": {
         "source": "fallback",
         "country": "GRD",
-        "year": "2006",
-        "energy_use": 735.461025105552
+        "year": "2023",
+        "urbanization_rate": 37.059
       },
       "geometry": null
     },
@@ -16016,8 +16016,8 @@
       "properties": {
         "source": "fallback",
         "country": "GTM",
-        "year": "2006",
-        "energy_use": 686.763346928881
+        "year": "2023",
+        "urbanization_rate": 53.098
       },
       "geometry": {
         "coordinates": [
@@ -16174,8 +16174,8 @@
       "properties": {
         "source": "fallback",
         "country": "GIN",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 38.085
       },
       "geometry": {
         "coordinates": [
@@ -16472,8 +16472,8 @@
       "properties": {
         "source": "fallback",
         "country": "GNB",
-        "year": "2006",
-        "energy_use": 63.5906233506182
+        "year": "2023",
+        "urbanization_rate": 45.466
       },
       "geometry": {
         "coordinates": [
@@ -16566,8 +16566,8 @@
       "properties": {
         "source": "fallback",
         "country": "GUY",
-        "year": "2006",
-        "energy_use": 658.791039387799
+        "year": "2023",
+        "urbanization_rate": 27.162
       },
       "geometry": {
         "coordinates": [
@@ -16744,8 +16744,8 @@
       "properties": {
         "source": "fallback",
         "country": "HTI",
-        "year": "2006",
-        "energy_use": 367.726653817866
+        "year": "2023",
+        "urbanization_rate": 59.656
       },
       "geometry": {
         "coordinates": [
@@ -16846,8 +16846,8 @@
       "properties": {
         "source": "fallback",
         "country": "HND",
-        "year": "2006",
-        "energy_use": 563.815954585841
+        "year": "2023",
+        "urbanization_rate": 60.212
       },
       "geometry": {
         "coordinates": [
@@ -17092,8 +17092,8 @@
       "properties": {
         "source": "fallback",
         "country": "HUN",
-        "year": "2006",
-        "energy_use": 2760.46242793694
+        "year": "2023",
+        "urbanization_rate": 72.864
       },
       "geometry": {
         "coordinates": [
@@ -17238,8 +17238,8 @@
       "properties": {
         "source": "fallback",
         "country": "ISL",
-        "year": "2006",
-        "energy_use": 13184.4771597611
+        "year": "2023",
+        "urbanization_rate": 94.042
       },
       "geometry": {
         "coordinates": [
@@ -17336,8 +17336,8 @@
       "properties": {
         "source": "fallback",
         "country": "IND",
-        "year": "2006",
-        "energy_use": 441.786253247166
+        "year": "2023",
+        "urbanization_rate": 36.364
       },
       "geometry": {
         "coordinates": [
@@ -17898,8 +17898,8 @@
       "properties": {
         "source": "fallback",
         "country": "IDN",
-        "year": "2006",
-        "energy_use": 643.624554536871
+        "year": "2023",
+        "urbanization_rate": 58.572
       },
       "geometry": {
         "coordinates": [
@@ -18964,8 +18964,8 @@
       "properties": {
         "source": "fallback",
         "country": "IRN",
-        "year": "2006",
-        "energy_use": 2459.04565215879
+        "year": "2023",
+        "urbanization_rate": 77.257
       },
       "geometry": {
         "coordinates": [
@@ -19286,8 +19286,8 @@
       "properties": {
         "source": "fallback",
         "country": "IRQ",
-        "year": "2006",
-        "energy_use": 916.179043545813
+        "year": "2023",
+        "urbanization_rate": 71.599
       },
       "geometry": {
         "coordinates": [
@@ -19424,8 +19424,8 @@
       "properties": {
         "source": "fallback",
         "country": "IRL",
-        "year": "2006",
-        "energy_use": 3433.14872836764
+        "year": "2023",
+        "urbanization_rate": 64.466
       },
       "geometry": {
         "coordinates": [
@@ -19494,8 +19494,8 @@
       "properties": {
         "source": "fallback",
         "country": "ISR",
-        "year": "2006",
-        "energy_use": 2883.01357713219
+        "year": "2023",
+        "urbanization_rate": 92.854
       },
       "geometry": {
         "coordinates": [
@@ -19616,8 +19616,8 @@
       "properties": {
         "source": "fallback",
         "country": "ITA",
-        "year": "2006",
-        "energy_use": 3176.15781064622
+        "year": "2023",
+        "urbanization_rate": 71.973
       },
       "geometry": {
         "coordinates": [
@@ -19990,8 +19990,8 @@
       "properties": {
         "source": "fallback",
         "country": "JAM",
-        "year": "2006",
-        "energy_use": 1470.67499756086
+        "year": "2023",
+        "urbanization_rate": 57.378
       },
       "geometry": {
         "coordinates": [
@@ -20052,8 +20052,8 @@
       "properties": {
         "source": "fallback",
         "country": "JPN",
-        "year": "2006",
-        "energy_use": 4064.36063398842
+        "year": "2023",
+        "urbanization_rate": 92.043
       },
       "geometry": {
         "coordinates": [
@@ -20338,8 +20338,8 @@
       "properties": {
         "source": "fallback",
         "country": "JOR",
-        "year": "2006",
-        "energy_use": 1066.3573147471
+        "year": "2023",
+        "urbanization_rate": 92.02
       },
       "geometry": {
         "coordinates": [
@@ -20432,8 +20432,8 @@
       "properties": {
         "source": "fallback",
         "country": "KAZ",
-        "year": "2006",
-        "energy_use": 3763.63490829315
+        "year": "2023",
+        "urbanization_rate": 58.179
       },
       "geometry": {
         "coordinates": [
@@ -20898,8 +20898,8 @@
       "properties": {
         "source": "fallback",
         "country": "KEN",
-        "year": "2006",
-        "energy_use": 458.805496880821
+        "year": "2023",
+        "urbanization_rate": 29.52
       },
       "geometry": {
         "coordinates": [
@@ -21064,8 +21064,8 @@
       "properties": {
         "source": "fallback",
         "country": "KIR",
-        "year": "2006",
-        "energy_use": 99.9830028895088
+        "year": "2023",
+        "urbanization_rate": 57.762
       },
       "geometry": null
     },
@@ -21074,8 +21074,8 @@
       "properties": {
         "source": "fallback",
         "country": "PRK",
-        "year": "2006",
-        "energy_use": 878.701770260996
+        "year": "2023",
+        "urbanization_rate": 63.203
       },
       "geometry": {
         "coordinates": [
@@ -21288,8 +21288,8 @@
       "properties": {
         "source": "fallback",
         "country": "KOR",
-        "year": "2006",
-        "energy_use": 4337.55103463972
+        "year": "2023",
+        "urbanization_rate": 81.456
       },
       "geometry": {
         "coordinates": [
@@ -21382,8 +21382,8 @@
       "properties": {
         "source": "fallback",
         "country": "KWT",
-        "year": "2006",
-        "energy_use": 10451.2180900059
+        "year": "2023",
+        "urbanization_rate": 100.0
       },
       "geometry": {
         "coordinates": [
@@ -21436,8 +21436,8 @@
       "properties": {
         "source": "fallback",
         "country": "KGZ",
-        "year": "2006",
-        "energy_use": 485.424849059713
+        "year": "2023",
+        "urbanization_rate": 37.801
       },
       "geometry": {
         "coordinates": [
@@ -21594,8 +21594,8 @@
       "properties": {
         "source": "fallback",
         "country": "LAO",
-        "year": "2006",
-        "energy_use": 349.385020841441
+        "year": "2023",
+        "urbanization_rate": 38.247
       },
       "geometry": {
         "coordinates": [
@@ -21760,8 +21760,8 @@
       "properties": {
         "source": "fallback",
         "country": "LVA",
-        "year": "2006",
-        "energy_use": 2114.39349147162
+        "year": "2023",
+        "urbanization_rate": 68.671
       },
       "geometry": {
         "coordinates": [
@@ -21866,8 +21866,8 @@
       "properties": {
         "source": "fallback",
         "country": "LBN",
-        "year": "2006",
-        "energy_use": 985.785471251008
+        "year": "2023",
+        "urbanization_rate": 89.432
       },
       "geometry": {
         "coordinates": [
@@ -21928,8 +21928,8 @@
       "properties": {
         "source": "fallback",
         "country": "LSO",
-        "year": "2006",
-        "energy_use": 9.76832112893001
+        "year": "2023",
+        "urbanization_rate": 30.415
       },
       "geometry": {
         "coordinates": [
@@ -21994,8 +21994,8 @@
       "properties": {
         "source": "fallback",
         "country": "LBR",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 53.567
       },
       "geometry": {
         "coordinates": [
@@ -22120,8 +22120,8 @@
       "properties": {
         "source": "fallback",
         "country": "LBY",
-        "year": "2006",
-        "energy_use": 2733.38300724871
+        "year": "2023",
+        "urbanization_rate": 81.606
       },
       "geometry": {
         "coordinates": [
@@ -22362,8 +22362,8 @@
       "properties": {
         "source": "fallback",
         "country": "LIE",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 14.617
       },
       "geometry": null
     },
@@ -22372,8 +22372,8 @@
       "properties": {
         "source": "fallback",
         "country": "LTU",
-        "year": "2006",
-        "energy_use": 2669.90395839998
+        "year": "2023",
+        "urbanization_rate": 68.694
       },
       "geometry": {
         "coordinates": [
@@ -22466,8 +22466,8 @@
       "properties": {
         "source": "fallback",
         "country": "LUX",
-        "year": "2006",
-        "energy_use": 9172.05598332149
+        "year": "2023",
+        "urbanization_rate": 92.078
       },
       "geometry": {
         "coordinates": [
@@ -22512,8 +22512,8 @@
       "properties": {
         "source": "fallback",
         "country": "MDG",
-        "year": "2006",
-        "energy_use": 250.834742473721
+        "year": "2023",
+        "urbanization_rate": 40.556
       },
       "geometry": {
         "coordinates": [
@@ -22726,8 +22726,8 @@
       "properties": {
         "source": "fallback",
         "country": "MWI",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 18.28
       },
       "geometry": {
         "coordinates": [
@@ -22856,8 +22856,8 @@
       "properties": {
         "source": "fallback",
         "country": "MYS",
-        "year": "2006",
-        "energy_use": 2472.12683283587
+        "year": "2023",
+        "urbanization_rate": 78.716
       },
       "geometry": {
         "coordinates": [
@@ -23126,8 +23126,8 @@
       "properties": {
         "source": "fallback",
         "country": "MDV",
-        "year": "2006",
-        "energy_use": 917.632889492147
+        "year": "2023",
+        "urbanization_rate": 41.971
       },
       "geometry": null
     },
@@ -23136,8 +23136,8 @@
       "properties": {
         "source": "fallback",
         "country": "MLI",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 46.189
       },
       "geometry": {
         "coordinates": [
@@ -23458,8 +23458,8 @@
       "properties": {
         "source": "fallback",
         "country": "MLT",
-        "year": "2006",
-        "energy_use": 2095.17873042085
+        "year": "2023",
+        "urbanization_rate": 94.941
       },
       "geometry": null
     },
@@ -23468,8 +23468,8 @@
       "properties": {
         "source": "fallback",
         "country": "MHL",
-        "year": "2006",
-        "energy_use": 577.011847976612
+        "year": "2023",
+        "urbanization_rate": 78.868
       },
       "geometry": null
     },
@@ -23478,8 +23478,8 @@
       "properties": {
         "source": "fallback",
         "country": "MRT",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 57.699
       },
       "geometry": {
         "coordinates": [
@@ -23652,8 +23652,8 @@
       "properties": {
         "source": "fallback",
         "country": "MUS",
-        "year": "2006",
-        "energy_use": 1006.02062916824
+        "year": "2023",
+        "urbanization_rate": 40.867
       },
       "geometry": null
     },
@@ -23662,8 +23662,8 @@
       "properties": {
         "source": "fallback",
         "country": "MEX",
-        "year": "2006",
-        "energy_use": 1711.48201994753
+        "year": "2023",
+        "urbanization_rate": 81.582
       },
       "geometry": {
         "coordinates": [
@@ -24360,8 +24360,8 @@
       "properties": {
         "source": "fallback",
         "country": "FSM",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 23.379
       },
       "geometry": null
     },
@@ -24370,8 +24370,8 @@
       "properties": {
         "source": "fallback",
         "country": "MDA",
-        "year": "2006",
-        "energy_use": 1197.85781024639
+        "year": "2023",
+        "urbanization_rate": 43.373
       },
       "geometry": {
         "coordinates": [
@@ -24496,8 +24496,8 @@
       "properties": {
         "source": "fallback",
         "country": "MCO",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 100.0
       },
       "geometry": null
     },
@@ -24506,8 +24506,8 @@
       "properties": {
         "source": "fallback",
         "country": "MNG",
-        "year": "2006",
-        "energy_use": 1301.09928192751
+        "year": "2023",
+        "urbanization_rate": 69.089
       },
       "geometry": {
         "coordinates": [
@@ -24824,8 +24824,8 @@
       "properties": {
         "source": "fallback",
         "country": "MNE",
-        "year": "2006",
-        "energy_use": 1841.6794367328
+        "year": "2023",
+        "urbanization_rate": 68.502
       },
       "geometry": {
         "coordinates": [
@@ -24914,8 +24914,8 @@
       "properties": {
         "source": "fallback",
         "country": "MAR",
-        "year": "2006",
-        "energy_use": 486.582730066603
+        "year": "2023",
+        "urbanization_rate": 65.121
       },
       "geometry": {
         "coordinates": [
@@ -25184,8 +25184,8 @@
       "properties": {
         "source": "fallback",
         "country": "MOZ",
-        "year": "2006",
-        "energy_use": 428.692521920125
+        "year": "2023",
+        "urbanization_rate": 38.753
       },
       "geometry": {
         "coordinates": [
@@ -25518,8 +25518,8 @@
       "properties": {
         "source": "fallback",
         "country": "MMR",
-        "year": "2006",
-        "energy_use": 314.353500872765
+        "year": "2023",
+        "urbanization_rate": 32.112
       },
       "geometry": {
         "coordinates": [
@@ -25816,8 +25816,8 @@
       "properties": {
         "source": "fallback",
         "country": "NAM",
-        "year": "2006",
-        "energy_use": 693.015801871712
+        "year": "2023",
+        "urbanization_rate": 54.886
       },
       "geometry": {
         "coordinates": [
@@ -26010,8 +26010,8 @@
       "properties": {
         "source": "fallback",
         "country": "NRU",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 100.0
       },
       "geometry": null
     },
@@ -26020,8 +26020,8 @@
       "properties": {
         "source": "fallback",
         "country": "NPL",
-        "year": "2006",
-        "energy_use": 343.770753341625
+        "year": "2023",
+        "urbanization_rate": 21.903
       },
       "geometry": {
         "coordinates": [
@@ -26130,8 +26130,8 @@
       "properties": {
         "source": "fallback",
         "country": "NLD",
-        "year": "2006",
-        "energy_use": 4840.784340365
+        "year": "2023",
+        "urbanization_rate": 93.179
       },
       "geometry": {
         "coordinates": [
@@ -26208,8 +26208,8 @@
       "properties": {
         "source": "fallback",
         "country": "NZL",
-        "year": "2006",
-        "energy_use": 4023.01740657031
+        "year": "2023",
+        "urbanization_rate": 86.985
       },
       "geometry": {
         "coordinates": [
@@ -26494,8 +26494,8 @@
       "properties": {
         "source": "fallback",
         "country": "NIC",
-        "year": "2006",
-        "energy_use": 538.914055514578
+        "year": "2023",
+        "urbanization_rate": 59.849
       },
       "geometry": {
         "coordinates": [
@@ -26720,8 +26720,8 @@
       "properties": {
         "source": "fallback",
         "country": "NER",
-        "year": "2006",
-        "energy_use": 124.905224384617
+        "year": "2023",
+        "urbanization_rate": 17.054
       },
       "geometry": {
         "coordinates": [
@@ -26970,8 +26970,8 @@
       "properties": {
         "source": "fallback",
         "country": "NGA",
-        "year": "2006",
-        "energy_use": 287.950796331134
+        "year": "2023",
+        "urbanization_rate": 54.283
       },
       "geometry": {
         "coordinates": [
@@ -27220,8 +27220,8 @@
       "properties": {
         "source": "fallback",
         "country": "MKD",
-        "year": "2006",
-        "energy_use": 1486.59574899626
+        "year": "2023",
+        "urbanization_rate": 59.479
       },
       "geometry": {
         "coordinates": [
@@ -27310,8 +27310,8 @@
       "properties": {
         "source": "fallback",
         "country": "NOR",
-        "year": "2006",
-        "energy_use": 6319.15452788829
+        "year": "2023",
+        "urbanization_rate": 83.995
       },
       "geometry": null
     },
@@ -27320,8 +27320,8 @@
       "properties": {
         "source": "fallback",
         "country": "OMN",
-        "year": "2006",
-        "energy_use": 6138.77344250291
+        "year": "2023",
+        "urbanization_rate": 88.4
       },
       "geometry": {
         "coordinates": [
@@ -27530,8 +27530,8 @@
       "properties": {
         "source": "fallback",
         "country": "PAK",
-        "year": "2006",
-        "energy_use": 443.865350777373
+        "year": "2023",
+        "urbanization_rate": 38.04
       },
       "geometry": {
         "coordinates": [
@@ -27812,8 +27812,8 @@
       "properties": {
         "source": "fallback",
         "country": "PLW",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 82.408
       },
       "geometry": null
     },
@@ -27822,8 +27822,8 @@
       "properties": {
         "source": "fallback",
         "country": "PSE",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 77.582
       },
       "geometry": {
         "coordinates": [
@@ -27876,8 +27876,8 @@
       "properties": {
         "source": "fallback",
         "country": "PAN",
-        "year": "2006",
-        "energy_use": 874.56606978567
+        "year": "2023",
+        "urbanization_rate": 69.512
       },
       "geometry": {
         "coordinates": [
@@ -28102,8 +28102,8 @@
       "properties": {
         "source": "fallback",
         "country": "PNG",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 13.723
       },
       "geometry": {
         "coordinates": [
@@ -28456,8 +28456,8 @@
       "properties": {
         "source": "fallback",
         "country": "PRY",
-        "year": "2006",
-        "energy_use": 742.137810783961
+        "year": "2023",
+        "urbanization_rate": 63.149
       },
       "geometry": {
         "coordinates": [
@@ -28606,8 +28606,8 @@
       "properties": {
         "source": "fallback",
         "country": "PER",
-        "year": "2006",
-        "energy_use": 503.243223308839
+        "year": "2023",
+        "urbanization_rate": 78.922
       },
       "geometry": {
         "coordinates": [
@@ -28928,8 +28928,8 @@
       "properties": {
         "source": "fallback",
         "country": "PHL",
-        "year": "2006",
-        "energy_use": 423.356012358413
+        "year": "2023",
+        "urbanization_rate": 48.287
       },
       "geometry": {
         "coordinates": [
@@ -29410,8 +29410,8 @@
       "properties": {
         "source": "fallback",
         "country": "POL",
-        "year": "2006",
-        "energy_use": 2538.76112384258
+        "year": "2023",
+        "urbanization_rate": 60.218
       },
       "geometry": {
         "coordinates": [
@@ -29608,8 +29608,8 @@
       "properties": {
         "source": "fallback",
         "country": "PRT",
-        "year": "2006",
-        "energy_use": 2390.46374599498
+        "year": "2023",
+        "urbanization_rate": 67.906
       },
       "geometry": {
         "coordinates": [
@@ -29758,8 +29758,8 @@
       "properties": {
         "source": "fallback",
         "country": "QAT",
-        "year": "2006",
-        "energy_use": 20140.3428752631
+        "year": "2023",
+        "urbanization_rate": 99.354
       },
       "geometry": {
         "coordinates": [
@@ -29812,8 +29812,8 @@
       "properties": {
         "source": "fallback",
         "country": "ROU",
-        "year": "2006",
-        "energy_use": 1881.71766548482
+        "year": "2023",
+        "urbanization_rate": 54.672
       },
       "geometry": {
         "coordinates": [
@@ -30006,8 +30006,8 @@
       "properties": {
         "source": "fallback",
         "country": "RUS",
-        "year": "2006",
-        "energy_use": 4689.15108443259
+        "year": "2023",
+        "urbanization_rate": 75.331
       },
       "geometry": {
         "coordinates": [
@@ -32576,8 +32576,8 @@
       "properties": {
         "source": "fallback",
         "country": "RWA",
-        "year": "2006",
-        "energy_use": 350.903344670586
+        "year": "2023",
+        "urbanization_rate": 17.892
       },
       "geometry": {
         "coordinates": [
@@ -32650,8 +32650,8 @@
       "properties": {
         "source": "fallback",
         "country": "KNA",
-        "year": "2006",
-        "energy_use": 1696.40748137173
+        "year": "2023",
+        "urbanization_rate": 31.096
       },
       "geometry": null
     },
@@ -32660,8 +32660,8 @@
       "properties": {
         "source": "fallback",
         "country": "LCA",
-        "year": "2006",
-        "energy_use": 714.118543678251
+        "year": "2023",
+        "urbanization_rate": 19.172
       },
       "geometry": null
     },
@@ -32670,8 +32670,8 @@
       "properties": {
         "source": "fallback",
         "country": "VCT",
-        "year": "2006",
-        "energy_use": 624.921884764404
+        "year": "2023",
+        "urbanization_rate": 54.299
       },
       "geometry": null
     },
@@ -32680,8 +32680,8 @@
       "properties": {
         "source": "fallback",
         "country": "WSM",
-        "year": "2006",
-        "energy_use": 303.661518627237
+        "year": "2023",
+        "urbanization_rate": 17.508
       },
       "geometry": null
     },
@@ -32690,8 +32690,8 @@
       "properties": {
         "source": "fallback",
         "country": "SMR",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 97.836
       },
       "geometry": null
     },
@@ -32700,8 +32700,8 @@
       "properties": {
         "source": "fallback",
         "country": "STP",
-        "year": "2006",
-        "energy_use": 265.639527161642
+        "year": "2023",
+        "urbanization_rate": 76.401
       },
       "geometry": null
     },
@@ -32710,8 +32710,8 @@
       "properties": {
         "source": "fallback",
         "country": "SAU",
-        "year": "2006",
-        "energy_use": 6605.44101687621
+        "year": "2023",
+        "urbanization_rate": 84.95
       },
       "geometry": {
         "coordinates": [
@@ -33032,8 +33032,8 @@
       "properties": {
         "source": "fallback",
         "country": "SEN",
-        "year": "2006",
-        "energy_use": 241.589611245821
+        "year": "2023",
+        "urbanization_rate": 49.579
       },
       "geometry": {
         "coordinates": [
@@ -33226,8 +33226,8 @@
       "properties": {
         "source": "fallback",
         "country": "SRB",
-        "year": "2006",
-        "energy_use": 2293.67913246219
+        "year": "2023",
+        "urbanization_rate": 57.113
       },
       "geometry": {
         "coordinates": [
@@ -33436,8 +33436,8 @@
       "properties": {
         "source": "fallback",
         "country": "SYC",
-        "year": "2006",
-        "energy_use": 2872.34042553192
+        "year": "2023",
+        "urbanization_rate": 58.82
       },
       "geometry": null
     },
@@ -33446,8 +33446,8 @@
       "properties": {
         "source": "fallback",
         "country": "SLE",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 44.3
       },
       "geometry": {
         "coordinates": [
@@ -33552,8 +33552,8 @@
       "properties": {
         "source": "fallback",
         "country": "SGP",
-        "year": "2006",
-        "energy_use": 5128.30865666219
+        "year": "2023",
+        "urbanization_rate": 100.0
       },
       "geometry": null
     },
@@ -33562,8 +33562,8 @@
       "properties": {
         "source": "fallback",
         "country": "SVK",
-        "year": "2006",
-        "energy_use": 3469.42737880421
+        "year": "2023",
+        "urbanization_rate": 54.027
       },
       "geometry": {
         "coordinates": [
@@ -33712,8 +33712,8 @@
       "properties": {
         "source": "fallback",
         "country": "SVN",
-        "year": "2006",
-        "energy_use": 3735.02431343807
+        "year": "2023",
+        "urbanization_rate": 56.088
       },
       "geometry": {
         "coordinates": [
@@ -33802,8 +33802,8 @@
       "properties": {
         "source": "fallback",
         "country": "SLB",
-        "year": "2006",
-        "energy_use": 120.017738214868
+        "year": "2023",
+        "urbanization_rate": 26.037
       },
       "geometry": {
         "coordinates": [
@@ -33984,8 +33984,8 @@
       "properties": {
         "source": "fallback",
         "country": "SOM",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 47.92
       },
       "geometry": {
         "coordinates": [
@@ -34254,8 +34254,8 @@
       "properties": {
         "source": "fallback",
         "country": "ZAF",
-        "year": "2006",
-        "energy_use": 2377.14602269064
+        "year": "2023",
+        "urbanization_rate": 68.819
       },
       "geometry": {
         "coordinates": [
@@ -34650,8 +34650,8 @@
       "properties": {
         "source": "fallback",
         "country": "SSD",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 21.195
       },
       "geometry": {
         "coordinates": [
@@ -34920,8 +34920,8 @@
       "properties": {
         "source": "fallback",
         "country": "ESP",
-        "year": "2006",
-        "energy_use": 3190.72627710892
+        "year": "2023",
+        "urbanization_rate": 81.552
       },
       "geometry": {
         "coordinates": [
@@ -35142,8 +35142,8 @@
       "properties": {
         "source": "fallback",
         "country": "LKA",
-        "year": "2006",
-        "energy_use": 446.303743469172
+        "year": "2023",
+        "urbanization_rate": 19.211
       },
       "geometry": {
         "coordinates": [
@@ -35200,8 +35200,8 @@
       "properties": {
         "source": "fallback",
         "country": "SDN",
-        "year": "2006",
-        "energy_use": 508.243151523165
+        "year": "2023",
+        "urbanization_rate": 36.342
       },
       "geometry": {
         "coordinates": [
@@ -35542,8 +35542,8 @@
       "properties": {
         "source": "fallback",
         "country": "SUR",
-        "year": "2006",
-        "energy_use": 1174.71907397922
+        "year": "2023",
+        "urbanization_rate": 66.411
       },
       "geometry": {
         "coordinates": [
@@ -35664,8 +35664,8 @@
       "properties": {
         "source": "fallback",
         "country": "SWE",
-        "year": "2006",
-        "energy_use": 5532.76265714386
+        "year": "2023",
+        "urbanization_rate": 88.738
       },
       "geometry": {
         "coordinates": [
@@ -35842,8 +35842,8 @@
       "properties": {
         "source": "fallback",
         "country": "CHE",
-        "year": "2006",
-        "energy_use": 3600.20599088199
+        "year": "2023",
+        "urbanization_rate": 74.202
       },
       "geometry": {
         "coordinates": [
@@ -35956,8 +35956,8 @@
       "properties": {
         "source": "fallback",
         "country": "SYR",
-        "year": "2006",
-        "energy_use": 1101.63821463784
+        "year": "2023",
+        "urbanization_rate": 57.409
       },
       "geometry": {
         "coordinates": [
@@ -36082,8 +36082,8 @@
       "properties": {
         "source": "fallback",
         "country": "TWN",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": null
       },
       "geometry": {
         "coordinates": [
@@ -36136,8 +36136,8 @@
       "properties": {
         "source": "fallback",
         "country": "TJK",
-        "year": "2006",
-        "energy_use": 341.863711848015
+        "year": "2023",
+        "urbanization_rate": 28.234
       },
       "geometry": {
         "coordinates": [
@@ -36318,8 +36318,8 @@
       "properties": {
         "source": "fallback",
         "country": "TZA",
-        "year": "2006",
-        "energy_use": 429.313725233187
+        "year": "2023",
+        "urbanization_rate": 37.409
       },
       "geometry": {
         "coordinates": [
@@ -36544,8 +36544,8 @@
       "properties": {
         "source": "fallback",
         "country": "THA",
-        "year": "2006",
-        "energy_use": 1525.12619877511
+        "year": "2023",
+        "urbanization_rate": 53.608
       },
       "geometry": {
         "coordinates": [
@@ -36818,8 +36818,8 @@
       "properties": {
         "source": "fallback",
         "country": "TLS",
-        "year": "2006",
-        "energy_use": 60.4138656989526
+        "year": "2023",
+        "urbanization_rate": 32.456
       },
       "geometry": {
         "coordinates": [
@@ -36880,8 +36880,8 @@
       "properties": {
         "source": "fallback",
         "country": "TGO",
-        "year": "2006",
-        "energy_use": 394.055905016925
+        "year": "2023",
+        "urbanization_rate": 44.49
       },
       "geometry": {
         "coordinates": [
@@ -36974,8 +36974,8 @@
       "properties": {
         "source": "fallback",
         "country": "TON",
-        "year": "2006",
-        "energy_use": 536.455441258129
+        "year": "2023",
+        "urbanization_rate": 23.16
       },
       "geometry": null
     },
@@ -36984,8 +36984,8 @@
       "properties": {
         "source": "fallback",
         "country": "TTO",
-        "year": "2006",
-        "energy_use": 13820.6467519783
+        "year": "2023",
+        "urbanization_rate": 53.439
       },
       "geometry": {
         "coordinates": [
@@ -37034,8 +37034,8 @@
       "properties": {
         "source": "fallback",
         "country": "TUN",
-        "year": "2006",
-        "energy_use": 845.985604662777
+        "year": "2023",
+        "urbanization_rate": 70.544
       },
       "geometry": {
         "coordinates": [
@@ -37176,8 +37176,8 @@
       "properties": {
         "source": "fallback",
         "country": "TUR",
-        "year": "2006",
-        "energy_use": 1328.69230138979
+        "year": "2023",
+        "urbanization_rate": 77.463
       },
       "geometry": {
         "coordinates": [
@@ -37470,8 +37470,8 @@
       "properties": {
         "source": "fallback",
         "country": "TKM",
-        "year": "2006",
-        "energy_use": 3604.33240214602
+        "year": "2023",
+        "urbanization_rate": 54.003
       },
       "geometry": {
         "coordinates": [
@@ -37704,8 +37704,8 @@
       "properties": {
         "source": "fallback",
         "country": "TUV",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 66.241
       },
       "geometry": null
     },
@@ -37714,8 +37714,8 @@
       "properties": {
         "source": "fallback",
         "country": "UGA",
-        "year": "2006",
-        "energy_use": 393.870894212368
+        "year": "2023",
+        "urbanization_rate": 26.771
       },
       "geometry": {
         "coordinates": [
@@ -37844,8 +37844,8 @@
       "properties": {
         "source": "fallback",
         "country": "UKR",
-        "year": "2006",
-        "energy_use": 2866.6234732695
+        "year": "2023",
+        "urbanization_rate": 70.095
       },
       "geometry": {
         "coordinates": [
@@ -60770,8 +60770,8 @@
       "properties": {
         "source": "fallback",
         "country": "ARE",
-        "year": "2006",
-        "energy_use": 9239.48012400956
+        "year": "2023",
+        "urbanization_rate": 87.779
       },
       "geometry": {
         "coordinates": [
@@ -60876,8 +60876,8 @@
       "properties": {
         "source": "fallback",
         "country": "GBR",
-        "year": "2006",
-        "energy_use": 3601.05090812166
+        "year": "2023",
+        "urbanization_rate": 84.642
       },
       "geometry": {
         "coordinates": [
@@ -61122,8 +61122,8 @@
       "properties": {
         "source": "fallback",
         "country": "USA",
-        "year": "2006",
-        "energy_use": 7694.40657948116
+        "year": "2023",
+        "urbanization_rate": 83.298
       },
       "geometry": {
         "coordinates": [
@@ -62964,8 +62964,8 @@
       "properties": {
         "source": "fallback",
         "country": "URY",
-        "year": "2006",
-        "energy_use": 990.488024294237
+        "year": "2023",
+        "urbanization_rate": 95.771
       },
       "geometry": {
         "coordinates": [
@@ -63066,8 +63066,8 @@
       "properties": {
         "source": "fallback",
         "country": "UZB",
-        "year": "2006",
-        "energy_use": 1695.1035686445
+        "year": "2023",
+        "urbanization_rate": 50.532
       },
       "geometry": {
         "coordinates": [
@@ -63300,8 +63300,8 @@
       "properties": {
         "source": "fallback",
         "country": "VUT",
-        "year": "2006",
-        "energy_use": 143.56969845732
+        "year": "2023",
+        "urbanization_rate": 25.976
       },
       "geometry": {
         "coordinates": [
@@ -63370,8 +63370,8 @@
       "properties": {
         "source": "fallback",
         "country": "VEN",
-        "year": "2006",
-        "energy_use": 2375.23205873567
+        "year": "2023",
+        "urbanization_rate": 88.438
       },
       "geometry": {
         "coordinates": [
@@ -63756,8 +63756,8 @@
       "properties": {
         "source": "fallback",
         "country": "VNM",
-        "year": "2006",
-        "energy_use": 515.075042472671
+        "year": "2023",
+        "urbanization_rate": 39.48
       },
       "geometry": {
         "coordinates": [
@@ -63950,8 +63950,8 @@
       "properties": {
         "source": "fallback",
         "country": "YEM",
-        "year": "2006",
-        "energy_use": 299.542924935684
+        "year": "2023",
+        "urbanization_rate": 39.831
       },
       "geometry": {
         "coordinates": [
@@ -64144,8 +64144,8 @@
       "properties": {
         "source": "fallback",
         "country": "ZMB",
-        "year": "2006",
-        "energy_use": 604.442195262904
+        "year": "2023",
+        "urbanization_rate": 46.335
       },
       "geometry": {
         "coordinates": [
@@ -64406,8 +64406,8 @@
       "properties": {
         "source": "fallback",
         "country": "ZWE",
-        "year": "2006",
-        "energy_use": 494.383766335302
+        "year": "2023",
+        "urbanization_rate": 32.517
       },
       "geometry": {
         "coordinates": [
@@ -64572,8 +64572,8 @@
       "properties": {
         "source": "fallback",
         "country": "GRL",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": 87.94
       },
       "geometry": {
         "coordinates": [
@@ -65118,8 +65118,8 @@
       "properties": {
         "source": "fallback",
         "country": "ATF",
-        "year": "2006",
-        "energy_use": null
+        "year": "2023",
+        "urbanization_rate": null
       },
       "geometry": {
         "coordinates": [

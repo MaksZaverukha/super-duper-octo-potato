@@ -8,14 +8,15 @@ import sys
 import urllib.parse
 import shutil  # Для копіювання файлів
 import csv
+import time
 
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Файл для запису вхідного GeoJSON (для сумісності з іншими модулями, наприклад, qgis_processor.py)
 INPUT_GEOJSON = os.path.join("data", "input.geojson")
 
-API_KEY = "5V7O0c43JxoQZRUQtqla3Q==xfXFKSRNZW0CR5jj"
-HEADERS = {"X-Api-Key": API_KEY}
+DATACOMMONS_API_KEY = os.environ.get("DATACOMMONS_API_KEY", "")
+DATACOMMONS_API_URL = "https://api.datacommons.org/v2/"  # REST v2
 
 WORLD_BANK_BASE_URL = "https://api.worldbank.org/v2/country"
 PER_PAGE = 1000
@@ -28,7 +29,6 @@ INDICATORS = {
     "unemployment": {
         "name": "Рівень безробіття",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/unemployment", "api_field": "unemployment_rate"},
             {"type": "worldbank", "indicator": "SL.UEM.TOTL.ZS", "api_field": "unemployment_rate"},
             {"type": "owid", "file": "owid_unemployment.csv", "api_field": "unemployment_rate"},
             {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_unemployment_rate", "api_field": "unemployment_rate"}
@@ -37,7 +37,6 @@ INDICATORS = {
     "population": {
         "name": "Населення",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/population", "api_field": "population"},
             {"type": "worldbank", "indicator": "SP.POP.TOTL", "api_field": "population"},
             {"type": "owid", "file": "owid_population.csv", "api_field": "population"},
             {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population", "api_field": "population"}
@@ -93,81 +92,84 @@ INDICATORS = {
             {"type": "owid", "file": "owid_homicide.csv", "api_field": "homicide_rate"}
         ]
     },
-    "co2_emissions": {
-        "name": "Викиди CO₂ (тонн на особу)",
-        "sources": [
-            {"type": "worldbank", "indicator": "EN.ATM.CO2E.PC", "api_field": "co2_emissions"},
-            {"type": "owid", "file": "owid_co2.csv", "api_field": "co2_emissions"}
-        ]
-    },
     "energy_use": {
         "name": "Використання енергії (кг нафтового еквіваленту на особу)",
         "sources": [
             {"type": "worldbank", "indicator": "EG.USE.PCAP.KG.OE", "api_field": "energy_use"},
-            {"type": "owid", "file": "owid_energy.csv", "api_field": "energy_use"}
+            {"type": "owid", "file": "owid_energy.csv", "api_field": "energy_use"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_energy_consumption_per_capita", "api_field": "energy_use"}
         ]
     },
     "urbanization_rate": {
         "name": "Рівень урбанізації (%)",
         "sources": [
             {"type": "worldbank", "indicator": "SP.URB.TOTL.IN.ZS", "api_field": "urbanization_rate"},
-            {"type": "owid", "file": "owid_urbanization.csv", "api_field": "urbanization_rate"}
+            {"type": "owid", "file": "owid_urbanization.csv", "api_field": "urbanization_rate"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_urbanization_rate", "api_field": "urbanization_rate"}
         ]
     },
     "gdp": {
         "name": "Валовий внутрішній продукт (ВВП)",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/gdp", "api_field": "gdp"},
-            {"type": "worldbank", "indicator": "NY.GDP.MKTP.CD", "api_field": "gdp"}
+            {"type": "worldbank", "indicator": "NY.GDP.MKTP.CD", "api_field": "gdp"},
+            {"type": "owid", "file": "owid_gdp.csv", "api_field": "gdp"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)", "api_field": "gdp"}
         ]
     },
     "gdp_per_capita": {
         "name": "ВВП на душу населення",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/gdp_per_capita", "api_field": "gdp_per_capita"},
-            {"type": "worldbank", "indicator": "NY.GDP.PCAP.CD", "api_field": "gdp_per_capita"}
+            {"type": "worldbank", "indicator": "NY.GDP.PCAP.CD", "api_field": "gdp_per_capita"},
+            {"type": "owid", "file": "owid_gdp_per_capita.csv", "api_field": "gdp_per_capita"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita", "api_field": "gdp_per_capita"}
         ]
     },
     "inflation": {
         "name": "Інфляція, %",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/inflation", "api_field": "inflation_rate"},
-            {"type": "worldbank", "indicator": "FP.CPI.TOTL.ZG", "api_field": "inflation_rate"}
+            {"type": "worldbank", "indicator": "FP.CPI.TOTL.ZG", "api_field": "inflation_rate"},
+            {"type": "owid", "file": "owid_inflation.csv", "api_field": "inflation_rate"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_inflation_rate", "api_field": "inflation_rate"}
         ]
     },
     "life_expectancy": {
         "name": "Тривалість життя",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/lifeexpectancy", "api_field": "life_expectancy"},
-            {"type": "worldbank", "indicator": "SP.DYN.LE00.IN", "api_field": "life_expectancy"}
+            {"type": "worldbank", "indicator": "SP.DYN.LE00.IN", "api_field": "life_expectancy"},
+            {"type": "owid", "file": "owid_life_expectancy.csv", "api_field": "life_expectancy"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy", "api_field": "life_expectancy"}
         ]
     },
     "literacy_rate": {
         "name": "Рівень грамотності",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/literacy", "api_field": "literacy_rate"},
-            {"type": "worldbank", "indicator": "SE.ADT.LITR.ZS", "api_field": "literacy_rate"}
+            {"type": "worldbank", "indicator": "SE.ADT.LITR.ZS", "api_field": "literacy_rate"},
+            {"type": "owid", "file": "owid_literacy_rate.csv", "api_field": "literacy_rate"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_literacy_rate", "api_field": "literacy_rate"}
         ]
     },
     "poverty_rate": {
         "name": "Рівень бідності",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/povertyrate", "api_field": "poverty_rate"},
-            {"type": "worldbank", "indicator": "SI.POV.DDAY", "api_field": "poverty_rate"}
+            {"type": "worldbank", "indicator": "SI.POV.DDAY", "api_field": "poverty_rate"},
+            {"type": "owid", "file": "owid_poverty_rate.csv", "api_field": "poverty_rate"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_percentage_of_population_living_in_poverty", "api_field": "poverty_rate"}
         ]
     },
     "urban_population": {
         "name": "Міське населення",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/urbanpopulation", "api_field": "urban_population"},
-            {"type": "worldbank", "indicator": "SP.URB.TOTL.IN.ZS", "api_field": "urban_population"}
+            {"type": "worldbank", "indicator": "SP.URB.TOTL.IN.ZS", "api_field": "urban_population"},
+            {"type": "owid", "file": "owid_urban_population.csv", "api_field": "urban_population"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_urban_population", "api_field": "urban_population"}
         ]
     },
     "birth_rate": {
         "name": "Народжуваність (на 1000)",
         "sources": [
-            {"type": "api_ninjas", "url": "https://api.api-ninjas.com/v1/birthrate", "api_field": "birth_rate"},
-            {"type": "worldbank", "indicator": "SP.DYN.CBRT.IN", "api_field": "birth_rate"}
+            {"type": "worldbank", "indicator": "SP.DYN.CBRT.IN", "api_field": "birth_rate"},
+            {"type": "owid", "file": "owid_birth_rate.csv", "api_field": "birth_rate"},
+            {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_countries_by_birth_rate", "api_field": "birth_rate"}
         ]
     }
 }
@@ -432,95 +434,11 @@ OWID_CSV_URLS = {
     "school_enrollment": "https://raw.githubusercontent.com/owid/owid-grapher-data/master/ETL/school_enrollment_primary_gross/school_enrollment_primary_gross.csv",
     # Homicide rate (World Bank, актуальний датасет)
     "homicide_rate": "https://raw.githubusercontent.com/owid/owid-grapher-data/master/ETL/homicide_rate/homicide_rate.csv",
-    # CO2 emissions per capita (OWID, актуальний датасет)
-    "co2_emissions": "https://raw.githubusercontent.com/owid/owid-grapher-data/master/ETL/co2_emissions_per_capita/co2_emissions_per_capita.csv",
     # Energy use per capita (World Bank, актуальний датасет)
     "energy_use": "https://raw.githubusercontent.com/owid/owid-grapher-data/master/ETL/energy_use_per_capita/energy_use_per_capita.csv",
     # Urbanization rate (World Bank, актуальний датасет)
     "urbanization_rate": "https://raw.githubusercontent.com/owid/owid-grapher-data/master/ETL/urban_population_percent/urban_population_percent.csv"
 }
-
-def fetch_api_ninjas_data(url, year_filter, api_field, indicator_key):
-    logging.debug(f"Request to API Ninjas: {url}")
-    try:
-        response = requests.get(url, headers=HEADERS)
-        response.raise_for_status()
-        data = response.json()
-        req_year = int(year_filter)
-        features = []
-        # --- Оновлена логіка для населення ---
-        if indicator_key == "population" and isinstance(data, dict) and (
-                "historical_population" in data or "population_forecast" in data):
-            logging.debug(f"Population API response for year {req_year}: {json.dumps(data, ensure_ascii=False)}")
-            arr = []
-            # Для 2025 — population_forecast[0], для 2024 — population_forecast[1]
-            if req_year == 2025 and "population_forecast" in data and len(data["population_forecast"]) > 0:
-                arr = [data["population_forecast"][0]]
-            elif req_year == 2024 and "population_forecast" in data and len(data["population_forecast"]) > 1:
-                arr = [data["population_forecast"][1]]
-            elif "historical_population" in data:
-                # Для попередніх років — шукаємо точний рік або останній доступний
-                arr = [entry for entry in data["historical_population"] if int(entry.get("year", 0)) == req_year]
-                if not arr and len(data["historical_population"]) > 0:
-                    arr = [data["historical_population"][-1]]
-            elif "population_forecast" in data and len(data["population_forecast"]) > 0:
-                arr = [data["population_forecast"][0]]
-            else:
-                logging.info(f"No population records found for year {req_year} in API Ninjas response.")
-            for entry in arr:
-                try:
-                    pop_val = entry.get(api_field)
-                    if pop_val is not None:
-                        try:
-                            pop_val = float(pop_val)
-                        except Exception:
-                            pop_val = None
-                    country_name = data.get("country_name") or entry.get("country")
-                    iso_code = COUNTRY_NAME_TO_ISO.get(country_name, country_name)
-                    features.append({
-                        "type": "Feature",
-                        "properties": {
-                            "source": "api_ninjas",
-                            "country": iso_code,
-                            "year": entry.get("year"),
-                            api_field: pop_val
-                        },
-                        "geometry": None
-                    })
-                except (ValueError, TypeError):
-                    continue
-        elif isinstance(data, list):
-            for entry in data:
-                try:
-                    if int(entry.get("year", 0)) == req_year:
-                        val = entry.get(api_field)
-                        if val is not None:
-                            try:
-                                val = float(val)
-                            except Exception:
-                                pass
-                        features.append({
-                            "type": "Feature",
-                            "properties": {
-                                "source": "api_ninjas",
-                                "country": entry.get("country"),
-                                "year": entry.get("year"),
-                                api_field: val
-                            },
-                            "geometry": {"type": "Point",
-                                         "coordinates": [entry.get("longitude"), entry.get("latitude")]}
-                            if ("longitude" in entry and "latitude" in entry) else None
-                        })
-                except (ValueError, TypeError):
-                    continue
-        else:
-            logging.warning("Unexpected data structure returned from API Ninjas.")
-        logging.debug(f"Fetched {len(features)} features from API Ninjas for year {year_filter}.")
-        return features
-    except Exception as e:
-        logging.error(f"Error fetching API Ninjas data: {e}")
-        return []
-
 
 def download_and_save_worldbank_xml(indicator, year_filter):
     file_name = f"worldbank_{indicator}_{year_filter}.xml"
@@ -589,19 +507,13 @@ def fetch_worldbank_data_all(indicator, year_filter, worldbank_field):
     return {"type": "FeatureCollection", "features": features}
 
 
-def fetch_indicator_data_fallback(indicator_key, year_input):
-    """
-    Повертає словник {ISO: value} для всіх країн по заданому показнику і року,
-    fallback: шукає найближчий попередній рік у кожному джерелі для кожної країни.
-    """
+def fetch_indicator_data_fallback(indicator_key, year_input, force_refresh=False):
     cache_path = os.path.join(DATA_DIR, f"{indicator_key}_{year_input}.json")
-    if os.path.exists(cache_path):
-        with open(cache_path, "r", encoding="utf-8") as f:
-            result = json.load(f)
-    else:
-        result = {iso: None for iso in ALL_ISO_CODES}
+    if force_refresh and os.path.exists(cache_path):
+        os.remove(cache_path)
+    result = {iso: None for iso in ALL_ISO_CODES}
     sources = INDICATORS[indicator_key]["sources"]
-    updated = False
+    # --- Збираємо дані з усіх джерел, але якщо є WorldBank — він має пріоритет для відсутніх значень ---
     for src in sources:
         # --- WorldBank ---
         if src["type"] == "worldbank":
@@ -639,18 +551,15 @@ def fetch_indicator_data_fallback(indicator_key, year_input):
                     country_years[rec_country] = {}
                 country_years[rec_country][rec_year] = rec_value
             for iso in result:
-                if result[iso] is not None:
-                    continue
                 years = country_years.get(iso, {})
-                # --- шукаємо найближчий рік ≤ обраного ---
-                prev_years = [y for y in years if y <= int(year_input) and years[y] is not None]
-                if prev_years:
-                    best_year = max(prev_years)
-                    result[iso] = years[best_year]
-                    updated = True
-        # --- OWID ---
-        elif src["type"] == "owid":
-            csv_path = os.path.join(DATA_DIR, src["file"])
+                if int(year_input) in years and years[int(year_input)] is not None:
+                    result[iso] = years[int(year_input)]
+    # --- Далі інші джерела, але не перезаписуємо те, що вже є з WorldBank ---
+    for src in sources:
+        if src["type"] == "worldbank":
+            continue
+        elif src["type"] == "owid" or src["type"] == "wikipedia":
+            csv_path = os.path.join(DATA_DIR, src["file"] if "file" in src else f"wikipedia_{indicator_key}.csv")
             if os.path.exists(csv_path):
                 country_years = {}
                 with open(csv_path, "r", encoding="utf-8") as f:
@@ -674,83 +583,83 @@ def fetch_indicator_data_fallback(indicator_key, year_input):
                     if result[iso] is not None:
                         continue
                     years = country_years.get(iso, {})
-                    prev_years = [y for y in years if y <= int(year_input) and years[y] is not None]
-                    if prev_years:
-                        best_year = max(prev_years)
-                        result[iso] = years[best_year]
-                        updated = True
-        # --- wikipedia ---
-        elif src["type"] == "wikipedia":
-            csv_path = os.path.join(DATA_DIR, f"wikipedia_{indicator_key}.csv")
-            if os.path.exists(csv_path):
-                country_years = {}
-                with open(csv_path, "r", encoding="utf-8") as f:
-                    reader = csv.DictReader(f)
-                    for row in reader:
-                        iso = row.get("iso_code", "").upper()
-                        try:
-                            year = int(row.get("year", "0"))
-                        except Exception:
-                            continue
-                        v = row.get(src["api_field"])
-                        if v is not None and v != "":
-                            try:
-                                value = float(v)
-                            except Exception:
-                                value = v
-                            if iso not in country_years:
-                                country_years[iso] = {}
-                            country_years[iso][year] = value
-                for iso in result:
-                    if result[iso] is not None:
-                        continue
-                    years = country_years.get(iso, {})
-                    prev_years = [y for y in years if y <= int(year_input) and years[y] is not None]
-                    if prev_years:
-                        best_year = max(prev_years)
-                        result[iso] = years[best_year]
-                        updated = True
-        # --- api_ninjas ---
-        elif src["type"] == "api_ninjas":
-            features = fetch_api_ninjas_data(src["url"], year_input, src["api_field"], indicator_key)
-            country_years = {}
-            for feat in features:
-                iso = feat["properties"].get("country", "").upper()
-                year = feat["properties"].get("year")
-                try:
-                    year = int(year)
-                except Exception:
-                    continue
-                val = feat["properties"].get(src["api_field"])
-                if val is not None:
-                    if iso not in country_years:
-                        country_years[iso] = {}
-                    country_years[iso][year] = val
-            for iso in result:
-                if result[iso] is not None:
-                    continue
-                years = country_years.get(iso, {})
-                prev_years = [y for y in years if y <= int(year_input) and years[y] is not None]
-                if prev_years:
-                    best_year = max(prev_years)
-                    result[iso] = years[best_year]
-                    updated = True
-    if updated:
-        with open(cache_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+                    if int(year_input) in years and years[int(year_input)] is not None:
+                        result[iso] = years[int(year_input)]
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
     return result
 
+def check_owid_years(file_path):
+    """
+    Виводить у лог всі роки, які є у CSV-файлі OWID для перевірки актуальності.
+    """
+    if not os.path.exists(file_path):
+        logging.warning(f"OWID CSV {file_path} не знайдено для перевірки років.")
+        return
+    years = set()
+    with open(file_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            try:
+                year = int(row.get("year", "0"))
+                years.add(year)
+            except Exception:
+                continue
+    if years:
+        logging.info(f"OWID CSV {os.path.basename(file_path)} має дані за роки: {sorted(years)}")
+    else:
+        logging.warning(f"OWID CSV {os.path.basename(file_path)} не містить жодного року.")
+
 # --- Далі код для генерації GeoJSON та запуску з консолі ---
-def generate_geojson(indicator_key, country_input=None, year_input=None):
+def generate_geojson(indicator_key, country_input=None, year_input=None, force_refresh=False):
     if indicator_key not in INDICATORS:
         logging.error("Invalid indicator!")
         return
     config = INDICATORS[indicator_key]
     logging.info(f"Loading data for {config['name']}")
     if year_input is None:
-        year_input = "2025"
-    # --- Fallback: отримуємо дані для всіх країн ---
-    iso_to_value = fetch_indicator_data_fallback(indicator_key, year_input)
+        year_input = "2023"
+    # --- Додатково: перевірка OWID-файлу на наявність потрібних років ---
+    for src in INDICATORS[indicator_key]["sources"]:
+        if src["type"] == "owid":
+            csv_path = os.path.join(DATA_DIR, src["file"])
+            # Завантажити файл, якщо треба
+            if not os.path.exists(csv_path):
+                url = OWID_CSV_URLS.get(indicator_key)
+                if url:
+                    download_owid_csv_if_needed(src["file"], url)
+            check_owid_years(csv_path)
+    # --- Fallback: отримуємо дані для всіх країн за діапазон років ---
+    try:
+        year_int = int(year_input)
+    except Exception:
+        year_int = 2023
+    years_range = [str(y) for y in range(year_int - 5, year_int + 1) if y >= 1980]
+    all_iso_to_value = {}
+    for y in years_range:
+        all_iso_to_value[y] = fetch_indicator_data_fallback(indicator_key, y, force_refresh=force_refresh)
+    # --- Формуємо features та зберігаємо geojson для кожного року з діапазону ---
+    for y in years_range:
+        iso_to_value = all_iso_to_value[y]
+        features = []
+        for iso in ALL_ISO_CODES:
+            val = iso_to_value.get(iso)
+            features.append({
+                "type": "Feature",
+                "properties": {
+                    "source": "fallback",
+                    "country": iso,
+                    "year": y,
+                    config["sources"][0]["api_field"]: val
+                },
+                "geometry": None
+            })
+        fc = {"type": "FeatureCollection", "features": features}
+        json_filename = os.path.join(DATA_DIR, f"{indicator_key}_{y}.geojson")
+        with open(json_filename, "w", encoding="utf-8") as f:
+            json.dump(fc, f, ensure_ascii=False, indent=2)
+    # --- Далі як було: копія для input.geojson та кеш ---
+    iso_to_value = all_iso_to_value[str(year_int)]
     features = []
     for iso in ALL_ISO_CODES:
         val = iso_to_value.get(iso)
@@ -774,11 +683,13 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
         logging.info(f"Aggregated data also copied to {INPUT_GEOJSON}")
     except Exception as e:
         logging.error(f"Error saving input GeoJSON copy: {e}")
-    cache_data = {"worldbank": {}, "api_ninjas": {}}
-    for iso in ALL_ISO_CODES:
-        key = f"{indicator_key}_{iso}_{year_input}"
-        field_val = iso_to_value.get(iso)
-        cache_data["worldbank"][key] = field_val
+    # --- Формуємо кеш для фронтенду: всі роки з діапазону ---
+    cache_data = {"worldbank": {}}
+    for y in years_range:
+        for iso in ALL_ISO_CODES:
+            key = f"{indicator_key}_{iso}_{y}"
+            field_val = all_iso_to_value[y].get(iso)
+            cache_data["worldbank"][key] = field_val
     try:
         with open(os.path.join("static", "data_cache.json"), "w", encoding="utf-8") as f:
             json.dump(cache_data, f, ensure_ascii=False, indent=2)
@@ -788,7 +699,8 @@ def generate_geojson(indicator_key, country_input=None, year_input=None):
 
 if __name__ == "__main__":
     if len(sys.argv) >= 5 and sys.argv[1] == "--auto":
-        generate_geojson(sys.argv[2], sys.argv[3], sys.argv[4])
+        # Додаємо force_refresh для примусового оновлення
+        generate_geojson(sys.argv[2], sys.argv[3], sys.argv[4], force_refresh=True)
     else:
         logging.info("Available indicators:")
         for key, value in INDICATORS.items():

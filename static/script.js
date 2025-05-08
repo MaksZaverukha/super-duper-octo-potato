@@ -227,19 +227,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Додавайте ще за потреби
     };
 
-    // Функція, яка повертає ISO-код для API Ninjas
-    function getApiNinjasCountry(input) {
-        // Якщо користувач ввів повну назву, шукаємо відповідний код
-        // Перевіряємо всі пари ключ-значення. Якщо знайдеться збіг (без врахування регістру), повертаємо ключ (ISO).
-        for (const iso in countryMapping) {
-            if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
-                return iso;
-            }
-        }
-        // Якщо ж введено ISO чи нічого не знайдено – повертаємо введене значення
-        return input;
-    }
-
     function getWorldbankCountry(input) {
         input = input.trim();
         if (input.length === 3 && input === input.toUpperCase() && countryMapping[input]) {
@@ -253,30 +240,6 @@ document.addEventListener("DOMContentLoaded", function() {
         if (input.toLowerCase() === "україна") return "UKR";
         for (let iso in countryMapping) {
             if (countryMapping[iso].toLowerCase().includes(input.toLowerCase())) {
-                return iso;
-            }
-        }
-        return input;
-    }
-
-    // --- Оновлена функція для API Ninjas ---
-    function getApiNinjasCountry(input) {
-        input = input.trim();
-        // Якщо це Україна — повертаємо масив з двох варіантів
-        if (
-            input.toLowerCase() === "ukraine" ||
-            input.toLowerCase() === "україна" ||
-            input.toUpperCase() === "UKR"
-        ) {
-            return ["UKR", "Ukraine"];
-        }
-        // Якщо ввели вже код — повертаємо як є
-        if (input.length === 3 && input === input.toUpperCase() && countryMapping[input]) {
-            return input;
-        }
-        // Якщо ввели повну назву — повертаємо код
-        for (let iso in countryMapping) {
-            if (countryMapping[iso].toLowerCase() === input.toLowerCase()) {
                 return iso;
             }
         }
@@ -434,11 +397,6 @@ document.addEventListener("DOMContentLoaded", function() {
             colorHigh: "#a50f15",
             label: "Рівень вбивств (на 100 тис.)"
         },
-        co2_emissions: {
-            colorLow: "#edf8fb",
-            colorHigh: "#006d2c",
-            label: "Викиди CO₂ (тонн на особу)"
-        },
         energy_use: {
             colorLow: "#ffffcc",
             colorHigh: "#800026",
@@ -498,11 +456,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 .filter(([key]) => key.startsWith(`${indicator}_`) && key.endsWith(`_${year}`))
                 .forEach(([_, val]) => { if (val !== null) values.push(val); });
         }
-        if (cache.api_ninjas && typeof cache.api_ninjas === 'object') {
-            Object.entries(cache.api_ninjas)
-                .filter(([key]) => key.startsWith(`${indicator}_`) && key.endsWith(`_${year}`))
-                .forEach(([_, val]) => { if (val !== null) values.push(val); });
-        }
         if (values.length === 0) return { min: 0, max: 1 };
         return { min: 0, max: Math.max(...values) };
     }
@@ -524,18 +477,52 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    // --- Динамічне оновлення повзунка років ---
+    function updateYearSlider() {
+        const indicator = indicatorSelect.value;
+        // --- Фіксований повзунок років до 2023 ---
+        yearSlider.min = 1980;
+        yearSlider.max = 2023;
+        if (parseInt(yearSlider.value) > 2023) {
+            yearSlider.value = 2023;
+            yearDisplay.textContent = 2023;
+            currentYear = 2023;
+        }
+        let sliderLabels = document.getElementById('sliderLabels');
+        if (sliderLabels) sliderLabels.remove();
+    }
+
     function loadCache() {
         fetch('/data?t=' + new Date().getTime())
             .then(res => res.json())
             .then(data => {
                 currentCache = data;
+                updateYearSlider();
                 updateBoundariesStyle();
-                updateInfoPanel();
                 let legendDiv = document.querySelector('.legend');
                 if (legendDiv) updateLegend(legendDiv);
                 loadFinalGeoJSON();
             })
             .catch(err => console.error("Помилка завантаження даних:", err));
+    }
+
+    function showInfoForSelectedCountry(geojsonData) {
+        const country = countryInput.value.trim();
+        if (!country) return;
+        let found = null;
+        for (let feature of geojsonData.features) {
+            let name = getCountryName(feature);
+            let iso = getCountryISOFromFeature(feature);
+            if (
+                (name && name.toLowerCase() === country.toLowerCase()) ||
+                (iso && iso.toLowerCase() === country.toUpperCase()) ||
+                (countryMapping[iso] && countryMapping[iso].toLowerCase() === country.toLowerCase())
+            ) {
+                found = feature;
+                break;
+            }
+        }
+        if (found) displayCountryInfo(found);
     }
 
     function loadFinalGeoJSON() {
@@ -556,6 +543,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         });
                     }
                 }).addTo(map);
+                showInfoForSelectedCountry(data); // Додаємо показ інфи одразу після завантаження geojson
                 console.log("Фінальний шар GeoJSON додано на карту");
             })
             .catch(err => console.error("Помилка завантаження фінальних даних:", err));
@@ -578,17 +566,40 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 value = feature.properties[currentIndicator] || feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
             }
-        } else {
-            if (currentCache.api_ninjas && currentCache.api_ninjas[cacheKey] !== undefined) {
-                value = currentCache.api_ninjas[cacheKey];
-            } else {
-                value = feature.properties[currentIndicator] || feature.properties.population || feature.properties.unemployment_rate || "Немає даних";
-            }
         }
+        // --- Формуємо таблицю динаміки за 5 років ---
+        let tableRows = "";
+        let prevVal = null;
+        for (let i = 5; i >= 1; i--) {
+            let y = yearVal - i;
+            if (y < 1980) continue;
+            let key = `${currentIndicator}_${isoCode || country}_${y}`;
+            let val = currentCache.worldbank && currentCache.worldbank[key] !== undefined ? currentCache.worldbank[key] : null;
+            let diff = (val !== null && prevVal !== null && typeof val === "number" && typeof prevVal === "number") ? (val - prevVal) : null;
+            let diffStr = diff !== null ? (diff > 0 ? "+" : "") + diff.toLocaleString('uk-UA') : "";
+            tableRows += `<tr><td>${y}</td><td>${val !== null ? val.toLocaleString('uk-UA') : "—"}</td><td>${diffStr}</td></tr>`;
+            prevVal = val;
+        }
+        // Додаємо обраний рік (без зміни)
+        tableRows += `<tr style='font-weight:bold; background:#f0f0f0;'><td>${yearVal}</td><td>${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</td><td></td></tr>`;
+        let historyHtml = `
+            <div style="margin-top:10px; border-left:2px solid #ccc; padding-left:10px;">
+                <strong>Динаміка за 5 років:</strong>
+                <table style="width:100%; font-size:13px; margin-top:5px; border-collapse:collapse;">
+                    <thead><tr><th>Рік</th><th>Значення</th><th>Зміна</th></tr></thead>
+                    <tbody>${tableRows}</tbody>
+                </table>
+            </div>
+        `;
         infoPanel.innerHTML = `
-            <h3>Країна: ${country}</h3>
-            <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
-            <p>Рік: ${year}</p>
+            <div style="display:flex; flex-direction:row; gap:20px; align-items:flex-start;">
+                <div>
+                    <h3>Країна: ${country}</h3>
+                    <p>${indicatorText}: ${typeof value === "number" ? value.toLocaleString('uk-UA') : value}</p>
+                    <p>Рік: ${year}</p>
+                </div>
+                <div style="min-width:220px;">${historyHtml}</div>
+            </div>
         `;
         countryInput.value = country;
     }
@@ -618,114 +629,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // --- Оновлена функція для панелі інформації ---
-    function updateInfoPanel() {
-        const indicator = indicatorSelect.value;
-        const year = yearSlider.value;
-        const yearVal = parseInt(year);
-        let selectedInput = (yearVal <= 2023)
-            ? getWorldbankCountry(countryInput.value)
-            : getApiNinjasCountry(countryInput.value);
-        // --- Якщо введено назву країни, шукаємо ISO-код ---
-        if (typeof selectedInput === 'string' && countryMapping[selectedInput]) {
-            selectedInput = selectedInput;
-        } else if (typeof selectedInput === 'string') {
-            // Пробуємо знайти ISO-код по назві
-            for (const iso in countryMapping) {
-                if (countryMapping[iso].toLowerCase() === selectedInput.toLowerCase()) {
-                    selectedInput = iso;
-                    break;
-                }
-            }
-        }
-        let value = null;
-        let key = "";
-        let keysArr = [];
-        let allKeys = [];
-        let foundKey = null;
-
-        if (yearVal <= 2023) {
-            if (currentCache.worldbank) {
-                key = `${indicator}_${selectedInput.toUpperCase()}_${year}`;
-                value = currentCache.worldbank[key];
-                allKeys = Object.keys(currentCache.worldbank);
-                keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
-                foundKey = allKeys.find(k => k.toLowerCase().includes(selectedInput.toLowerCase()) && k.startsWith(`${indicator}_`) && k.endsWith(`_${year}`));
-            }
-        } else {
-            if (currentCache.api_ninjas && typeof currentCache.api_ninjas === 'object') {
-                // --- ДЛЯ УКРАЇНИ ---
-                if (Array.isArray(selectedInput)) {
-                    for (let variant of selectedInput) {
-                        key = `${indicator}_${variant}_${year}`;
-                        value = currentCache.api_ninjas[key];
-                        if (value !== undefined && value !== null) {
-                            foundKey = key;
-                            break;
-                        }
-                    }
-                    allKeys = Object.keys(currentCache.api_ninjas);
-                    keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
-                } else {
-                    key = `${indicator}_${selectedInput}_${year}`;
-                    value = currentCache.api_ninjas[key];
-                    allKeys = Object.keys(currentCache.api_ninjas);
-                    keysArr = allKeys.filter(k => k.endsWith(`_${year}`));
-                    foundKey = allKeys.find(k => k.toLowerCase().includes(selectedInput.toLowerCase()) && k.startsWith(`${indicator}_`) && k.endsWith(`_${year}`));
-                }
-            }
-        }
-        const indicatorName = indicatorSelect.options[indicatorSelect.selectedIndex].text;
-        if (value !== null && value !== undefined) {
-            infoPanel.innerHTML = `
-                <h3>Дані для ${Array.isArray(selectedInput) ? foundKey.split('_')[1] : selectedInput}</h3>
-                <p>${indicatorName}: ${value.toLocaleString('uk-UA')}</p>
-                <p>Рік: ${year}</p>
-            `;
-        } else {
-            infoPanel.innerHTML = `
-                <h3>Дані відсутні</h3>
-                <p>Немає даних для ${Array.isArray(selectedInput) ? selectedInput.join(' / ') : selectedInput} за ${year} рік.</p>
-                <details style="margin-top:8px;">
-                  <summary>Доступні ключі для цього року</summary>
-                  <div style="max-height:120px;overflow:auto;font-size:12px;color:#555;">
-                    ${keysArr.map(k => `<div>${k} : ${yearVal <= 2023 ? currentCache.worldbank[k] : currentCache.api_ninjas[k]}</div>`).join("")}
-                  </div>
-                </details>
-            `;
-        }
-    }
-
     function styleFeature(feature) {
         const year = yearSlider.value;
         const yearVal = parseInt(year);
         let isoCode = getCountryISOFromFeature(feature);
-        let countryName = isoCode ? isoCode : (yearVal <= 2023 ? getWorldbankCountry(getCountryName(feature)) : getApiNinjasCountry(getCountryName(feature)));
-        let cacheKey;
-        if (yearVal <= 2023) {
-            cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
-        } else {
-            if (Array.isArray(countryName)) {
-                for (let variant of countryName) {
-                    let key = `${currentIndicator}_${variant}_${year}`;
-                    if (currentCache.api_ninjas && currentCache.api_ninjas[key] !== undefined) {
-                        cacheKey = key;
-                        break;
-                    }
-                }
-                if (!cacheKey) cacheKey = `${currentIndicator}_${countryName[0]}_${year}`;
-            } else {
-                cacheKey = `${currentIndicator}_${countryName}_${year}`;
-            }
-        }
+        let countryName = isoCode ? isoCode : getWorldbankCountry(getCountryName(feature));
+        let cacheKey = `${currentIndicator}_${countryName.toUpperCase()}_${year}`;
         let value = null;
         if (yearVal <= 2023) {
             if (currentCache.worldbank && currentCache.worldbank[cacheKey] !== undefined) {
                 value = currentCache.worldbank[cacheKey];
-            }
-        } else {
-            if (currentCache.api_ninjas && typeof currentCache.api_ninjas === 'object' && currentCache.api_ninjas[cacheKey] !== undefined) {
-                value = currentCache.api_ninjas[cacheKey];
             }
         }
         let style = {
@@ -740,9 +653,9 @@ document.addEventListener("DOMContentLoaded", function() {
             let conf = legendConfig[currentIndicator] || {colorLow: "#edf8e9", colorHigh: "#006d2c"};
             style.fillColor = interpolateColor(value, range.min, range.max, conf.colorLow, conf.colorHigh);
         }
-        const selectedInput = (yearVal <= 2023) ? getWorldbankCountry(countryInput.value) : getApiNinjasCountry(countryInput.value);
+        const selectedInput = getWorldbankCountry(countryInput.value);
         let selectedCompare = Array.isArray(selectedInput) ? selectedInput : [selectedInput];
-        if (selectedCompare.some(val => (yearVal <= 2023 ? val.toUpperCase() : val) === (yearVal <= 2023 ? countryName.toUpperCase() : countryName))) {
+        if (selectedCompare.some(val => val.toUpperCase() === countryName.toUpperCase())) {
             style.weight = 3;
             style.color = '#FFD700';
         }
@@ -773,7 +686,6 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(data => {
                 currentCache = data;
                 updateBoundariesStyle();
-                updateInfoPanel();
                 let legendDiv = document.querySelector('.legend');
                 if (legendDiv) updateLegend(legendDiv);
                 loadFinalGeoJSON();
@@ -816,11 +728,62 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>Зачекайте, триває оновлення даних.</p>
         `;
     }
+
+    // --- Завантаження PGF-звіту ---
+    document.getElementById('downloadReportBtn').addEventListener('click', function() {
+        const indicator = document.getElementById('indicatorSelect').value;
+        const country = document.getElementById('countryInput').value;
+        const year = document.getElementById('yearSlider').value;
+        const heatmap = document.getElementById('heatmapOption').checked;
+        const linechart = document.getElementById('linechartOption').checked;
+        const statschart = document.getElementById('statschartOption').checked;
+
+        if (!indicator || !country) {
+            alert('Оберіть показник і країну для формування звіту!');
+            return;
+        }
+        if (!heatmap && !linechart && !statschart) {
+            alert('Оберіть хоча б одну опцію для звіту!');
+            return;
+        }
+
+        fetch('/download_report', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                indicator,
+                country,
+                year,
+                heatmap,
+                linechart,
+                statschart
+            })
+        })
+        .then(response => {
+            if (!response.ok) throw new Error('Помилка формування звіту');
+            return response.blob();
+        })
+        .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'report.pgf';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            window.URL.revokeObjectURL(url);
+        })
+        .catch(err => {
+            alert('Не вдалося сформувати звіт: ' + err.message);
+        });
+    });
+
     // --- Події ---
     countryInput.addEventListener("blur", triggerUpdate); // Оновлення при втраті фокусу
     countryInput.addEventListener("keyup", e => { if (e.key === "Enter") triggerUpdate(); }); // Оновлення при Enter
     indicatorSelect.addEventListener("change", function() {
         currentIndicator = indicatorSelect.value;
+        updateYearSlider();
         triggerUpdate();
     });
     yearSlider.addEventListener("input", function() {
@@ -834,12 +797,4 @@ document.addEventListener("DOMContentLoaded", function() {
         <h3>Інформаційна Панель</h3>
         <p>Введіть країну, виберіть показник та рік для перегляду даних.</p>
     `;
-    // --- Додавайте нові показники у backend (etl.py) так:
-    // INDICATORS = {
-    //   "population": {"name": "Населення", "source": "worldbank"},
-    //   "gdp": {"name": "ВВП на душу населення", "source": "owid"},
-    //   "literacy_rate": {"name": "Грамотність", "source": "owid"},
-    //   ...
-    // }
-    // Для кожного показника вказуйте джерело, з якого точно є дані.
 });

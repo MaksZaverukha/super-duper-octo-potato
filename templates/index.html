@@ -29,7 +29,6 @@
       <option value="health_expenditure">Витрати на здоров'я (% ВВП)</option>
       <option value="school_enrollment">Охоплення школою (%)</option>
       <option value="homicide_rate">Рівень вбивств (на 100 тис.)</option>
-      <option value="co2_emissions">Викиди CO₂ (тонн на особу)</option>
       <option value="energy_use">Використання енергії (кг нафтового еквіваленту на особу)</option>
       <option value="urbanization_rate">Рівень урбанізації (%)</option>
     </select>
@@ -38,12 +37,21 @@
     <input type="text" id="countryInput" list="countryList" placeholder="Введіть або виберіть країну">
     <datalist id="countryList"></datalist>
 
-    <label for="yearSlider">Рік: <span id="yearDisplay">2025</span></label>
-    <input type="range" id="yearSlider" min="1980" max="2025" step="1" value="2025">
+    <label for="yearSlider">Рік: <span id="yearDisplay">2023</span></label>
+    <input type="range" id="yearSlider" min="1980" max="2023" step="1" value="2023">
 
     <div id="infoPanel">
       <h3>Інформаційна Панель</h3>
       <p>Введіть країну, виберіть показник та рік для перегляду даних.</p>
+    </div>
+    <div id="reportBlock">
+      <h4>Звітність</h4>
+      <div id="reportOptions">
+        <label><input type="checkbox" id="heatmapOption" checked> Теплова карта</label>
+        <label><input type="checkbox" id="linechartOption" checked> Лінійна діаграма</label>
+        <label><input type="checkbox" id="statschartOption" checked> Статистична діаграма</label>
+      </div>
+      <button id="downloadReportBtn">Скачати звіт</button>
     </div>
   </div>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
